@@ -119,6 +119,11 @@ body.camya-home-refresh {
   .camya-home-refresh:lang(es) .camya-hero h1 {
     font-size: clamp(38.4px, 4.2vw, 60px);
   }
+  .camya-hero-description {
+    max-width: none;
+    font-size: clamp(14px, 1.25vw, 18px);
+    white-space: nowrap;
+  }
 }
 
 .camya-recognition {padding: 38px 0 48px; background: var(--camya-blue)}

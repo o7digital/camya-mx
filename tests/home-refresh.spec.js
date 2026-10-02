@@ -25,6 +25,14 @@ for (const width of [375, 390, 430, 768, 1440]) {
         expect(lines).toBe(1);
       }
       await expect(page.locator('.camya-hero-description')).toHaveText(copy.subtitle);
+      if (width >= 1024) {
+        const lines = await page.locator('.camya-hero-description').evaluate(description => {
+          const range = document.createRange();
+          range.selectNodeContents(description);
+          return range.getClientRects().length;
+        });
+        expect(lines).toBe(1);
+      }
       await expect(page.locator('#home-navigation a')).toHaveText(copy.labels);
       await expect(page.locator('.camya-language')).toHaveAttribute('href', copy.language);
       await expect(page.locator('.camya-consult')).toHaveAttribute('href', copy.contact);

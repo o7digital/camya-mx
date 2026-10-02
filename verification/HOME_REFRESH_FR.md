@@ -10,6 +10,8 @@ Le bandeau logo/menu est ensuite ajusté à la référence du client : hauteur d
 
 Le titre espagnol est ensuite agrandi de **20 % sur ordinateur** : 38,4 à 60 px, toujours sur une seule ligne. Contrôle à 1024, 1180, 1280, 1366, 1440 et 1920 px : augmentation exacte de 20 %, aucun débordement. Les tailles mobiles sont conservées.
 
+Le sous-titre ES/EN est également sur une seule ligne à partir de 1024 px, en utilisant la largeur disponible et une taille de 14 à 18 px. Les tailles et retours à la ligne mobiles sont conservés.
+
 | Menu espagnol | Destination |
 | --- | --- |
 | Inicio | `/` |
