@@ -8,6 +8,8 @@ Le bandeau logo/menu est ensuite ajusté à la référence du client : hauteur d
 
 À la demande du client, le titre du hero est affiché sur une seule ligne à partir de 1024 px, avec une taille proportionnelle à la largeur (32 à 50 px). Le titre anglais utilise la même règle. Sur téléphone et tablette, les retours à la ligne et les tailles lisibles restent conservés.
 
+Le titre espagnol est ensuite agrandi de **20 % sur ordinateur** : 38,4 à 60 px, toujours sur une seule ligne. Contrôle à 1024, 1180, 1280, 1366, 1440 et 1920 px : augmentation exacte de 20 %, aucun débordement. Les tailles mobiles sont conservées.
+
 | Menu espagnol | Destination |
 | --- | --- |
 | Inicio | `/` |
