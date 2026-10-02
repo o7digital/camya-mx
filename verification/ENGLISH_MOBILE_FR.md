@@ -10,4 +10,8 @@ Le test de régression contrôle les deux URL à 320, 375, 390, 430, 768 et 1023
 
 Le contrôle Safari utilise WebKit avec le profil iPhone 13 : `npx playwright test --config=playwright.mobile.config.js`. Il contrôle aussi le menu mobile et le changement de langue.
 
+Résultats : 13 tests Chromium locaux réussis ; les deux tests ciblés réussissent sur l'URL publique en Chromium et en WebKit/iPhone. Les captures publiées sont conservées pour [l'anglais](english-mobile/english-375-webkit-published.png) et [l'espagnol](english-mobile/spanish-375-webkit-published.png). Les comparaisons avant/après confirment également que l'accueil espagnol à 375 px et l'accueil anglais à 1024/1440 px sont inchangés, voir [le contrôle des autres rendus](english-mobile/unchanged-layouts.json).
+
+Correction publiée depuis le commit `23f953f` : https://camya-mx.vercel.app/en/home/
+
 Les 158 comparaisons historiques du clone initial ne constituent pas la validation de cette correction mobile.
