@@ -4,3 +4,11 @@ import En from './FooterEn.astro';
 const { english, home } = Astro.props;
 ---
 {english ? <En home={home} /> : <Es home={home} />}
+<style is:global>
+#footer.site-footer {
+  background: #12284C;
+  --wpex-link-color: #fff;
+  --wpex-hover-link-color: #fff;
+}
+#footer-bottom {background: #1A2F5A}
+</style>
