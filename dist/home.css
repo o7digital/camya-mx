@@ -27,32 +27,41 @@ body.camya-home-refresh {
   top: 0;
   z-index: 100;
   width: 100%;
-  background: linear-gradient(110deg, #BE1848 35%, #1A2F5A 35%);
+  background: linear-gradient(126deg, #BE1848 35%, #1A2F5A 35%);
   color: #fff;
 }
+.camya-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(126deg, transparent 35%, rgba(190,24,72,0.42) 35%, rgba(190,24,72,0.42) 50%, transparent 50%);
+  pointer-events: none;
+}
 .camya-header-inner {
-  width: min(1280px, calc(100% - 64px));
-  min-height: 96px;
+  position: relative;
+  width: min(1240px, calc(100% - 96px));
+  min-height: 88px;
   margin-inline: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 32% minmax(0, 1fr) auto;
   align-items: center;
   justify-content: space-between;
-  gap: 28px;
+  gap: 20px;
 }
 .camya-brand {display: flex; flex-shrink: 0; align-items: center}
-.camya-brand img {display: block; width: 190px; height: auto}
-.camya-navigation {display: flex; align-items: center; gap: 22px; margin-left: auto}
+.camya-brand img {display: block; width: 205px; height: auto}
+.camya-navigation {display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-left: 0}
 .camya-navigation a, .camya-language {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   white-space: nowrap;
 }
 .camya-navigation a {padding-block: 15px}
 .camya-navigation a[aria-current="page"] {text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 2px}
 .camya-navigation a:hover, .camya-language:hover {color: #fff; text-decoration: underline; text-underline-offset: 8px}
-.camya-header-actions {display: flex; align-items: center; gap: 20px}
+.camya-header-actions {display: flex; align-items: center; gap: 14px}
 .camya-language {font-weight: 700; padding: 12px 4px}
 .camya-home-refresh .camya-button {
   display: inline-flex;
@@ -70,7 +79,7 @@ body.camya-home-refresh {
   text-decoration: none;
 }
 .camya-home-refresh .camya-button:hover {background: #C2185B; border-color: #C2185B; color: #fff}
-.camya-home-refresh .camya-consult {min-height: 42px; padding: 10px 20px}
+.camya-home-refresh .camya-consult {min-height: 40px; padding: 9px 24px}
 .camya-menu-toggle {display: none}
 .camya-home-refresh a:focus-visible, .camya-home-refresh button:focus-visible {outline: 3px solid #fff; outline-offset: 4px}
 .camya-home-refresh #content a:focus-visible {outline-color: var(--camya-red)}
@@ -133,8 +142,8 @@ body.camya-home-refresh {
 .camya-home-refresh #footer-bottom {background: var(--camya-blue)}
 .camya-home-refresh #contacto, .camya-home-refresh #contactus {scroll-margin-top: 105px}
 
-@media (max-width: 1179px) {
-  .camya-header-inner {min-height: 82px}
+@media (max-width: 1279px) {
+  .camya-header-inner {display: flex; min-height: 76px}
   .camya-brand img {width: 172px}
   .camya-navigation {
     display: none;
@@ -142,7 +151,7 @@ body.camya-home-refresh {
     top: 100%;
     left: 0;
     right: 0;
-    max-height: calc(100svh - 82px);
+    max-height: calc(100svh - 76px);
     overflow-y: auto;
     padding: 16px 32px 24px;
     margin: 0;
@@ -159,13 +168,13 @@ body.camya-home-refresh {
 }
 @media (max-width: 600px) {
   .camya-home-container {width: calc(100% - 40px)}
-  .camya-header-inner {width: calc(100% - 32px); min-height: 76px; gap: 12px}
+  .camya-header-inner {width: calc(100% - 32px); min-height: 72px; gap: 12px}
   .camya-brand img {width: 120px}
   .camya-header-actions {gap: 8px}
   .camya-language {font-size: 12px; padding-inline: 4px}
   .camya-home-refresh .camya-consult {font-size: 12px; padding: 9px 12px; min-height: 40px}
   .camya-menu-toggle {min-width: 36px; padding-inline: 6px}
-  .camya-navigation {padding-inline: 20px}
+  .camya-navigation {padding-inline: 20px; max-height: calc(100svh - 72px)}
   .camya-hero {min-height: 535px}
   .camya-hero-image {object-position: 60% center}
   .camya-hero-content {padding-block: 58px 64px}

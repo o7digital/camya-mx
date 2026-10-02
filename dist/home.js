@@ -24,5 +24,5 @@
   document.addEventListener('click', event => {
     if (!event.target.closest('.camya-header')) close();
   });
-  window.matchMedia('(min-width: 1180px)').addEventListener('change', close);
+  window.matchMedia('(min-width: 1280px)').addEventListener('change', close);
 })();

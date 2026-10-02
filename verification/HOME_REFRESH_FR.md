@@ -4,6 +4,8 @@ Cette adaptation part du clone et de sa correction mobile validés (`3d4412f`). 
 
 Le header utilise le dégradé demandé et le logo CAMYA original `wp-content/uploads/2026/10/logoblanco_nvo.svg`. Les textes espagnols du hero sont ceux du brief, avec traduction anglaise fidèle. À la demande du client, les boutons « Nuestros Servicios » et « Conócenos », ainsi que leurs équivalents anglais, ont été retirés du hero. Les pages d'áreas de práctica et de La Firma restent accessibles depuis le menu.
 
+Le bandeau logo/menu est ensuite ajusté à la référence du client : hauteur de 88 px sur ordinateur, 76 px sur tablette et 72 px sur téléphone, diagonale de 126° avec bande de transition bordeaux, logo original et navigation répartie sur la même ligne. La barre de coordonnées et réseaux sociaux d'origine est déplacée dans le footer existant pour commencer directement par le header. Le menu mobile reste accessible sous 1280 px et la version anglaise conserve son accès. Les boutons du hero restent supprimés.
+
 | Menu espagnol | Destination |
 | --- | --- |
 | Inicio | `/` |

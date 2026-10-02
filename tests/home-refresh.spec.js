@@ -39,7 +39,7 @@ for (const width of [375, 390, 430, 768, 1440]) {
       }));
       expect(geometry.overflow).toBe(false);
       expect(geometry.titleTop).toBeGreaterThan(geometry.headerBottom + 16);
-      expect(geometry.gradient).toBe('linear-gradient(110deg, rgb(190, 24, 72) 35%, rgb(26, 47, 90) 35%)');
+      expect(geometry.gradient).toBe('linear-gradient(126deg, rgb(190, 24, 72) 35%, rgb(26, 47, 90) 35%)');
       expect(geometry.overlay).toContain('rgba(18, 40, 76, 0.7)');
       expect(geometry.font).toContain('Inter');
       expect(geometry.fontWeight).toBe('700');
@@ -59,7 +59,7 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await expect(page.locator('.camya-recognition-capsule svg,.camya-recognition-capsule canvas')).toHaveCount(0);
       await expect(page.locator('footer#footer')).toHaveCount(1);
 
-      if (width < 1180) {
+      if (width < 1280) {
         const toggle = page.locator('.camya-menu-toggle');
         await expect(page.locator('#home-navigation')).toBeHidden();
         await toggle.click();

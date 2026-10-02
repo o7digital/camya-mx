@@ -63,6 +63,12 @@ for route in ['/', '/en/', '/en/home/']:
     </header>''').header
     soup.select_one('#site-header').replace_with(header)
 
+    # Keep the original contact details and social links in the existing footer,
+    # so the homepage starts with the single navigation band in the reference.
+    top_bar = soup.select_one('#top-bar-wrap')
+    if top_bar:
+        soup.select_one('footer#footer').insert(0, top_bar.extract())
+
     hero = fragment(f'''
     <section class="camya-hero" aria-labelledby="home-title">
       <img class="camya-hero-image" src="/home-assets/hero-montanas.webp" alt="" width="2043" height="770" fetchpriority="high"/>
