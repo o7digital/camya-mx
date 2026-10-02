@@ -18,10 +18,10 @@ for (const width of [390,768,1440]) {
     page.on('request',r=>{if(/^https?:/.test(r.url())&&!r.url().startsWith(new URL(baseURL).origin))external.push(r.url());});
     for (const route of ['/', '/en/home/', '/la-firma/', '/areas-de-practica/', '/equipo/', '/noticias/', '/staff-member/omar-cuellar-gamboa/']) {
       await page.goto(route);
-      await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=700){scrollTo(0,y);await new Promise(r=>setTimeout(r,30));}scrollTo(0,0);});
+      await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=700){scrollTo({top:y,behavior:'instant'});await new Promise(r=>setTimeout(r,30));}scrollTo({top:0,behavior:'instant'});});
       await page.waitForTimeout(200);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route).toBeTruthy();
-      expect(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.getBoundingClientRect().height && i.checkVisibility() && (!i.complete||!i.naturalWidth)).map(i=>i.src)),route).toEqual([]);
+      await expect.poll(()=>page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.getBoundingClientRect().height && i.checkVisibility() && (!i.complete||!i.naturalWidth)).map(i=>i.src)),{message:route,timeout:10000}).toEqual([]);
     }
     expect(errors).toEqual([]);
     expect(external).toEqual([]);

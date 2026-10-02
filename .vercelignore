@@ -1,0 +1,12 @@
+node_modules
+.git
+verification
+reference-new-design
+archive/clone-html.json
+archive/content-preserved.json
+archive/crawl-report.json
+tests
+scripts/crawl.py
+scripts/redesign.py
+scripts/compare.cjs
+scripts/capture-redesign.cjs
