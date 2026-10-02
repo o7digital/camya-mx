@@ -39,7 +39,9 @@ Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests W
 
 ## Publication
 
-Prévisualisation publique actuelle, avec le titre sur une ligne sur ordinateur : [accueil espagnol](https://camya-5c9zpkdcp-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-5c9zpkdcp-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `1bbe5f1` sur `dev`.
+Prévisualisation publique actuelle, avec les logos fournis dans l'ordre Chambers, WWL, Legal 500 : [accueil espagnol](https://camya-ahusiminf-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-ahusiminf-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `e3be608` sur `dev`. Le titre espagnol conserve son augmentation de 20 % et le sous-titre reste sur une ligne sur ordinateur.
+
+Le remplacement des logos passe les 18 tests Chromium locaux, 5 tests WebKit et 5 tests de prévisualisation. Les 10 captures proviennent de cette URL. Les trois fichiers déployés sont strictement identiques aux fichiers fournis dans Downloads : [contrôle des logos](home-refresh/supplied-logos-verification.json).
 
 Cette correction passe les 18 tests Chromium locaux, 7 tests WebKit et 5 tests sur l'URL publique. Les titres ES/EN restent sur une ligne à 1024, 1180, 1280, 1366, 1440 et 1920 px, sans débordement. Les 10 captures sont renouvelées. L'API Vercel indique une promotion séparée de cette prévisualisation en production à 23 h 48 (`source: redeploy`, `meta.action: promote`). Cette session a lancé uniquement `vercel deploy` en preview. [Relevé de livraison](home-refresh/desktop-title-verification.json).
 

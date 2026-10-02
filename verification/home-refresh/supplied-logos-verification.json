@@ -1,0 +1,54 @@
+{
+  "preview": "https://camya-ahusiminf-olivier-steineur.vercel.app",
+  "commit": "e3be608",
+  "order": [
+    "Chambers",
+    "WWL",
+    "Legal 500"
+  ],
+  "checkedAt": "2026-10-02T06:06:29.973Z",
+  "tests": {
+    "localChromium": 18,
+    "localWebKit": 5,
+    "publicPreview": 5
+  },
+  "logos": [
+    {
+      "name": "chambers",
+      "source": "WhatsApp Image 2026-10-01 at 23.59.29.jpeg",
+      "route": "/home-assets/chambers.jpeg",
+      "sha256": "a379f44c8c038f128735bfc9cab16376f56d94cba205cfc48605088a70b82a91",
+      "publicFileIdenticalToProvidedFile": true
+    },
+    {
+      "name": "wwl",
+      "source": "WhatsApp Image 2026-10-01 at 23.59.45.jpeg",
+      "route": "/home-assets/wwl.jpeg",
+      "sha256": "b1db08f60852044ba7aafe84440dada180c04f48c6f41c33cb7b353a8e61a361",
+      "publicFileIdenticalToProvidedFile": true
+    },
+    {
+      "name": "legal500",
+      "source": "WhatsApp Image 2026-10-01 at 23.59.54.jpeg",
+      "route": "/home-assets/legal500.jpeg",
+      "sha256": "68bf9a23f4b436a5d796af2e190922b3570a09f2d5a1d833976ec3bbf1df9e88",
+      "publicFileIdenticalToProvidedFile": true
+    }
+  ],
+  "captures": {
+    "origin": "https://camya-ahusiminf-olivier-steineur.vercel.app",
+    "widths": [
+      375,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "languages": [
+      "es",
+      "en"
+    ],
+    "count": 10,
+    "issues": []
+  }
+}
