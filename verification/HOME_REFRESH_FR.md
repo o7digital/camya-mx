@@ -26,7 +26,7 @@ Les équivalents anglais utilisent les URL originales `/en/home/`, `/en/pratic-a
 ## Images et typographie
 
 - La montagne provient de `CAMYA_Mockup_Code-2.zip`, fichier `dist/assets/hero-montanas.webp`, copié sans modification.
-- Les trois marques proviennent du fichier original `wp-content/uploads/2026/10/logos-white_3.png`. Les tiers sont affichés par découpage CSS dans l'ordre Chambers, Legal 500, WWL. Le filtre monochrome rend les marques blanches originales lisibles dans la capsule blanche. Aucun logo n'est dessiné avec du texte, des polices ou des formes ; le fichier original reste intact.
+- Les trois marques sont remplacées par les JPEG fournis dans Downloads : `WhatsApp Image 2026-10-01 at 23.59.29.jpeg` (Chambers), `23.59.45.jpeg` (WWL) et `23.59.54.jpeg` (Legal 500). Les fichiers sont copiés sans modification dans `dist/home-assets/`. Ils sont affichés entiers, sans filtre ni découpage, dans l'ordre demandé **Chambers, WWL, Legal 500**, sur les accueils ES/EN. Le visuel original du clone reste disponible sur ses autres pages.
 - Inter variable est hébergé localement, avec sa licence SIL OFL, depuis le dépôt officiel `rsms/inter`.
 
 ## Vérifications

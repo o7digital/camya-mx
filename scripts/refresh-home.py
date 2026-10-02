@@ -83,9 +83,9 @@ for route in ['/', '/en/', '/en/home/']:
       <div class="camya-home-container">
         <h2 id="recognition-title">{c['recognition']}</h2>
         <div class="camya-recognition-capsule">
-          <span class="camya-mark camya-mark-chambers"><img src="/wp-content/uploads/2026/10/logos-white_3.png" alt="Chambers — Ranked in Latin America" width="468" height="125"/></span>
-          <span class="camya-mark camya-mark-legal500"><img src="/wp-content/uploads/2026/10/logos-white_3.png" alt="The Legal 500" width="468" height="125"/></span>
-          <span class="camya-mark camya-mark-wwl"><img src="/wp-content/uploads/2026/10/logos-white_3.png" alt="Who's Who Legal — WWL" width="468" height="125"/></span>
+          <span class="camya-mark camya-mark-chambers"><img src="/home-assets/chambers.jpeg" alt="Chambers and Partners" width="1600" height="430"/></span>
+          <span class="camya-mark camya-mark-wwl"><img src="/home-assets/wwl.jpeg" alt="WWL — Who's Who Legal (actualmente Lexology)" width="1584" height="520"/></span>
+          <span class="camya-mark camya-mark-legal500"><img src="/home-assets/legal500.jpeg" alt="Legal 500" width="1600" height="524"/></span>
         </div>
       </div>
     </section>''').section

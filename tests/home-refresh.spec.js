@@ -64,10 +64,10 @@ for (const width of [375, 390, 430, 768, 1440]) {
       const logos = page.locator('.camya-recognition-capsule img');
       await expect(logos).toHaveCount(3);
       expect(await logos.evaluateAll(images => images.map(i => i.getAttribute('src')))).toEqual(
-        Array(3).fill('/wp-content/uploads/2026/10/logos-white_3.png')
+        ['/home-assets/chambers.jpeg', '/home-assets/wwl.jpeg', '/home-assets/legal500.jpeg']
       );
       expect(await logos.evaluateAll(images => images.map(i => i.alt))).toEqual([
-        'Chambers — Ranked in Latin America', 'The Legal 500', "Who's Who Legal — WWL",
+        'Chambers and Partners', "WWL — Who's Who Legal (actualmente Lexology)", 'Legal 500',
       ]);
       const marks = await page.locator('.camya-mark').evaluateAll(elements => elements.map(e => e.getBoundingClientRect().x));
       expect(marks[0]).toBeLessThan(marks[1]);
