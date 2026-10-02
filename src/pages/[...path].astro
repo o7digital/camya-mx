@@ -1,0 +1,16 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Transitional renderer: preserve the approved documents while components migrate.
+export function getStaticPaths() {
+  const routes = JSON.parse(fs.readFileSync(path.resolve('archive/pages.json'), 'utf8'));
+  return Object.keys(routes).map(route => ({
+    params: { path: route.replace(/^\/|\/$/g, '') || undefined },
+    props: { route },
+  }));
+}
+const { route } = Astro.props;
+const html = fs.readFileSync(path.resolve('src/legacy', '.' + route, 'index.html'), 'utf8');
+---
+<Fragment set:html={html} />

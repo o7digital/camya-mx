@@ -14,8 +14,20 @@ npx playwright test --config=playwright.mobile.config.js
 
 Les ressources sont locales et le WordPress/DNS du client reste intact. Les formulaires ont l'apparence originale, mais leur backend d'envoi n'est pas connecté. Toute tentative d'envoi l'indique sans annoncer de succès.
 
-`scripts/refresh-home.py` applique le brief à l'archive du clone validé, avec BeautifulSoup dans `requirements.txt`. Il modifie uniquement `/`, `/en/` et `/en/home/`. Un nouveau passage du collecteur `scripts/crawl.py` remplace l'export : réappliquer le brief ensuite si nécessaire.
+`scripts/refresh-home.py` applique le brief à l'archive du clone validé, avec BeautifulSoup dans `requirements.txt`. Il modifie uniquement les sources de `/`, `/en/` et `/en/home/` dans `src/legacy/`. Exécuter ensuite `npm run build`. Un nouveau passage du collecteur `scripts/crawl.py` remplace l'export : réappliquer le brief ensuite si nécessaire.
 
 Les captures et contrôles de l'accueil sont dans `verification/home-refresh/`. Les comparaisons du clone avant adaptation restent dans `verification/clone-complete/`.
 
 `dev` reste la branche de travail. À la demande du client, la version centrée est fusionnée dans `main`, créée à partir du clone sauvegardé sur `backup` (`3d4412f`). La production Vercel utilise https://camya-mx.vercel.app/. Les previews utilisent `vercel deploy --yes --scope olivier-steineur` ; les versions validées sur `main` utilisent `vercel deploy --prod --yes --scope olivier-steineur`.
+
+## Migration Astro — étape 1
+
+La sauvegarde avant migration est sur `dev2` (`ad506b1`). Le travail de migration reste sur `dev`, avec déploiements de prévisualisation ; `main` conserve la version validée.
+
+Astro 7.3.5 génère les 79 URL à partir du composant de transition `src/pages/[...path].astro`. Les documents approuvés sont dans `src/legacy/` et les ressources dans `public/`. `dist/` est désormais un résultat de build ignoré par Git : ne plus le modifier directement. Node >= 22.12.0 est nécessaire.
+
+`npm run build` reconstruit le site, valide les URL et vérifie que le HTML de chaque page et toutes les ressources sont conservés. `npm run dev` démarre Astro ; `npm run preview` sert le build Astro. Les tests navigateur vérifient le résultat statique.
+
+Cette étape installe le build Astro ; les pages utilisent encore le HTML et les scripts hérités du clone WordPress. La migration en composants Astro reste à faire, progressivement : accueil ES/EN, éléments communs, autres pages, puis suppression des dépendances inutiles. Les optimisations WebP et SEO sont des étapes distinctes.
+
+Les scripts historiques `crawl.py` et `refresh-home.py` écrivent désormais les sources et ressources plutôt que le build. Un nouveau crawl peut remplacer les corrections approuvées (dont Contacto) : réservé à une nouvelle capture volontaire de l’ancien site.

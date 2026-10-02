@@ -8,7 +8,8 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'dist'
+OUT = ROOT / 'src' / 'legacy'
+ASSETS = ROOT / 'public'
 ARCHIVE = ROOT / 'archive'
 BASE = 'http://www.camya.mx'
 RAW = Path('/tmp/camya-live-originals')
@@ -113,7 +114,7 @@ def safe_page(html, url):
     return rewrite(str(soup))
 
 def main():
-    OUT.mkdir(exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(exist_ok=True)
     RAW.mkdir(exist_ok=True)
     sitemap = get(BASE + '/wp-sitemap.xml')
@@ -172,7 +173,7 @@ def main():
             downloaded.add(url)
             if r is None: continue
             path = unquote(urlsplit(url).path)
-            target = OUT / path.lstrip('/')
+            target = ASSETS / path.lstrip('/')
             target.parent.mkdir(parents=True, exist_ok=True)
             if path.endswith(('.css', '.js', '.svg')):
                 text = r.content.decode('utf-8', errors='replace')

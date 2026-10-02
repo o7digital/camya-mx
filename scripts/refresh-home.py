@@ -102,6 +102,6 @@ for route in ['/', '/en/', '/en/home/']:
     contact = soup.select_one(f'[data-ls_id="#{c["anchor"]}"]')
     if contact:
         contact['id'] = c['anchor']
-    target = ROOT / 'dist' / route.lstrip('/') / 'index.html'
+    target = ROOT / 'src' / 'legacy' / route.lstrip('/') / 'index.html'
     target.write_text(str(soup))
     print('Refreshed', route)
