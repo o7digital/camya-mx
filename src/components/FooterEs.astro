@@ -1,12 +1,13 @@
 ---
 import ContactDetails from './ContactDetails.astro';
+import FooterLogo from './FooterLogo.astro';
 const { home } = Astro.props;
 ---
 <footer class="site-footer wpex-surface-dark wpex-print-hidden" id="footer">{home && <ContactDetails />}
 <div class="site-footer-inner container wpex-pt-40 wpex-clr" id="footer-inner">
 <div class="wpex-row wpex-clr single-col-footer" id="footer-widgets">
-<div class="footer-box span_1_of_1 col col-1"><div class="footer-widget widget wpex-pb-40 wpex-clr widget_text" id="text-2"> <div class="textwidget"><p align="center"><a href="/assets/uploads/2024/01/logoblanco-10.svg"><img alt="" class="alignnone size-medium wp-image-2633" decoding="async" height="300" loading="lazy" role="img" src="/assets/uploads/2024/01/logoblanco-10.svg" width="300" /></a></p>
-<p align="center" class="p1">Calle Bosque de Radiatas #44, Oficina 101<br />
+<div class="footer-box span_1_of_1 col col-1"><div class="footer-widget widget wpex-pb-40 wpex-clr widget_text" id="text-2"> <div class="textwidget"><FooterLogo />
+<p align="center" class="p1">Calle Bosque de Radiatas 32, Oficina 301<br />
 Bosques de las Lomas<br />
 México, CDMX<br />
 C.P. 05120</p>
