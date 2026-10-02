@@ -1,0 +1,8 @@
+---
+const { attributes, items } = Astro.props;
+---
+<ul {...attributes}>
+  {items.map(item => <li {...item.attributes}><a {...item.anchor}>
+    <span class="link-inner">{item.search ? <><span class="wpex-menu-search-text wpex-hidden">Search</span><span aria-hidden="true" class="wpex-menu-search-icon ticon ticon-search"></span></> : item.label}</span>
+  </a></li>)}
+</ul>

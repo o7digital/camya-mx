@@ -1,0 +1,28 @@
+---
+import SiteLayout from "../../../layouts/SiteLayout.astro";
+import pages from "../../../data/pages.json";
+import PageHeader from "../../../components/PageHeader.astro";
+const page = pages["/en/contact/"];
+---
+<SiteLayout page={page}>
+<main class="site-main wpex-clr" id="main">
+<PageHeader attributes={{"class": "page-header centered-page-header has-bg-image bg-fixed wpex-bg-fixed wpex-bg-cover wpex-bg-center wpex-bg-no-repeat wpex-relative wpex-mb-40 wpex-surface-2 wpex-py-30 wpex-border-t wpex-border-b wpex-border-solid wpex-border-surface-3 wpex-text-2 wpex-text-center wpex-supports-mods"}}>
+<div class="page-header-inner container">
+<div class="page-header-content">
+<h1 class="page-header-title wpex-block wpex-m-0 wpex-text-5xl">
+<span>Contact</span>
+</h1>
+</div></div>
+</PageHeader>
+<div class="container wpex-clr" id="content-wrap">
+<div class="content-area wpex-clr" id="primary">
+<div class="site-content wpex-clr" id="content">
+<article class="single-page-article wpex-clr" id="single-blocks">
+<div class="single-page-content single-content entry wpex-clr"><p>Contact form</p>
+</div>
+</article>
+</div>
+</div>
+</div>
+</main>
+</SiteLayout>

@@ -1,0 +1,14 @@
+{
+  "referenceCommit": "6083841",
+  "viewportHeight": 900,
+  "pixelmatchThreshold": 0.1,
+  "routes": 12,
+  "captures": 24,
+  "widths": [
+    390,
+    1440
+  ],
+  "allSameDimensions": true,
+  "allZeroPixelDifferences": true,
+  "scope": "Initial full-page rendering after loading fonts and scrolling images into view; excludes drawer/tab animation and scroll-position timing."
+}

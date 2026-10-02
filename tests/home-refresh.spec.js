@@ -59,7 +59,7 @@ for (const width of [375, 390, 430, 768, 1440]) {
       expect(geometry.overlay).toContain('rgba(18, 40, 76, 0.7)');
       expect(geometry.font).toContain('Inter');
       expect(geometry.fontWeight).toBe('700');
-      await expect(page.locator('.camya-brand img')).toHaveAttribute('src', '/wp-content/uploads/2026/10/logoblanco_nvo.svg');
+      await expect(page.locator('.camya-brand img')).toHaveAttribute('src', '/assets/uploads/2026/10/logoblanco_nvo.svg');
       await expect(page.locator('.camya-hero-image')).toHaveAttribute('src', '/home-assets/hero-montanas.webp');
       const logos = page.locator('.camya-recognition-capsule img');
       await expect(logos).toHaveCount(3);

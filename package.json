@@ -1,7 +1,7 @@
 {
   "name": "camya-mx",
   "version": "1.0.0",
-  "description": "Faithful public CAMYA site clone awaiting client validation",
+  "description": "Bilingual CAMYA website built with native Astro components",
   "scripts": {
     "build": "astro build && node scripts/validate.mjs && node scripts/validate-astro-parity.mjs",
     "test": "playwright test",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/o7digital/camya-mx#readme",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
+    "parse5": "8.0.1",
     "pixelmatch": "^7.2.0",
     "pngjs": "^7.0.0"
   },
@@ -32,6 +33,6 @@
     "astro": "7.3.5"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": "24.x"
   }
 }

@@ -11,3 +11,6 @@ scripts/audit-clone.mjs
 scripts/review-gallery.mjs
 scripts/refresh-home.py
 scripts/capture-home-refresh.cjs
+
+dist
+.astro
