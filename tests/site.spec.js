@@ -34,6 +34,8 @@ test('mobile menu opens, links preserve full routes and language pairs',async({p
     await expect(page.locator('#sidr-main')).toBeVisible();
     await page.locator('#sidr-main a[href="/la-firma/"]').first().click();
     await expect(page).toHaveURL(/\/la-firma\/$/);
+    await page.waitForLoadState('load');
+    await expect(page.locator('body')).toHaveClass(/wpex-docready/);
     await page.locator('.mobile-menu-toggle').first().click();
     await expect(page.locator('#sidr-main a[hreflang="en-US"]')).toBeInViewport({ratio:1});
     await page.locator('#sidr-main a[hreflang="en-US"]').click();
