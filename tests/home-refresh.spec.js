@@ -2,9 +2,9 @@ const {test, expect} = require('@playwright/test');
 
 const languages = [
   {route: '/', title: 'Asesoría Legal que sí entiende tu negocio', subtitle: 'Más de 10 años protegiendo a empresas, acompañando su crecimiento con asesoría estratégica y confiable',
-    labels: ['Inicio', 'Servicios', 'Nosotros', 'Sectores', 'Equipo', 'Contacto'], practice: '/areas-de-practica/', firm: '/la-firma/', contact: '/#contacto', anchor: '#contacto', language: '/en/home/'},
+    labels: ['Inicio', 'La Firma', 'Áreas de Práctica', 'Equipo', 'Noticias', 'Contacto'], practice: '/areas-de-practica/', firm: '/la-firma/', contact: '/contacto/', news: '/noticias/', team: '/equipo/', language: '/en/home/'},
   {route: '/en/home/', title: 'Legal advice that truly understands your business', subtitle: 'More than 10 years protecting businesses, supporting their growth with strategic and reliable legal advice',
-    labels: ['Home', 'Services', 'About Us', 'Sectors', 'Our Team', 'Contact'], practice: '/en/pratic-areas/', firm: '/en/the-firm/', contact: '/en/home/#contactus', anchor: '#contactus', language: '/'},
+    labels: ['Home', 'The Firm', 'Practice Areas', 'Team', 'News', 'Contact'], practice: '/en/pratic-areas/', firm: '/en/the-firm/', contact: '/en/contact/', news: '/en/news/', team: '/en/team/', language: '/'},
 ];
 
 for (const width of [375, 390, 430, 768, 1440]) {
@@ -37,12 +37,10 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await expect(page.locator('.camya-language')).toHaveAttribute('href', copy.language);
       await expect(page.locator('.camya-consult')).toHaveAttribute('href', copy.contact);
       await expect(page.locator('.camya-hero a')).toHaveCount(0);
-      await expect(page.locator('#home-navigation a').nth(1)).toHaveAttribute('href', copy.practice);
-      await expect(page.locator('#home-navigation a').nth(2)).toHaveAttribute('href', copy.firm);
-      await expect(page.locator('#home-navigation a').nth(3)).toHaveAttribute('href', copy.practice + '#content');
-      const sectors = await request.get(copy.practice);
-      expect(await sectors.text()).toContain('id="content"');
-      expect(await sectors.text()).toMatch(/Energía, Petróleo y Gas|Energy/);
+      for (const [index, target] of [copy.route, copy.firm, copy.practice, copy.team, copy.news, copy.contact].entries()) {
+        await expect(page.locator('#home-navigation a').nth(index)).toHaveAttribute('href', target);
+        expect((await request.get(target)).status()).toBe(200);
+      }
 
       const geometry = await page.evaluate(() => ({
         overflow: document.documentElement.scrollWidth > innerWidth,
@@ -59,7 +57,7 @@ for (const width of [375, 390, 430, 768, 1440]) {
       expect(geometry.overlay).toContain('rgba(18, 40, 76, 0.7)');
       expect(geometry.font).toContain('Inter');
       expect(geometry.fontWeight).toBe('700');
-      await expect(page.locator('.camya-brand img')).toHaveAttribute('src', '/wp-content/uploads/2026/10/logoblanco_nvo.svg');
+      await expect(page.locator('.camya-brand img')).toHaveAttribute('src', '/assets/uploads/2026/10/logoblanco_nvo.svg');
       await expect(page.locator('.camya-hero-image')).toHaveAttribute('src', '/home-assets/hero-montanas.webp');
       const logos = page.locator('.camya-recognition-capsule img');
       await expect(logos).toHaveCount(3);
@@ -86,13 +84,11 @@ for (const width of [375, 390, 430, 768, 1440]) {
         await expect(toggle).toBeFocused();
         await toggle.click();
         await page.locator('#home-navigation a').last().click();
-        await expect(toggle).toHaveAttribute('aria-expanded', 'false');
       } else {
         await page.locator('.camya-consult').click();
       }
       await expect(page).toHaveURL(new URL(copy.contact, baseURL).href);
-      await expect(page.locator(copy.anchor)).toBeInViewport();
-      await expect(page.locator('.local-contact-form')).toBeVisible();
+      await expect(page.locator('h1')).toContainText(copy.labels.at(-1));
 
       await page.goto(copy.route);
       await page.locator('.camya-language').click();

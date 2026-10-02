@@ -1,0 +1,6 @@
+---
+import Es from './HomeHeaderEs.astro';
+import En from './HomeHeaderEn.astro';
+const { english } = Astro.props;
+---
+{english ? <En /> : <Es />}

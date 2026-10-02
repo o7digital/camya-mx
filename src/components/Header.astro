@@ -1,0 +1,27 @@
+---
+import Navigation from './Navigation.astro';
+const { navigation, english } = Astro.props;
+---
+<header class="header-one wpex-dropdown-style-black fixed-scroll wpex-z-99 has-sticky-dropshadow shrink-sticky-header anim-shrink-header on-shrink-adjust-height overlay-header white-style dyn-styles wpex-print-hidden wpex-relative wpex-clr" id="site-header">
+<div class="header-one-inner header-padding container wpex-relative wpex-h-100 wpex-py-30 wpex-clr" id="site-header-inner">
+<div class="site-branding header-one-logo logo-padding wpex-table" id="site-logo">
+<div class="wpex-table-cell wpex-align-middle wpex-clr" id="site-logo-inner"><span class="main-logo" id="site-logo-span"><img alt="CAMYA ABOGADOS" class="logo-img logo-img--base" data-no-retina="" data-nonsticky-logo="" data-skip-lazy="" fetchpriority="high" height="50" src="/assets/uploads/2026/10/logoblanco_nvo.svg" width="120" /><img alt="CAMYA ABOGADOS" class="logo-img logo-img--sticky" data-no-retina="" data-skip-lazy="" data-sticky-logo="" height="30" src="/assets/uploads/2026/10/logocolor_nvo.svg" width="123" /></span></div>
+</div>
+<div class="navbar-style-one navbar-fixed-height navbar-fixed-line-height wpex-dropdowns-caret wpex-stretch-megamenus hide-at-mm-breakpoint wpex-clr wpex-print-hidden" id="site-navigation-wrap">
+<nav aria-label="Main menu" class="navigation main-navigation main-navigation-one wpex-clr" id="site-navigation"><Navigation {...navigation} /></nav>
+</div>
+<div class="wpex-mobile-menu-toggle show-at-mm-breakpoint wpex-flex wpex-items-center wpex-absolute wpex-top-50 -wpex-translate-y-50 wpex-right-0" id="mobile-menu">
+<div class="wpex-inline-flex wpex-items-center">
+<a aria-expanded="false" aria-label="Toggle mobile menu" class="mobile-menu-toggle" href="#" role="button"><span class="mobile-menu-toggle__icon wpex-flex"><span aria-hidden="true" class="wpex-hamburger-icon wpex-hamburger-icon--inactive wpex-hamburger-icon--animate"><span></span></span></span></a> </div>
+</div>
+<div class="header-searchform-wrap header-drop-widget wpex-invisible wpex-opacity-0 wpex-absolute wpex-transition-all wpex-duration-200 wpex-translate-Z-0 wpex-text-initial wpex-z-10000 wpex-top-100 wpex-right-0 wpex-bg-black wpex-text-gray-600 wpex-p-15" data-disable-autocomplete="true" data-placeholder="Search" id="searchform-dropdown">
+<form action={english ? "/en/" : "/"} class="searchform wpex-relative" method="get" role="search">
+<label class="searchform-label wpex-text-current wpex-block wpex-m-0 wpex-p-0">
+<span class="screen-reader-text">Search</span>
+<input class="searchform-input field" name="s" placeholder="Search" type="search" />
+</label>
+<button class="searchform-submit" type="submit"><span aria-hidden="true" class="ticon ticon-search"></span><span class="screen-reader-text">Submit</span></button>
+</form>
+</div>
+</div>
+</header>

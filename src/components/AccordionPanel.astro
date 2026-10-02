@@ -1,0 +1,4 @@
+---
+const { attributes, bodyAttributes } = Astro.props;
+---
+<div {...attributes}><slot name="heading" /><div {...bodyAttributes}><slot /></div></div>

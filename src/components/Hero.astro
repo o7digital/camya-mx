@@ -1,0 +1,11 @@
+---
+const { title, description } = Astro.props;
+---
+<section aria-labelledby="home-title" class="camya-hero">
+<img alt="" class="camya-hero-image" fetchpriority="high" height="770" src="/home-assets/hero-montanas.webp" width="2043" />
+<div class="camya-hero-overlay"></div>
+<div class="camya-home-container camya-hero-content">
+<h1 id="home-title">{title}</h1>
+<p class="camya-hero-description">{description}</p>
+</div>
+</section>

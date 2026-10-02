@@ -1,0 +1,21 @@
+/* Native controls reuse the approved visual styles. */
+#top-bar-content a.camya-contact-link,#footer a.camya-contact-link {color:inherit;text-decoration:none}
+#top-bar-content a.camya-contact-link:hover,#footer a.camya-contact-link:hover {color:inherit;text-decoration:underline}
+.camya-contact-link:focus-visible {outline:2px solid currentColor;outline-offset:4px}
+#sidr-main[hidden] {display:none!important}
+#sidr-main.is-open {display:block;right:0}
+.camya-drawer-open {overflow:hidden}
+#site-header.camya-header-sticky {position:fixed;top:0;background:#fff;box-shadow:0 2px 6px #0002}
+#site-header.camya-header-sticky #site-header-inner {padding-top:10px;padding-bottom:10px}
+#site-header.camya-header-sticky .logo-img--base {display:none}
+#site-header.camya-header-sticky .logo-img--sticky {display:inline-block}
+#site-header.camya-header-sticky #site-navigation-wrap {--wpex-main-nav-link-color:#000}
+#site-scroll-top.camya-scroll-visible,#searchform-dropdown.camya-search-open {visibility:visible!important;opacity:1!important}
+.wpb_animate_when_almost_visible {opacity:1}
+@media(prefers-reduced-motion:reduce) {.vc_parallax-inner {will-change:auto}}
+#site-header.camya-header-sticky {height:70px;background:#fff!important;opacity:.9}
+#site-header.camya-header-sticky #site-header-inner {height:70px}
+#site-header.camya-header-sticky #site-logo {height:50px}
+#site-header.camya-header-sticky #site-navigation-wrap {height:50px;top:10px}
+#site-header.camya-header-sticky #site-navigation a {height:50px;line-height:50px}
+#site-header.camya-header-sticky .mobile-menu-toggle {color:#3d3d3d!important}

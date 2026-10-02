@@ -1,0 +1,10 @@
+---
+const { entries } = Astro.props;
+---
+{entries.map(entry => <>
+  {entry.tag === 'meta' && <meta {...entry.attributes} />}
+  {entry.tag === 'link' && <link {...entry.attributes} />}
+  {entry.tag === 'title' && <title>{entry.text}</title>}
+  {entry.tag === 'style' && <style is:inline {...entry.attributes} set:html={entry.text} />}
+</>)}
+<link href="/styles/interactions.css" rel="stylesheet" />

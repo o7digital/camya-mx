@@ -1,0 +1,13 @@
+---
+const { english } = Astro.props;
+---
+<a class="wpex-flex wpex-items-center wpex-justify-center wpex-fixed wpex-rounded-full wpex-text-center wpex-box-content wpex-transition-all wpex-duration-200 wpex-bottom-0 wpex-right-0 wpex-mr-25 wpex-mb-25 wpex-no-underline wpex-print-hidden wpex-surface-2 wpex-text-4 wpex-hover-bg-accent wpex-invisible wpex-opacity-0" data-scroll-offset="100" data-scroll-speed="1000" href="#outer-wrap" id="site-scroll-top"><span aria-hidden="true" class="ticon ticon-chevron-up"></span><span class="screen-reader-text">Back To Top</span></a><div class="wpex-hidden" id="mobile-menu-search">
+<form action={english ? "/en/" : "/"} class="mobile-menu-searchform" method="get">
+<label class="wpex-text-current">
+<span class="screen-reader-text">Search</span>
+<input autocomplete="off" name="s" placeholder="Search" type="search" />
+<input name="lang" type="hidden" value={english ? "en" : "es"} />
+</label>
+<button class="searchform-submit theme-button" type="submit"><span aria-hidden="true" class="ticon ticon-search"></span><span class="screen-reader-text">Submit</span></button>
+</form>
+</div><div class="wpex-sidr-overlay wpex-fixed wpex-inset-0 wpex-hidden wpex-z-9999 wpex-bg-black wpex-opacity-60"></div>

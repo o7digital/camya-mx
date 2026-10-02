@@ -1,0 +1,6 @@
+---
+import Es from './FooterEs.astro';
+import En from './FooterEn.astro';
+const { english, home } = Astro.props;
+---
+{english ? <En home={home} /> : <Es home={home} />}

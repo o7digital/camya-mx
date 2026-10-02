@@ -1,8 +1,10 @@
-# CAMYA — site bilingue
+# CAMYA — site bilingue Astro
 
-Le clone et sa correction mobile ont été validés. L'accueil espagnol et anglais est adapté selon les corrections client : header framboise/bleu, image montagne fournie, titre et sous-titre centrés sur une seule ligne sur ordinateur, titre espagnol agrandi de 20 %, boutons du hero retirés, reconnaissances avec les fichiers fournis dans l'ordre Chambers, WWL, Legal 500.
+Les 79 URL ES/EN sont des pages natives dans `src/pages/`, avec un layout commun et des composants pour les en-têtes, les menus, le hero, les reconnaissances, les accordéons, le footer et le formulaire Contacto. Le HTML de transition et les scripts WordPress, jQuery, WPBakery, Revolution Slider, Backbone et skrollr sont retirés.
 
-Les 79 URL, les biographies, les contenus et le formulaire du clone sont conservés. Les anciens textes du hero restent sous les reconnaissances. « Sectores » renvoie aux domaines existants dans les áreas de práctica ; aucune page ni texte de secteur n'est ajouté. L'accueil anglais reste lisible sur mobile, sans chevauchement du logo.
+Les styles du design approuvé sont conservés dans `public/styles/`, et les images/polices dans `public/assets/` et `public/home-assets/`. Certaines classes historiques sont volontairement conservées comme sélecteurs de présentation : aucun WordPress ni plugin n’est exécuté. Les images n’ont pas encore été optimisées en WebP.
+
+Node 24 est requis.
 
 ```sh
 npm ci
@@ -12,10 +14,16 @@ npm test
 npx playwright test --config=playwright.mobile.config.js
 ```
 
-Les ressources sont locales et le WordPress/DNS du client reste intact. Les formulaires ont l'apparence originale, mais leur backend d'envoi n'est pas connecté. Toute tentative d'envoi l'indique sans annoncer de succès.
+`npm run dev` lance Astro sur le port 8000. `npm run preview` sert le résultat du build. `dist/` est généré et ignoré par Git ; modifier les pages, les composants, les métadonnées de `src/data/pages.json`, les styles ou les scripts natifs de `src/scripts/`.
 
-`scripts/refresh-home.py` applique le brief à l'archive du clone validé, avec BeautifulSoup dans `requirements.txt`. Il modifie uniquement `/`, `/en/` et `/en/home/`. Un nouveau passage du collecteur `scripts/crawl.py` remplace l'export : réappliquer le brief ensuite si nécessaire.
+`npm run build` vérifie les 79 routes, les ressources locales et la conservation de la structure approuvée du contenu, des headers et des footers. `archive/astro-baseline.json` est une référence de migration du commit `6083841`, avec les nouvelles adresses des ressources ; mettre à jour cette référence uniquement lors d’un changement intentionnel du contenu ou des assets. Les archives originales servent aux tests de conservation des textes, sans participer au rendu Astro.
 
-Les captures et contrôles de l'accueil sont dans `verification/home-refresh/`. Les comparaisons du clone avant adaptation restent dans `verification/clone-complete/`.
+Le formulaire `/contacto/` envoie à Formspree. Les anciens formulaires des accueils restent déconnectés et affichent clairement qu’aucun message n’a été envoyé. Les interactions (menus, onglets, accordéons, parallax, en-tête fixe et partage) sont en JavaScript natif, compilé par Astro.
 
-`dev` reste la branche de travail. À la demande du client, la version centrée est fusionnée dans `main`, créée à partir du clone sauvegardé sur `backup` (`3d4412f`). La production Vercel utilise https://camya-mx.vercel.app/. Les previews utilisent `vercel deploy --yes --scope olivier-steineur` ; les versions validées sur `main` utilisent `vercel deploy --prod --yes --scope olivier-steineur`.
+`dev2` conserve la sauvegarde avant migration (`ad506b1`). La migration reste sur `dev`, avec prévisualisation Vercel ; `main` conserve la production validée. Les prévisualisations et le site conservent `noindex,nofollow` jusqu’au chantier SEO sur le domaine définitif.
+
+```sh
+vercel deploy --yes --scope olivier-steineur
+```
+
+Les contrôles de migration sont dans `verification/astro-migration/`. Le WordPress et le DNS du client restent indépendants de ce dépôt.

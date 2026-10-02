@@ -1,0 +1,218 @@
+[
+  {
+    "width": 390,
+    "route": "/",
+    "file": "390-0.png",
+    "height": 5789,
+    "beforeHeight": 5789,
+    "afterHeight": 5789,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/en/home/",
+    "file": "390-1.png",
+    "height": 7190,
+    "beforeHeight": 7190,
+    "afterHeight": 7190,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/contacto/",
+    "file": "390-2.png",
+    "height": 2549,
+    "beforeHeight": 2549,
+    "afterHeight": 2549,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/la-firma/",
+    "file": "390-3.png",
+    "height": 5399,
+    "beforeHeight": 5399,
+    "afterHeight": 5399,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/en/the-firm/",
+    "file": "390-4.png",
+    "height": 5065,
+    "beforeHeight": 5065,
+    "afterHeight": 5065,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/equipo/",
+    "file": "390-5.png",
+    "height": 3200,
+    "beforeHeight": 3200,
+    "afterHeight": 3200,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/en/team/",
+    "file": "390-6.png",
+    "height": 3210,
+    "beforeHeight": 3210,
+    "afterHeight": 3210,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/staff-member/omar-cuellar-gamboa/",
+    "file": "390-7.png",
+    "height": 2488,
+    "beforeHeight": 2488,
+    "afterHeight": 2488,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/en/staff-member/omar-cuellar-gamboa-en/",
+    "file": "390-8.png",
+    "height": 2472,
+    "beforeHeight": 2472,
+    "afterHeight": 2472,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/areas-de-practica/",
+    "file": "390-9.png",
+    "height": 3579,
+    "beforeHeight": 3579,
+    "afterHeight": 3579,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/noticias/",
+    "file": "390-10.png",
+    "height": 7369,
+    "beforeHeight": 7369,
+    "afterHeight": 7369,
+    "difference": 0
+  },
+  {
+    "width": 390,
+    "route": "/sin-categoria-es/fiscal/",
+    "file": "390-11.png",
+    "height": 4239,
+    "beforeHeight": 4239,
+    "afterHeight": 4239,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "file": "1440-0.png",
+    "height": 4544,
+    "beforeHeight": 4544,
+    "afterHeight": 4544,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/en/home/",
+    "file": "1440-1.png",
+    "height": 5687,
+    "beforeHeight": 5687,
+    "afterHeight": 5687,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/contacto/",
+    "file": "1440-2.png",
+    "height": 1991,
+    "beforeHeight": 1991,
+    "afterHeight": 1991,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/la-firma/",
+    "file": "1440-3.png",
+    "height": 3254,
+    "beforeHeight": 3254,
+    "afterHeight": 3254,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/en/the-firm/",
+    "file": "1440-4.png",
+    "height": 3094,
+    "beforeHeight": 3094,
+    "afterHeight": 3094,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/equipo/",
+    "file": "1440-5.png",
+    "height": 1963,
+    "beforeHeight": 1963,
+    "afterHeight": 1963,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/en/team/",
+    "file": "1440-6.png",
+    "height": 1963,
+    "beforeHeight": 1963,
+    "afterHeight": 1963,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/staff-member/omar-cuellar-gamboa/",
+    "file": "1440-7.png",
+    "height": 1836,
+    "beforeHeight": 1836,
+    "afterHeight": 1836,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/en/staff-member/omar-cuellar-gamboa-en/",
+    "file": "1440-8.png",
+    "height": 1836,
+    "beforeHeight": 1836,
+    "afterHeight": 1836,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/areas-de-practica/",
+    "file": "1440-9.png",
+    "height": 2774,
+    "beforeHeight": 2774,
+    "afterHeight": 2774,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/noticias/",
+    "file": "1440-10.png",
+    "height": 4891,
+    "beforeHeight": 4891,
+    "afterHeight": 4891,
+    "difference": 0
+  },
+  {
+    "width": 1440,
+    "route": "/sin-categoria-es/fiscal/",
+    "file": "1440-11.png",
+    "height": 2656,
+    "beforeHeight": 2656,
+    "afterHeight": 2656,
+    "difference": 0
+  }
+]
