@@ -2,6 +2,8 @@
 
 Cette branche reproduit uniquement http://www.camya.mx/ : ses pages, textes, menus, styles, images, langues et URL. Aucun fichier de la nouvelle maquette n'est utilisé. Le nouveau design est conservé dans l'historique Git et attend la validation du clone.
 
+À la demande du client, l'accueil anglais possède une correction responsive sous 1024 px : titre lisible et espacement sous le logo. Voir [la vérification mobile](verification/ENGLISH_MOBILE_FR.md).
+
 ```sh
 npm ci
 npm run build

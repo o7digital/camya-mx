@@ -1,2 +1,17 @@
 /* Form fields use the original Ninja Forms stylesheet and DOM. */
 .local-submit-status{margin:20px 0;color:#3d3d3d;font-size:14px}
+
+/* The original English hero hides its desktop spacer below 1024px.
+   Keep its title clear of the overlay header and readable on small screens. */
+@media (max-width: 1023px) {
+  html[lang="en-US"] body.home.page-id-47 .vc_custom_1703879760954 {
+    padding-top: 140px;
+    padding-bottom: 32px;
+  }
+
+  html[lang="en-US"] body.home.page-id-47 .vc_custom_1703879760954 h2 {
+    margin: 0 0 20px;
+    font-size: clamp(28px, 7.5vw, 40px);
+    line-height: 1.2;
+  }
+}

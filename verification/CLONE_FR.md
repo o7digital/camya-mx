@@ -1,5 +1,7 @@
 # Clone fidèle — vérification exhaustive pour validation
 
+Ce rapport décrit le clone initial au commit `963f0f4`. La comparaison exacte reproduisait également le défaut de l'accueil anglais sur mobile. La correction demandée ensuite par le client est documentée dans [ENGLISH_MOBILE_FR.md](ENGLISH_MOBILE_FR.md) ; les captures historiques ci-dessous restent celles du clone initial.
+
 La version publiée contient uniquement le clone du site public actuel, récupéré de nouveau depuis http://www.camya.mx/. Aucun HTML, CSS, JavaScript, texte ou visuel de la nouvelle maquette n'est utilisé.
 
 79 URL sont conservées : pages espagnoles et anglaises, 31 profils, actualités, catégories, pages anciennes toujours publiques et pagination. 237 ressources sont téléchargées localement. Les contenus ne sont ni regroupés ni reformulés.

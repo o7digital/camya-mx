@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/",
+    "width": 375,
+    "unchanged": true
+  },
+  {
+    "route": "/en/home/",
+    "width": 1024,
+    "unchanged": true
+  },
+  {
+    "route": "/en/home/",
+    "width": 1440,
+    "unchanged": true
+  }
+]
