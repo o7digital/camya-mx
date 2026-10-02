@@ -1,0 +1,63 @@
+{
+  "preview": "https://camya-5c9zpkdcp-olivier-steineur.vercel.app",
+  "commit": "1bbe5f1",
+  "checkedAt": "2026-10-02T05:49:42.579Z",
+  "desktopTitleLines": 1,
+  "desktopWidths": [
+    1024,
+    1180,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "tests": {
+    "localChromium": 18,
+    "localWebKit": 7,
+    "publicPreview": 5
+  },
+  "captures": {
+    "origin": "https://camya-5c9zpkdcp-olivier-steineur.vercel.app",
+    "count": 10,
+    "issues": []
+  },
+  "production": {
+    "deployment": "dpl_DungsBgfWKtQ33oGAr2ihCYAXrUB",
+    "source": "redeploy",
+    "metaAction": "promote",
+    "originalDeploymentId": "dpl_3MBQBj2bSYNteeUZcBXxcuqLKW4A",
+    "promotedByThisTurn": false,
+    "pages": [
+      {
+        "route": "/",
+        "status": 200,
+        "sha256": "73e92a358205e421b48809a9e493aedb56af86b551a7cf9312b4be0497685331",
+        "matchesCommits": [
+          "4ba29fa",
+          "1bbe5f1"
+        ]
+      },
+      {
+        "route": "/en/home/",
+        "status": 200,
+        "sha256": "42250fc3e3060224cef6b3e0c6389b69d33ac44a792a420e8d53a14d65ec4202",
+        "matchesCommits": [
+          "4ba29fa",
+          "1bbe5f1"
+        ]
+      },
+      {
+        "route": "/home.css",
+        "status": 200,
+        "sha256": "1d6ad89f6069571289c062c761c62a1bbae42a5bc85bc2caad9ae7815ba8084a",
+        "matchesCommits": [
+          "1bbe5f1"
+        ]
+      }
+    ]
+  }
+}

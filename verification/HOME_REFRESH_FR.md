@@ -35,7 +35,9 @@ Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests W
 
 ## Publication
 
-Prévisualisation publique actuelle, avec le header corrigé et sans les boutons du hero : [accueil espagnol](https://camya-l6iyut6ti-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-l6iyut6ti-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `4ba29fa` sur `dev`.
+Prévisualisation publique actuelle, avec le titre sur une ligne sur ordinateur : [accueil espagnol](https://camya-5c9zpkdcp-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-5c9zpkdcp-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `1bbe5f1` sur `dev`.
+
+Cette correction passe les 18 tests Chromium locaux, 7 tests WebKit et 5 tests sur l'URL publique. Les titres ES/EN restent sur une ligne à 1024, 1180, 1280, 1366, 1440 et 1920 px, sans débordement. Les 10 captures sont renouvelées. L'API Vercel indique une promotion séparée de cette prévisualisation en production à 23 h 48 (`source: redeploy`, `meta.action: promote`). Cette session a lancé uniquement `vercel deploy` en preview. [Relevé de livraison](home-refresh/desktop-title-verification.json).
 
 La correction du header passe les 5 tests publics ES/EN aux largeurs demandées. Les captures sont renouvelées depuis cette URL. Les largeurs de transition 1279, 1280 et 1366 px sont aussi contrôlées pour exclure tout chevauchement des liens. La production reste identique à son état avant cette correction : [contrôle du header](home-refresh/header-verification.json).
 
