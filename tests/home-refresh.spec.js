@@ -20,8 +20,9 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await expect(page.locator('#home-navigation a')).toHaveText(copy.labels);
       await expect(page.locator('.camya-language')).toHaveAttribute('href', copy.language);
       await expect(page.locator('.camya-consult')).toHaveAttribute('href', copy.contact);
-      await expect(page.locator('.camya-hero-buttons a').nth(0)).toHaveAttribute('href', copy.practice);
-      await expect(page.locator('.camya-hero-buttons a').nth(1)).toHaveAttribute('href', copy.firm);
+      await expect(page.locator('.camya-hero a')).toHaveCount(0);
+      await expect(page.locator('#home-navigation a').nth(1)).toHaveAttribute('href', copy.practice);
+      await expect(page.locator('#home-navigation a').nth(2)).toHaveAttribute('href', copy.firm);
       await expect(page.locator('#home-navigation a').nth(3)).toHaveAttribute('href', copy.practice + '#content');
       const sectors = await request.get(copy.practice);
       expect(await sectors.text()).toContain('id="content"');
@@ -77,12 +78,6 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await expect(page.locator(copy.anchor)).toBeInViewport();
       await expect(page.locator('.local-contact-form')).toBeVisible();
 
-      await page.goto(copy.route);
-      await page.locator('.camya-hero-buttons a').first().click();
-      await expect(page).toHaveURL(new URL(copy.practice, baseURL).href);
-      await page.goto(copy.route);
-      await page.locator('.camya-hero-buttons a').last().click();
-      await expect(page).toHaveURL(new URL(copy.firm, baseURL).href);
       await page.goto(copy.route);
       await page.locator('.camya-language').click();
       await expect(page).toHaveURL(new URL(copy.language, baseURL).href);

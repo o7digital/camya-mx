@@ -16,7 +16,7 @@ COPY = {
         'menu': 'Abrir menú', 'navigation': 'Navegación principal',
         'title': 'Asesoría Legal que sí entiende tu negocio',
         'subtitle': 'Más de 10 años protegiendo a empresas, acompañando su crecimiento con asesoría estratégica y confiable',
-        'services': 'Nuestros Servicios', 'about': 'Conócenos', 'recognition': 'RECONOCIDOS POR',
+        'recognition': 'RECONOCIDOS POR',
     },
     'en': {
         'home': '/en/home/', 'practice': '/en/pratic-areas/', 'firm': '/en/the-firm/',
@@ -27,7 +27,7 @@ COPY = {
         'menu': 'Open menu', 'navigation': 'Main navigation',
         'title': 'Legal advice that truly understands your business',
         'subtitle': 'More than 10 years protecting businesses, supporting their growth with strategic and reliable legal advice',
-        'services': 'Our Services', 'about': 'Get to Know Us', 'recognition': 'RECOGNIZED BY',
+        'recognition': 'RECOGNIZED BY',
     },
 }
 
@@ -70,10 +70,6 @@ for route in ['/', '/en/', '/en/home/']:
       <div class="camya-home-container camya-hero-content">
         <h1 id="home-title">{c['title']}</h1>
         <p class="camya-hero-description">{c['subtitle']}</p>
-        <div class="camya-hero-buttons">
-          <a class="camya-button" href="{c['practice']}">{c['services']}</a>
-          <a class="camya-button camya-button-outline" href="{c['firm']}">{c['about']}</a>
-        </div>
       </div>
     </section>''').section
     recognition = fragment(f'''

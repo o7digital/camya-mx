@@ -99,9 +99,6 @@ body.camya-home-refresh {
   text-wrap: balance;
 }
 .camya-hero-description {max-width: 570px; margin: 28px 0 0; font-size: 18px; line-height: 1.75; font-weight: 400}
-.camya-hero-buttons {display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px}
-.camya-home-refresh .camya-button-outline {background: transparent; border-color: #fff}
-.camya-home-refresh .camya-button-outline:hover {background: #ffffff1f; border-color: #fff}
 
 .camya-recognition {padding: 38px 0 48px; background: var(--camya-blue)}
 .camya-recognition h2 {margin: 0 0 24px; text-align: center; color: #fff; font-size: 13px; font-weight: 700; line-height: 1.4; letter-spacing: 0.18em}
@@ -174,8 +171,6 @@ body.camya-home-refresh {
   .camya-hero-content {padding-block: 58px 64px}
   .camya-hero h1 {font-size: clamp(34px, 9vw, 40px); line-height: 1.12; letter-spacing: -0.04em}
   .camya-hero-description {font-size: 16px; line-height: 1.7; margin-top: 24px}
-  .camya-hero-buttons {gap: 10px; margin-top: 28px}
-  .camya-home-refresh .camya-hero-buttons .camya-button {font-size: 13px; padding: 13px 16px; min-height: 48px}
   .camya-recognition {padding-block: 30px 36px}
   .camya-recognition h2 {font-size: 11px; margin-bottom: 20px}
   .camya-recognition-capsule {padding: 16px 18px; gap: 12px; border-radius: 22px}

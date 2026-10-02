@@ -2,7 +2,7 @@
 
 Cette adaptation part du clone et de sa correction mobile validés (`3d4412f`). Seuls `/`, `/en/` et `/en/home/` changent. Les 76 autres URL conservent leurs fichiers HTML. Les anciens paragraphes et titres du hero sont déplacés sous les reconnaissances sans réécriture ; les services, profils, biographies, actualités, contact et mentions restent disponibles.
 
-Le header utilise le dégradé demandé et le logo CAMYA original `wp-content/uploads/2026/10/logoblanco_nvo.svg`. Les textes espagnols du hero sont ceux du brief, avec traduction anglaise fidèle. Les boutons renvoient aux pages existantes d'áreas de práctica et de La Firma.
+Le header utilise le dégradé demandé et le logo CAMYA original `wp-content/uploads/2026/10/logoblanco_nvo.svg`. Les textes espagnols du hero sont ceux du brief, avec traduction anglaise fidèle. À la demande du client, les boutons « Nuestros Servicios » et « Conócenos », ainsi que leurs équivalents anglais, ont été retirés du hero. Les pages d'áreas de práctica et de La Firma restent accessibles depuis le menu.
 
 | Menu espagnol | Destination |
 | --- | --- |
