@@ -99,7 +99,7 @@ body.camya-home-refresh {
 .camya-hero-content {padding-block: 56px; text-align: center}
 .camya-hero-logo {
   display: block;
-  width: clamp(220px, 28vw, 400px);
+  width: clamp(253px, 32.2vw, 460px);
   max-width: 100%;
   height: auto;
   margin: 0 auto 44px;
@@ -108,27 +108,27 @@ body.camya-home-refresh {
   max-width: 820px;
   margin: 0 auto;
   color: #fff;
-  font-size: clamp(40px, 5vw, 70px);
+  font-size: clamp(38px, 4.75vw, 66.5px);
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.045em;
   text-wrap: balance;
 }
-.camya-hero-description {max-width: 570px; margin: 28px auto 0; font-size: 18px; line-height: 1.75; font-weight: 400}
+.camya-hero-description {max-width: 570px; margin: 28px auto 0; font-size: 18.36px; line-height: 1.75; font-weight: 400}
 
 @media (min-width: 1024px) {
   .camya-hero h1 {
     max-width: none;
-    font-size: clamp(32px, 3.5vw, 50px);
+    font-size: clamp(30.4px, 3.325vw, 47.5px);
     white-space: nowrap;
     text-wrap: nowrap;
   }
   .camya-home-refresh:lang(es) .camya-hero h1 {
-    font-size: clamp(38.4px, 4.2vw, 60px);
+    font-size: clamp(36.48px, 3.99vw, 57px);
   }
   .camya-hero-description {
     max-width: none;
-    font-size: clamp(14px, 1.25vw, 18px);
+    font-size: clamp(14.28px, 1.275vw, 18.36px);
     white-space: nowrap;
   }
 }
@@ -200,9 +200,9 @@ body.camya-home-refresh {
   .camya-hero {min-height: 535px}
   .camya-hero-image {object-position: 60% center}
   .camya-hero-content {padding-block: 58px 64px}
-  .camya-hero-logo {width: 220px; margin-bottom: 32px}
-  .camya-hero h1 {font-size: clamp(34px, 9vw, 40px); line-height: 1.12; letter-spacing: -0.04em}
-  .camya-hero-description {font-size: 16px; line-height: 1.7; margin-top: 24px}
+  .camya-hero-logo {width: 253px; margin-bottom: 32px}
+  .camya-hero h1 {font-size: clamp(32.3px, 8.55vw, 38px); line-height: 1.12; letter-spacing: -0.04em}
+  .camya-hero-description {font-size: 16.32px; line-height: 1.7; margin-top: 24px}
   .camya-recognition {padding-block: 28px 0}
   .camya-recognition h2 {font-size: 11px; margin-bottom: 20px}
   .camya-recognition-capsule {padding: 16px 18px; gap: 12px; border-radius: 22px}
