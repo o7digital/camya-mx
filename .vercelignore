@@ -1,12 +1,11 @@
 node_modules
 .git
 verification
-reference-new-design
 archive/clone-html.json
-archive/content-preserved.json
 archive/crawl-report.json
+archive/rendered-forms.json
 tests
 scripts/crawl.py
-scripts/redesign.py
-scripts/compare.cjs
-scripts/capture-redesign.cjs
+scripts/capture-forms.cjs
+scripts/audit-clone.mjs
+scripts/review-gallery.mjs

@@ -1,11 +1,35 @@
-# Vérification du premier état
+# Clone fidèle — vérification exhaustive pour validation
 
-79 routes publiques récupérées : pages ES/EN, 31 profils (19 espagnols et 12 anglais), actualités, catégories et pagination. 237 ressources du domaine téléchargées et servies localement. Les pages doublons présentes au sitemap sont conservées à leur URL.
+La version publiée contient uniquement le clone du site public actuel, récupéré de nouveau depuis http://www.camya.mx/. Aucun HTML, CSS, JavaScript, texte ou visuel de la nouvelle maquette n'est utilisé.
 
-Comparaisons : accueil ES/EN, firme, domaines de pratique et équipe, à 390, 768 et 1440 px. Les captures `*-original.png` et `*-clone.png` sont appariées dans `verification/clone/`. Mise en page, couleurs, images, cadrages, textes, onglets et menus de ces pages conservés. Le rapport navigateur associé ne relève aucune erreur JavaScript ni débordement sur ces vues.
+79 URL sont conservées : pages espagnoles et anglaises, 31 profils, actualités, catégories, pages anciennes toujours publiques et pagination. 237 ressources sont téléchargées localement. Les contenus ne sont ni regroupés ni reformulés.
 
-Écarts intentionnels : formulaire local avec les mêmes champs, validation native et préparation d'email ; bouton et note explicitent l'absence d'envoi serveur. Les composants d'administration, nonces, configurations AJAX et l'iframe externe invisible ne sont pas déployés. Les démonstrations sont noindex. La recherche WordPress et les traitements serveur ne font pas partie de cette copie statique.
+## Comparaison de chaque page
 
-Deux URL popupbuilder du sitemap sont des objets techniques, recensés séparément sans conversion en pages commerciales. Les trois liens malformés `www.camya.mx` des mentions légales renvoient déjà une 404 sur l'original ; leurs textes restent conservés. Les autres erreurs de collecte portent sur des expressions JavaScript prises pour des URL ou un répertoire de plugin, et non sur des pages ou ressources publiques nécessaires.
+Chaque URL a été visitée sur le site d'origine et sur le clone avec Chromium, en 390 et 1440 px. Le défilement déclenche le chargement des images ; les polices et les images sont rendues avant les captures de la page complète. 158 paires de captures sont conservées avec un rapport page par page dans [la galerie](clone-complete/index.html), [le rapport complet](clone-complete/report.json) et [la synthèse](clone-complete/summary.json).
 
-Cette vérification visuelle porte sur les pages représentatives indiquées, pas sur chaque état visuel des 79 routes. Le contenu et les ressources des autres routes sont vérifiés automatiquement.
+Les contrôles portent sur les dimensions, le rendu des captures, les textes visibles, les images, les titres, les erreurs navigateur et le nombre de pieds de page. Les planches appariées sont examinées visuellement. La catégorie Asociados et son alias de pagination ont été recapturés après décodage complet des photos, pour corriger un chargement incomplet dans les premières captures de l'original.
+
+Résultat : **158/158 captures identiques pixel par pixel (données RGBA)**, dimensions et textes visibles identiques, aucune page de l'inventaire inaccessible, aucune image visible manquante et aucun pied de page dupliqué. Ce résultat décrit les états capturés dans Chromium à ces deux largeurs ; il ne prétend pas couvrir tous les navigateurs ou tous les états interactifs possibles.
+
+Les 12 tests navigateur passent : disponibilité des URL, contenus originaux conservés, menus et langue, onglets d'équipe, biographies, formulaire sans faux envoi, images, absence de débordement à 390/768/1440 px et un seul pied de page original sur chaque URL.
+
+## Pied de page et formulaire
+
+Le pied de page ajouté par la nouvelle maquette a été supprimé. Seuls le `footer#footer` et sa ligne de copyright `#footer-bottom` d'origine sont conservés, à leur emplacement et avec leurs textes et espacements d'origine.
+
+Les champs des formulaires et leurs boutons Enviar/Send sont reproduits depuis le DOM réellement rendu par le site d'origine, avec les CSS originales de Ninja Forms. Aucun texte supplémentaire n'est affiché dans leur état initial. Le backend n'étant pas connecté, une tentative d'envoi affiche un message explicite indiquant qu'aucun message n'a été envoyé. Aucun appel n'est effectué au WordPress du client.
+
+## URL techniques et liens défectueux de l'original
+
+Les deux URL `/popupbuilder/aviso-2/` et `/popupbuilder/aviso-2-2/` redirigent vers l'accueil sur le site public actuel. Elles ont été vérifiées en HTTP et conservent cette destination sur l'aperçu.
+
+Trois liens malformés du contenu légal renvoient une 404 sur le site d'origine :
+
+- `http://www.camya.mx/aviso-de-privacidad/www.camya.mx%20`
+- `http://www.camya.mx/aviso-de-privacidad/www.camya.mx.%20`
+- `http://www.camya.mx/terminos-y-condiciones/www.camya.mx%20`
+
+Ils ne correspondent pas à des pages de contenu accessibles. Aucune page ni présentation n'a été inventée à ces emplacements. Leurs textes sont conservés. Les autres échecs du collecteur sont des fragments de chaînes JavaScript interprétés comme URL ou un répertoire de plugin, pas des pages manquantes.
+
+La copie n'inclut pas les traitements serveur WordPress, l'administration ou le moteur de recherche côté serveur. L'aperçu est noindex et les DNS/WordPress du client sont inchangés. Le nouveau design attend la validation du clone.

@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
 ARCHIVE = ROOT / 'archive'
 BASE = 'http://www.camya.mx'
+RAW = Path('/tmp/camya-live-originals')
+FORMS = json.loads((ARCHIVE / 'rendered-forms.json').read_text())
 HOSTS = {'www.camya.mx', 'camya.mx'}
 URL_RE = re.compile(r'https?://(?:www\.)?camya\.mx[^\s<>"\x27)\\]*')
 failures, pages, assets, technical = [], {}, {}, []
@@ -56,8 +58,13 @@ def safe_page(html, url):
         src, text = tag.get('src', ''), tag.get_text()
         if any(s in src for s in ('contact-form-7', 'ninja-forms', 'popup-builder')) or any(s in text for s in ('nfFrontEnd', 'nfi18n', 'wpcf7', 'ajaxNonce')):
             tag.decompose()
-    # Render the original Ninja Forms field labels locally, using native validation and mailto.
+    # Use the original rendered field DOM and CSS, with no server submission backend.
     for wrap in soup.select('[id^="nf-form-"][id$="-cont"]'):
+        if wrap.get('id') in FORMS:
+            wrap.replace_with(BeautifulSoup(FORMS[wrap['id']], 'html.parser'))
+            for script in soup.find_all('script', string=re.compile('form.fields=')):
+                script.decompose()
+            continue
         script = soup.find('script', string=re.compile('form.fields='))
         if script:
             match = re.search(r'form.fields=(\[.*?\]);nfForms', script.get_text(), re.S)
@@ -82,11 +89,8 @@ def safe_page(html, url):
                     input_tag['placeholder'] = field.get('placeholder') or field['label']
                     label.append(input_tag)
                     form.append(label)
-                note = soup.new_tag('p')
-                note.string = 'Opens your email application. Nothing is sent automatically.' if english else 'Abre tu aplicación de correo. No se envía automáticamente.'
-                form.append(note)
                 button = soup.new_tag('button', attrs={'type': 'submit', 'class': 'theme-button'})
-                button.string = 'Prepare email' if english else 'Preparar correo'
+                button.string = next((f['label'] for f in fields if f['type']=='submit'), 'Submit' if english else 'Enviar')
                 form.append(button)
                 wrap.clear()
                 wrap.append(form)
@@ -95,6 +99,10 @@ def safe_page(html, url):
         tag.decompose()
     for tag in soup.select('input[name*="nonce"], input[name^="_wpcf7"]'):
         tag.decompose()
+    # Keep a single original footer; never append an additional footer component.
+    footers = soup.select('footer#footer')
+    for footer in footers[1:]:
+        footer.decompose()
     for tag in soup.select('meta[name="robots"]'):
         tag.decompose()
     if soup.head:
@@ -107,6 +115,7 @@ def safe_page(html, url):
 def main():
     OUT.mkdir(exist_ok=True)
     ARCHIVE.mkdir(exist_ok=True)
+    RAW.mkdir(exist_ok=True)
     sitemap = get(BASE + '/wp-sitemap.xml')
     queue = {BASE + '/', BASE + '/en/'}
     for child in re.findall(r'<loc>(.*?)</loc>', sitemap.text):
@@ -128,6 +137,8 @@ def main():
             seen.add(url)
             if r is None: continue
             html = r.content.decode('utf-8', errors='replace')
+            import hashlib
+            (RAW / (hashlib.sha256(url.encode()).hexdigest() + '.html')).write_text(html)
             soup = BeautifulSoup(html, 'html.parser', on_duplicate_attribute='ignore')
             path = unquote(urlsplit(url).path)
             if path != '/' and not path.endswith('/'):
@@ -174,6 +185,7 @@ def main():
         print(f'Assets: {len(assets)}, remaining: {len(pending_assets - downloaded)}', flush=True)
     (ARCHIVE / 'pages.json').write_text(json.dumps(pages, ensure_ascii=False, indent=2))
     (ARCHIVE / 'crawl-report.json').write_text(json.dumps({'pages': len(pages), 'assets': len(assets), 'failures': failures, 'technical_popup_urls': technical, 'assets_inventory': assets}, ensure_ascii=False, indent=2))
+    (ARCHIVE / 'clone-html.json').write_text(json.dumps({route:(OUT/route.lstrip('/')/'index.html').read_text() for route in pages}, ensure_ascii=False, indent=2))
     print(f'Finished: {len(pages)} pages, {len(assets)} assets, {len(failures)} failed downloads')
 
 if __name__ == '__main__': main()

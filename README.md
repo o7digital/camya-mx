@@ -1,6 +1,6 @@
-# CAMYA
+# CAMYA — clone du site public pour validation
 
-Public static reproduction of http://www.camya.mx/, followed by the supplied CAMYA redesign.
+Cette branche reproduit uniquement http://www.camya.mx/ : ses pages, textes, menus, styles, images, langues et URL. Aucun fichier de la nouvelle maquette n'est utilisé. Le nouveau design est conservé dans l'historique Git et attend la validation du clone.
 
 ```sh
 npm ci
@@ -9,14 +9,10 @@ npm run dev
 npm test
 ```
 
-No WordPress server, administration, database, client DNS or domain is modified. Public assets are local. Forms prepare mail in the user's mail application and never claim a successful submission.
+Les ressources sont locales et le WordPress/DNS du client reste intact. Les formulaires ont l'apparence originale, mais leur backend d'envoi n'est pas connecté. Toute tentative d'envoi l'indique sans annoncer de succès.
 
-The public route inventory and original content are in `archive/pages.json`. Crawl results are in `archive/crawl-report.json`. Visual comparisons at 390, 768 and 1440 pixels are in `verification/clone/`.
+Pour actualiser la copie depuis le site public : installer `requirements.txt`, exécuter `node scripts/capture-forms.cjs`, puis `python scripts/crawl.py`. Les champs rendus sont capturés depuis les pages d'origine, sans jetons serveur.
 
-The initial clone is preserved in its own commit and tag `camya-original-clone`. The Vercel demonstration serves `dist/`, with noindex/nofollow in the HTML and HTTP headers.
+`node scripts/audit-clone.mjs` compare chaque URL à l'original en 390 et 1440 px, avec captures appariées et différences de pixels. Les rapports sont dans `verification/clone-complete/`.
 
-Demo URLs: original clone at https://camya-mx-clone.vercel.app/ and redesigned site at https://camya-mx.vercel.app/.
-
-The ZIP reference is retained in `reference-new-design/`. Its stylesheet and images are copied unchanged. `scripts/redesign.py` renders all routes from the sanitized clone saved in `archive/clone-html.json`; install `requirements.txt` to rerun it. The browser tests verify original paragraphs, page headings, practice items, full biographies, both languages and every route at 390, 768 and 1440 pixels.
-
-The homepage keeps the ZIP composition, with full-page navigation, a link to the complete team, full-profile links in the dialogs and the original job-title form field. The original homepage copy is accessible in “Más sobre CAMYA” / “More about CAMYA”. Full original legal notices remain at their existing URLs.
+Aperçu du clone : https://camya-mx.vercel.app/

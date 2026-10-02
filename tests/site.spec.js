@@ -30,14 +30,6 @@ for (const width of [390,768,1440]) {
 test('mobile menu opens, links preserve full routes and language pairs',async({page})=>{
   await page.setViewportSize({width:390,height:900});
   await page.goto('/');
-  if (await page.locator('#menu').count()) {
-    await page.locator('#menu').click();
-    await expect(page.locator('#navigation')).toBeVisible();
-    await page.locator('#navigation a[href="/la-firma/"]').click();
-    await expect(page).toHaveURL(/\/la-firma\/$/);
-    await page.locator('#language').click();
-    await expect(page).toHaveURL(/\/en\/the-firm\/$/);
-  } else {
     await page.locator('.mobile-menu-toggle').first().click();
     await expect(page.locator('#sidr-main')).toBeVisible();
     await page.locator('#sidr-main a[href="/la-firma/"]').first().click();
@@ -46,5 +38,4 @@ test('mobile menu opens, links preserve full routes and language pairs',async({p
     await expect(page.locator('#sidr-main a[hreflang="en-US"]')).toBeInViewport({ratio:1});
     await page.locator('#sidr-main a[hreflang="en-US"]').click();
     await expect(page).toHaveURL(/\/en\/the-firm\/$/);
-  }
 });

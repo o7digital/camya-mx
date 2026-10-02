@@ -3,16 +3,16 @@
   "assets": 237,
   "failures": [
     {
+      "url": "http://www.camya.mx/terminos-y-condiciones/www.camya.mx%20",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/terminos-y-condiciones/www.camya.mx"
+    },
+    {
       "url": "http://www.camya.mx/aviso-de-privacidad/www.camya.mx%20",
       "error": "404 Client Error: Not Found for url: http://www.camya.mx/aviso-de-privacidad/www.camya.mx"
     },
     {
       "url": "http://www.camya.mx/aviso-de-privacidad/www.camya.mx.%20",
       "error": "404 Client Error: Not Found for url: http://www.camya.mx/aviso-de-privacidad/www.camya.mx"
-    },
-    {
-      "url": "http://www.camya.mx/terminos-y-condiciones/www.camya.mx%20",
-      "error": "404 Client Error: Not Found for url: http://www.camya.mx/terminos-y-condiciones/www.camya.mx"
     },
     {
       "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/js/",
@@ -27,12 +27,12 @@
       "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+c.src+"
     },
     {
-      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+",
-      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+"
-    },
-    {
       "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[d].src+",
       "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t%5Be%5D.thumbs%5Bd%5D.src+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+"
     },
     {
       "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[c].src+",
