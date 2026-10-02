@@ -87,9 +87,9 @@ body.camya-home-refresh {
 .camya-hero {
   position: relative;
   isolation: isolate;
-  min-height: 630px;
+  min-height: max(630px, calc(100svh - 88px));
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background: var(--camya-navy);
   color: #fff;
 }
@@ -185,7 +185,7 @@ body.camya-home-refresh {
   .camya-menu-toggle {display: flex; flex-direction: column; justify-content: center; gap: 5px; min-width: 40px; min-height: 44px; padding: 8px; background: none; border: 0; color: #fff}
   .camya-menu-toggle:hover {background: #ffffff1a}
   .camya-menu-toggle span {display: block; width: 24px; height: 2px; background: currentColor}
-  .camya-hero {min-height: 560px}
+  .camya-hero {min-height: max(560px, calc(100svh - 76px))}
   .camya-hero-content {padding-block: 56px}
 }
 @media (max-width: 600px) {
@@ -197,7 +197,7 @@ body.camya-home-refresh {
   .camya-home-refresh .camya-consult {font-size: 12px; padding: 9px 12px; min-height: 40px}
   .camya-menu-toggle {min-width: 36px; padding-inline: 6px}
   .camya-navigation {padding-inline: 20px; max-height: calc(100svh - 72px)}
-  .camya-hero {min-height: 535px}
+  .camya-hero {min-height: max(535px, calc(100svh - 72px))}
   .camya-hero-image {object-position: 60% center}
   .camya-hero-content {padding-block: 58px 64px}
   .camya-hero-logo {width: 253px; margin-bottom: 32px}
