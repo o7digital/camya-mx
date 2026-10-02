@@ -16,6 +16,14 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await page.goto(copy.route);
       await page.evaluate(() => document.fonts.ready);
       await expect(page.locator('h1')).toHaveText(copy.title);
+      if (width >= 1024) {
+        const lines = await page.locator('h1').evaluate(title => {
+          const range = document.createRange();
+          range.selectNodeContents(title);
+          return range.getClientRects().length;
+        });
+        expect(lines).toBe(1);
+      }
       await expect(page.locator('.camya-hero-description')).toHaveText(copy.subtitle);
       await expect(page.locator('#home-navigation a')).toHaveText(copy.labels);
       await expect(page.locator('.camya-language')).toHaveAttribute('href', copy.language);

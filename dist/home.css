@@ -109,6 +109,15 @@ body.camya-home-refresh {
 }
 .camya-hero-description {max-width: 570px; margin: 28px 0 0; font-size: 18px; line-height: 1.75; font-weight: 400}
 
+@media (min-width: 1024px) {
+  .camya-hero h1 {
+    max-width: none;
+    font-size: clamp(32px, 3.5vw, 50px);
+    white-space: nowrap;
+    text-wrap: nowrap;
+  }
+}
+
 .camya-recognition {padding: 38px 0 48px; background: var(--camya-blue)}
 .camya-recognition h2 {margin: 0 0 24px; text-align: center; color: #fff; font-size: 13px; font-weight: 700; line-height: 1.4; letter-spacing: 0.18em}
 .camya-recognition-capsule {

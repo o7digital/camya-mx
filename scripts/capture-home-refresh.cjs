@@ -17,6 +17,7 @@ const fs = require('node:fs');
       });
       await page.goto(origin + route);
       await page.evaluate(async () => {
+        for (const img of document.images) img.loading = 'eager';
         for (let y = 0; y < document.body.scrollHeight; y += 700) {
           scrollTo({top: y, behavior: 'instant'});
           await new Promise(resolve => setTimeout(resolve, 30));
@@ -28,6 +29,9 @@ const fs = require('node:fs');
           new Promise(resolve => setTimeout(resolve, 1500)),
         ]);
       });
+      await page.waitForFunction(() => [...document.images].every(img =>
+        !img.checkVisibility() || (img.complete && img.naturalWidth > 0)
+      ));
       await page.waitForTimeout(350);
       const file = `${language}-${width}.png`;
       await page.screenshot({path: `${folder}/${file}`, fullPage: true, animations: 'disabled'});

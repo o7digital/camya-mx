@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "sha256": "3ad48a50dfabbe117f6ab60529791a6879568f31a5479f158d1122b31a9f0e8f"
+  },
+  {
+    "route": "/en/home/",
+    "status": 200,
+    "sha256": "cd887c72c91cf139660f16a65a2809f026b1586eacce3114e2d41c22e2ddba50"
+  },
+  {
+    "route": "/home.css",
+    "status": 200,
+    "sha256": "f737f209742dc0157a1612e1c36a58775322ff5981b0a6f2c9ac897c128b1aff"
+  }
+]

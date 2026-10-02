@@ -6,6 +6,8 @@ Le header utilise le dégradé demandé et le logo CAMYA original `wp-content/up
 
 Le bandeau logo/menu est ensuite ajusté à la référence du client : hauteur de 88 px sur ordinateur, 76 px sur tablette et 72 px sur téléphone, diagonale de 126° avec bande de transition bordeaux, logo original et navigation répartie sur la même ligne. La barre de coordonnées et réseaux sociaux d'origine est déplacée dans le footer existant pour commencer directement par le header. Le menu mobile reste accessible sous 1280 px et la version anglaise conserve son accès. Les boutons du hero restent supprimés.
 
+À la demande du client, le titre du hero est affiché sur une seule ligne à partir de 1024 px, avec une taille proportionnelle à la largeur (32 à 50 px). Le titre anglais utilise la même règle. Sur téléphone et tablette, les retours à la ligne et les tailles lisibles restent conservés.
+
 | Menu espagnol | Destination |
 | --- | --- |
 | Inicio | `/` |
