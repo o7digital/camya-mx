@@ -1,0 +1,41 @@
+{
+  "preview": "https://camya-4nutkw5lt-olivier-steineur.vercel.app",
+  "commit": "fb10cc5",
+  "checkedAt": "2026-10-02T05:22:00.560Z",
+  "tests": {
+    "localChromium": 18,
+    "localWebKit": 7,
+    "publicPreview": 5
+  },
+  "production": {
+    "deployment": "camya-lf7h7blva-olivier-steineur.vercel.app",
+    "codeCommit": "7c427db",
+    "updatedByThisTask": false,
+    "pages": [
+      {
+        "route": "/",
+        "status": 200,
+        "sha256": "cfe16bb5bd4aee349c2764284634c55d7f7ec45cac02142e42fb6e49545bb25c",
+        "matchesPreviouslyPublishedCommit": true
+      },
+      {
+        "route": "/en/home/",
+        "status": 200,
+        "sha256": "06fbcc3c956f0a094c1a6521837f5f93b00289bdd2e269fa17dbb9daae0ed677",
+        "matchesPreviouslyPublishedCommit": true
+      },
+      {
+        "route": "/clone-support.css",
+        "status": 200,
+        "sha256": "89769df5b8e5bac33beecfd88a9e7eae263aa879e2db3035de7096c5071075b3",
+        "matchesPreviouslyPublishedCommit": true
+      }
+    ]
+  },
+  "publicRoutes": 79,
+  "captures": {
+    "origin": "https://camya-4nutkw5lt-olivier-steineur.vercel.app",
+    "count": 10,
+    "issues": []
+  }
+}

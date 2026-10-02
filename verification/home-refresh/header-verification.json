@@ -1,0 +1,59 @@
+{
+  "preview": "https://camya-l6iyut6ti-olivier-steineur.vercel.app",
+  "commit": "4ba29fa",
+  "checkedAt": "2026-10-02T05:33:22.018Z",
+  "production": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "3ad48a50dfabbe117f6ab60529791a6879568f31a5479f158d1122b31a9f0e8f",
+      "afterStatus": 200,
+      "afterSha256": "3ad48a50dfabbe117f6ab60529791a6879568f31a5479f158d1122b31a9f0e8f",
+      "unchanged": true
+    },
+    {
+      "route": "/en/home/",
+      "status": 200,
+      "sha256": "cd887c72c91cf139660f16a65a2809f026b1586eacce3114e2d41c22e2ddba50",
+      "afterStatus": 200,
+      "afterSha256": "cd887c72c91cf139660f16a65a2809f026b1586eacce3114e2d41c22e2ddba50",
+      "unchanged": true
+    },
+    {
+      "route": "/home.css",
+      "status": 200,
+      "sha256": "f737f209742dc0157a1612e1c36a58775322ff5981b0a6f2c9ac897c128b1aff",
+      "afterStatus": 200,
+      "afterSha256": "f737f209742dc0157a1612e1c36a58775322ff5981b0a6f2c9ac897c128b1aff",
+      "unchanged": true
+    }
+  ],
+  "tests": {
+    "localChromium": 18,
+    "localWebKit": 7,
+    "publicPreview": 5
+  },
+  "extraHeaderWidths": [
+    1279,
+    1280,
+    1366,
+    1440
+  ],
+  "heroButtonsRestored": false,
+  "captures": {
+    "origin": "https://camya-l6iyut6ti-olivier-steineur.vercel.app",
+    "widths": [
+      375,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "languages": [
+      "es",
+      "en"
+    ],
+    "count": 10,
+    "issues": []
+  }
+}

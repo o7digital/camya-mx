@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "sha256": "5aeb8209d3705c0f3fda66f199de405d102199a663ca64c3eef316589decdcfc"
+  },
+  {
+    "route": "/en/home/",
+    "status": 200,
+    "sha256": "60f69053cf67e62e502998e895c21b63e81cacfce7033184d97899e7cefd7102"
+  },
+  {
+    "route": "/clone-support.css",
+    "status": 200,
+    "sha256": "89769df5b8e5bac33beecfd88a9e7eae263aa879e2db3035de7096c5071075b3"
+  }
+]

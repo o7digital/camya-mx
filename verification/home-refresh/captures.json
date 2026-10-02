@@ -1,0 +1,112 @@
+[
+  {
+    "route": "/",
+    "language": "es",
+    "width": 375,
+    "file": "es-375.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/en/home/",
+    "language": "en",
+    "width": 375,
+    "file": "en-375.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/",
+    "language": "es",
+    "width": 390,
+    "file": "es-390.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/en/home/",
+    "language": "en",
+    "width": 390,
+    "file": "en-390.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/",
+    "language": "es",
+    "width": 430,
+    "file": "es-430.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/en/home/",
+    "language": "en",
+    "width": 430,
+    "file": "en-430.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/",
+    "language": "es",
+    "width": 768,
+    "file": "es-768.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/en/home/",
+    "language": "en",
+    "width": 768,
+    "file": "en-768.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/",
+    "language": "es",
+    "width": 1440,
+    "file": "es-1440.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  },
+  {
+    "route": "/en/home/",
+    "language": "en",
+    "width": 1440,
+    "file": "en-1440.png",
+    "errors": [],
+    "failedResponses": [],
+    "overflow": false,
+    "missingImages": [],
+    "footerCount": 1
+  }
+]

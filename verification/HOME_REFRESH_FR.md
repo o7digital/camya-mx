@@ -1,0 +1,60 @@
+# Accueil ES/EN — prévisualisation sur dev
+
+Cette adaptation part du clone et de sa correction mobile validés (`3d4412f`). Seuls `/`, `/en/` et `/en/home/` changent. Les 76 autres URL conservent leurs fichiers HTML. Les anciens paragraphes et titres du hero sont déplacés sous les reconnaissances sans réécriture ; les services, profils, biographies, actualités, contact et mentions restent disponibles.
+
+Le header utilise le dégradé demandé et le logo CAMYA original `wp-content/uploads/2026/10/logoblanco_nvo.svg`. Les textes espagnols du hero sont ceux du brief, avec traduction anglaise fidèle. À la demande du client, les boutons « Nuestros Servicios » et « Conócenos », ainsi que leurs équivalents anglais, ont été retirés du hero. Les pages d'áreas de práctica et de La Firma restent accessibles depuis le menu.
+
+Le bandeau logo/menu est ensuite ajusté à la référence du client : hauteur de 88 px sur ordinateur, 76 px sur tablette et 72 px sur téléphone, diagonale de 126° avec bande de transition bordeaux, logo original et navigation répartie sur la même ligne. La barre de coordonnées et réseaux sociaux d'origine est déplacée dans le footer existant pour commencer directement par le header. Le menu mobile reste accessible sous 1280 px et la version anglaise conserve son accès. Les boutons du hero restent supprimés.
+
+À la demande du client, le titre du hero est affiché sur une seule ligne à partir de 1024 px, avec une taille proportionnelle à la largeur (32 à 50 px). Le titre anglais utilise la même règle. Sur téléphone et tablette, les retours à la ligne et les tailles lisibles restent conservés.
+
+Le titre espagnol est ensuite agrandi de **20 % sur ordinateur** : 38,4 à 60 px, toujours sur une seule ligne. Contrôle à 1024, 1180, 1280, 1366, 1440 et 1920 px : augmentation exacte de 20 %, aucun débordement. Les tailles mobiles sont conservées.
+
+Le sous-titre ES/EN est également sur une seule ligne à partir de 1024 px, en utilisant la largeur disponible et une taille de 14 à 18 px. Les tailles et retours à la ligne mobiles sont conservés.
+
+Le titre et le sous-titre sont centrés horizontalement sur ordinateur et mobile, sur les accueils ES/EN. Le titre espagnol conserve son augmentation de 20 % et les deux textes gardent chacun une ligne sur ordinateur. Le client demande ensuite de fusionner `dev` dans `main`.
+
+| Menu espagnol | Destination |
+| --- | --- |
+| Inicio | `/` |
+| Servicios | `/areas-de-practica/` |
+| Nosotros | `/la-firma/` |
+| Sectores | `/areas-de-practica/#content` |
+| Equipo | `/equipo/` |
+| Contacto / Consulta | `/#contacto` |
+
+Les équivalents anglais utilisent les URL originales `/en/home/`, `/en/pratic-areas/`, `/en/the-firm/` et `/en/team/`. « Sectores » utilise la liste existante, notamment Agrario, Energía, Petróleo y Gas, Inmobiliario et Minero. Aucune page ni texte de secteur n'est inventé.
+
+## Images et typographie
+
+- La montagne provient de `CAMYA_Mockup_Code-2.zip`, fichier `dist/assets/hero-montanas.webp`, copié sans modification.
+- Les trois marques sont remplacées par les JPEG fournis dans Downloads : `WhatsApp Image 2026-10-01 at 23.59.29.jpeg` (Chambers), `23.59.45.jpeg` (WWL) et `23.59.54.jpeg` (Legal 500). Les fichiers sont copiés sans modification dans `dist/home-assets/`. Ils sont affichés entiers, sans filtre ni découpage, dans l'ordre demandé **Chambers, WWL, Legal 500**, sur les accueils ES/EN. Le visuel original du clone reste disponible sur ses autres pages.
+- Inter variable est hébergé localement, avec sa licence SIL OFL, depuis le dépôt officiel `rsms/inter`.
+
+## Vérifications
+
+Les contrôles couvrent 375, 390, 430, 768 et 1440 px : textes, gradients, images, ordre des marques, absence de débordement, bouton Consulta, liens des boutons, menu mobile, fermeture par Échap, accès aux langues et pied de page unique. Le test anglais contrôle aussi les petits écrans à 320 px et l'absence de chevauchement du logo. Le formulaire conserve son état explicite sans backend d'envoi.
+
+Les captures ES/EN sont réunies dans [la galerie](home-refresh/index.html), avec [le relevé des captures](home-refresh/captures.json). Le build vérifie les 79 routes et leurs ressources locales. Les tests de préservation vérifient tous les paragraphes, titres et listes d'origine, ainsi que les profils et interactions du clone.
+
+Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests WebKit réussis** avec le profil iPhone 13. Les 10 captures (5 largeurs × 2 langues) ne présentent aucune erreur JavaScript, image manquante, réponse HTTP en erreur ni débordement horizontal. Chaque accueil conserve un seul footer. La comparaison binaire confirme les 76 pages intérieures inchangées, les corrections mobiles et les fichiers de logos originaux intacts : [preuve de préservation](home-refresh/preservation.json).
+
+## Publication
+
+Prévisualisation publique actuelle, avec les logos fournis dans l'ordre Chambers, WWL, Legal 500 : [accueil espagnol](https://camya-ahusiminf-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-ahusiminf-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `e3be608` sur `dev`. Le titre espagnol conserve son augmentation de 20 % et le sous-titre reste sur une ligne sur ordinateur.
+
+Le remplacement des logos passe les 18 tests Chromium locaux, 5 tests WebKit et 5 tests de prévisualisation. Les 10 captures proviennent de cette URL. Les trois fichiers déployés sont strictement identiques aux fichiers fournis dans Downloads : [contrôle des logos](home-refresh/supplied-logos-verification.json).
+
+Cette correction passe les 18 tests Chromium locaux, 7 tests WebKit et 5 tests sur l'URL publique. Les titres ES/EN restent sur une ligne à 1024, 1180, 1280, 1366, 1440 et 1920 px, sans débordement. Les 10 captures sont renouvelées. L'API Vercel indique une promotion séparée de cette prévisualisation en production à 23 h 48 (`source: redeploy`, `meta.action: promote`). Cette session a lancé uniquement `vercel deploy` en preview. [Relevé de livraison](home-refresh/desktop-title-verification.json).
+
+La correction du header passe les 5 tests publics ES/EN aux largeurs demandées. Les captures sont renouvelées depuis cette URL. Les largeurs de transition 1279, 1280 et 1366 px sont aussi contrôlées pour exclure tout chevauchement des liens. La production reste identique à son état avant cette correction : [contrôle du header](home-refresh/header-verification.json).
+
+La branche `dev` est poussée et déployée en **preview**, sans `--prod`. Les empreintes du clone initial sont conservées dans [production-baseline.json](home-refresh/production-baseline.json) comme relevé historique avant adaptation de l'accueil.
+
+Lors de la livraison initiale du nouvel accueil, les empreintes des deux accueils et de la CSS mobile de `camya-mx.vercel.app` étaient identiques au clone : [contrôle initial de production](home-refresh/preview-verification.json).
+
+Après retrait des boutons, **5 tests publics réussis** confirment les cinq largeurs, les deux langues, l'absence de liens dans le hero et les menus. Les 10 captures sont renouvelées depuis cette prévisualisation, sans image manquante, erreur ni débordement. Les tests locaux restent tous réussis (18 Chromium, 7 WebKit).
+
+La production avait entre-temps été mise à jour vers un déploiement créé à 23 h 09, contenant le commit `7c427db`. Cette correction n'y intervient pas : elle reste en prévisualisation. Le [relevé de cette correction](home-refresh/hero-buttons-removal.json) vérifie les 79 routes publiques et que la production conserve ce contenu précédemment publié.
+
+Le site Vercel conserve sa directive noindex. Le client demande maintenant de centrer les deux lignes du hero puis de fusionner `dev` dans `main`. Cette livraison est déployée en production Vercel après les vérifications. Les DNS et le WordPress du client ne sont pas modifiés.

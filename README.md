@@ -1,20 +1,21 @@
-# CAMYA — clone du site public pour validation
+# CAMYA — site bilingue
 
-Cette branche reproduit uniquement http://www.camya.mx/ : ses pages, textes, menus, styles, images, langues et URL. Aucun fichier de la nouvelle maquette n'est utilisé. Le nouveau design est conservé dans l'historique Git et attend la validation du clone.
+Le clone et sa correction mobile ont été validés. L'accueil espagnol et anglais est adapté selon les corrections client : header framboise/bleu, image montagne fournie, titre et sous-titre centrés sur une seule ligne sur ordinateur, titre espagnol agrandi de 20 %, boutons du hero retirés, reconnaissances avec les fichiers fournis dans l'ordre Chambers, WWL, Legal 500.
 
-À la demande du client, l'accueil anglais possède une correction responsive sous 1024 px : titre lisible et espacement sous le logo. Voir [la vérification mobile](verification/ENGLISH_MOBILE_FR.md).
+Les 79 URL, les biographies, les contenus et le formulaire du clone sont conservés. Les anciens textes du hero restent sous les reconnaissances. « Sectores » renvoie aux domaines existants dans les áreas de práctica ; aucune page ni texte de secteur n'est ajouté. L'accueil anglais reste lisible sur mobile, sans chevauchement du logo.
 
 ```sh
 npm ci
 npm run build
 npm run dev
 npm test
+npx playwright test --config=playwright.mobile.config.js
 ```
 
 Les ressources sont locales et le WordPress/DNS du client reste intact. Les formulaires ont l'apparence originale, mais leur backend d'envoi n'est pas connecté. Toute tentative d'envoi l'indique sans annoncer de succès.
 
-Pour actualiser la copie depuis le site public : installer `requirements.txt`, exécuter `node scripts/capture-forms.cjs`, puis `python scripts/crawl.py`. Les champs rendus sont capturés depuis les pages d'origine, sans jetons serveur.
+`scripts/refresh-home.py` applique le brief à l'archive du clone validé, avec BeautifulSoup dans `requirements.txt`. Il modifie uniquement `/`, `/en/` et `/en/home/`. Un nouveau passage du collecteur `scripts/crawl.py` remplace l'export : réappliquer le brief ensuite si nécessaire.
 
-`node scripts/audit-clone.mjs` compare chaque URL à l'original en 390 et 1440 px, avec captures appariées et différences de pixels. Les rapports sont dans `verification/clone-complete/`.
+Les captures et contrôles de l'accueil sont dans `verification/home-refresh/`. Les comparaisons du clone avant adaptation restent dans `verification/clone-complete/`.
 
-Aperçu du clone : https://camya-mx.vercel.app/
+`dev` reste la branche de travail. À la demande du client, la version centrée est fusionnée dans `main`, créée à partir du clone sauvegardé sur `backup` (`3d4412f`). La production Vercel utilise https://camya-mx.vercel.app/. Les previews utilisent `vercel deploy --yes --scope olivier-steineur` ; les versions validées sur `main` utilisent `vercel deploy --prod --yes --scope olivier-steineur`.

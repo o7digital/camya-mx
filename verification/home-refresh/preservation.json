@@ -1,0 +1,11 @@
+{
+  "unchanged_interior_routes": 76,
+  "all_unchanged": true,
+  "mobile_correction_css_unchanged": true,
+  "asset_sha256": {
+    "dist/home-assets/hero-montanas.webp": "f137fdb104a37b6afa3d313f4acacc87c63539cb6bc89853555cd79b7be703ae",
+    "dist/wp-content/uploads/2026/10/logoblanco_nvo.svg": "573b3b5fe2f6fdedf18660031735e6022c27c16f252954dd24cc145e94f9f88a",
+    "dist/wp-content/uploads/2026/10/logos-white_3.png": "8513854481f64d4a138d8c3c087ae2c0a78f5907eee1a33d0a8b2682a5a8b590",
+    "dist/home-assets/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+  }
+}
