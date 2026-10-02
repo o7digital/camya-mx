@@ -1,0 +1,1004 @@
+{
+  "pages": 79,
+  "assets": 237,
+  "failures": [
+    {
+      "url": "http://www.camya.mx/aviso-de-privacidad/www.camya.mx%20",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/aviso-de-privacidad/www.camya.mx"
+    },
+    {
+      "url": "http://www.camya.mx/aviso-de-privacidad/www.camya.mx.%20",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/aviso-de-privacidad/www.camya.mx"
+    },
+    {
+      "url": "http://www.camya.mx/terminos-y-condiciones/www.camya.mx%20",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/terminos-y-condiciones/www.camya.mx"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/js/",
+      "error": "403 Client Error: Forbidden for url: http://www.camya.mx/wp-content/plugins/ninja-forms/assets/js/"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/js/dist/+parallaxImage+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/js_composer/assets/js/dist/+parallaxImage+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+c.src+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+c.src+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+o.poster+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[d].src+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t%5Be%5D.thumbs%5Bd%5D.src+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[c].src+",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t%5Be%5D.thumbs%5Bc%5D.src+"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[o].thumbs[a.index(",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t%5Bo%5D.thumbs%5Ba.index"
+    },
+    {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t[r].thumbs[a.index(",
+      "error": "404 Client Error: Not Found for url: http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+t%5Br%5D.thumbs%5Ba.index"
+    }
+  ],
+  "technical_popup_urls": [
+    "http://www.camya.mx/popupbuilder/aviso-2/",
+    "http://www.camya.mx/popupbuilder/aviso-2-2/"
+  ],
+  "assets_inventory": {
+    "/wp-content/plugins/contact-form-7/includes/css/styles.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/contact-form-7/includes/css/styles.css",
+      "bytes": 2894
+    },
+    "/wp-content/plugins/contact-form-7/includes/js/index.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/contact-form-7/includes/js/index.js",
+      "bytes": 13182
+    },
+    "/wp-content/plugins/contact-form-7/includes/swv/js/index.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
+      "bytes": 11117
+    },
+    "/wp-content/plugins/js_composer/assets/css/js_composer.min.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/css/js_composer.min.css",
+      "bytes": 464841
+    },
+    "/wp-content/plugins/js_composer/assets/css/js_composer_tta.min.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/css/js_composer_tta.min.css",
+      "bytes": 273142
+    },
+    "/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js",
+      "bytes": 20757
+    },
+    "/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js",
+      "bytes": 12834
+    },
+    "/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min.js",
+      "bytes": 2545
+    },
+    "/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min.js",
+      "bytes": 11030
+    },
+    "/wp-content/plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min.js",
+      "bytes": 4168
+    },
+    "/wp-content/plugins/ninja-forms/assets/css/display-opinions-light.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/css/display-opinions-light.css",
+      "bytes": 44782
+    },
+    "/wp-content/plugins/ninja-forms/assets/css/font-awesome.min.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/css/font-awesome.min.css",
+      "bytes": 27466
+    },
+    "/wp-content/plugins/ninja-forms/assets/js/min/front-end-deps.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/js/min/front-end-deps.js",
+      "bytes": 64334
+    },
+    "/wp-content/plugins/ninja-forms/assets/js/min/front-end.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/js/min/front-end.js",
+      "bytes": 103898
+    },
+    "/wp-content/plugins/revslider/public/assets/css/rs6.css": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/css/rs6.css",
+      "bytes": 58068
+    },
+    "/wp-content/plugins/revslider/public/assets/js/rbtools.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/rbtools.min.js",
+      "bytes": 121177
+    },
+    "/wp-content/plugins/revslider/public/assets/js/rs6.min.js": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/rs6.min.js",
+      "bytes": 290635
+    },
+    "/wp-content/themes/Total/assets/css/frontend/header/overlay.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/css/frontend/header/overlay.css",
+      "bytes": 3911
+    },
+    "/wp-content/themes/Total/assets/css/frontend/wpbakery.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/css/frontend/wpbakery.css",
+      "bytes": 22025
+    },
+    "/wp-content/themes/Total/assets/css/vcex-shortcodes.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/css/vcex-shortcodes.css",
+      "bytes": 20247
+    },
+    "/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-max.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-max.css",
+      "bytes": 3012
+    },
+    "/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-min.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-min.css",
+      "bytes": 642
+    },
+    "/wp-content/themes/Total/assets/js/frontend/core.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/core.min.js",
+      "bytes": 47904
+    },
+    "/wp-content/themes/Total/assets/js/frontend/mobile-menu/sidr.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/mobile-menu/sidr.min.js",
+      "bytes": 15374
+    },
+    "/wp-content/themes/Total/assets/js/frontend/social-share.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/social-share.min.js",
+      "bytes": 1770
+    },
+    "/wp-content/themes/Total/assets/js/frontend/wp/comment-reply.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/wp/comment-reply.min.js",
+      "bytes": 2648
+    },
+    "/wp-content/themes/Total/assets/js/frontend/wpbakery/vc_accordion-events.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/wpbakery/vc_accordion-events.min.js",
+      "bytes": 483
+    },
+    "/wp-content/themes/Total/assets/js/frontend/wpbakery/vc_tabs-accessibility.min.js": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/js/frontend/wpbakery/vc_tabs-accessibility.min.js",
+      "bytes": 1630
+    },
+    "/wp-content/themes/Total/assets/lib/hover-css/hover-css.min.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/hover-css/hover-css.min.css",
+      "bytes": 14369
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/css/ticons.min.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/css/ticons.min.css",
+      "bytes": 31897
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.woff2": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.woff2",
+      "bytes": 82684
+    },
+    "/wp-content/themes/Total/style.css": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/style.css",
+      "bytes": 249331
+    },
+    "/wp-content/uploads/2018/09/anticorrupcion-300x172.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/anticorrupcion-300x172.jpg",
+      "bytes": 12818
+    },
+    "/wp-content/uploads/2018/09/anticorrupcion.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/anticorrupcion.jpg",
+      "bytes": 65333
+    },
+    "/wp-content/uploads/2018/09/newlatter-300x141.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/newlatter-300x141.jpg",
+      "bytes": 10308
+    },
+    "/wp-content/uploads/2018/09/newlatter-768x362.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/newlatter-768x362.jpg",
+      "bytes": 36250
+    },
+    "/wp-content/uploads/2018/09/newlatter.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/newlatter.jpg",
+      "bytes": 59863
+    },
+    "/wp-content/uploads/2018/09/seguridad-informatica-tecalsa-300x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/seguridad-informatica-tecalsa-300x150.jpg",
+      "bytes": 15783
+    },
+    "/wp-content/uploads/2018/09/seguridad-informatica-tecalsa.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/09/seguridad-informatica-tecalsa.jpg",
+      "bytes": 54056
+    },
+    "/wp-content/uploads/2018/10/carlos-150x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/carlos-150x150.jpg",
+      "bytes": 4815
+    },
+    "/wp-content/uploads/2018/10/carlos.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/carlos.jpg",
+      "bytes": 19086
+    },
+    "/wp-content/uploads/2018/10/fabis-150x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/fabis-150x150.jpg",
+      "bytes": 5452
+    },
+    "/wp-content/uploads/2018/10/fabis.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/fabis.jpg",
+      "bytes": 21707
+    },
+    "/wp-content/uploads/2018/10/ilian-150x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/ilian-150x150.jpg",
+      "bytes": 3827
+    },
+    "/wp-content/uploads/2018/10/ilian.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/ilian.jpg",
+      "bytes": 13852
+    },
+    "/wp-content/uploads/2018/10/jacob-150x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/jacob-150x150.jpg",
+      "bytes": 4783
+    },
+    "/wp-content/uploads/2018/10/jacob.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/jacob.jpg",
+      "bytes": 17772
+    },
+    "/wp-content/uploads/2018/10/julicesar-150x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/julicesar-150x150.jpg",
+      "bytes": 4579
+    },
+    "/wp-content/uploads/2018/10/julicesar.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2018/10/julicesar.jpg",
+      "bytes": 18434
+    },
+    "/wp-content/uploads/2020/12/CAMYANEWS-300x150.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2020/12/CAMYANEWS-300x150.jpg",
+      "bytes": 8832
+    },
+    "/wp-content/uploads/2020/12/CAMYANEWS.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2020/12/CAMYANEWS.jpg",
+      "bytes": 56416
+    },
+    "/wp-content/uploads/2021/10/fot-barbara-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-barbara-100x100.png",
+      "bytes": 12944
+    },
+    "/wp-content/uploads/2021/10/fot-barbara-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-barbara-150x150.png",
+      "bytes": 24931
+    },
+    "/wp-content/uploads/2021/10/fot-barbara-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-barbara-300x300.png",
+      "bytes": 82787
+    },
+    "/wp-content/uploads/2021/10/fot-barbara.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-barbara.png",
+      "bytes": 433121
+    },
+    "/wp-content/uploads/2021/10/fot-david-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-david-150x150.png",
+      "bytes": 27043
+    },
+    "/wp-content/uploads/2021/10/fot-david-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-david-300x300.png",
+      "bytes": 95591
+    },
+    "/wp-content/uploads/2021/10/fot-david.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-david.png",
+      "bytes": 498411
+    },
+    "/wp-content/uploads/2021/10/fot-joseluis-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-joseluis-100x100.png",
+      "bytes": 13371
+    },
+    "/wp-content/uploads/2021/10/fot-joseluis-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-joseluis-150x150.png",
+      "bytes": 25679
+    },
+    "/wp-content/uploads/2021/10/fot-joseluis-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-joseluis-300x300.png",
+      "bytes": 87865
+    },
+    "/wp-content/uploads/2021/10/fot-joseluis.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-joseluis.png",
+      "bytes": 467222
+    },
+    "/wp-content/uploads/2021/10/fot-leon-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-leon-150x150.png",
+      "bytes": 29122
+    },
+    "/wp-content/uploads/2021/10/fot-leon-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-leon-300x300.png",
+      "bytes": 103020
+    },
+    "/wp-content/uploads/2021/10/fot-leon.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-leon.png",
+      "bytes": 572437
+    },
+    "/wp-content/uploads/2021/10/fot-lilian-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-lilian-100x100.png",
+      "bytes": 14053
+    },
+    "/wp-content/uploads/2021/10/fot-lilian-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-lilian-150x150.png",
+      "bytes": 27225
+    },
+    "/wp-content/uploads/2021/10/fot-lilian-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-lilian-300x300.png",
+      "bytes": 92670
+    },
+    "/wp-content/uploads/2021/10/fot-lilian.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-lilian.png",
+      "bytes": 479259
+    },
+    "/wp-content/uploads/2021/10/fot-maelisa-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-maelisa-150x150.png",
+      "bytes": 26647
+    },
+    "/wp-content/uploads/2021/10/fot-maelisa-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-maelisa-300x300.png",
+      "bytes": 92540
+    },
+    "/wp-content/uploads/2021/10/fot-maelisa.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-maelisa.png",
+      "bytes": 494851
+    },
+    "/wp-content/uploads/2021/10/fot-omar-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-omar-100x100.png",
+      "bytes": 14474
+    },
+    "/wp-content/uploads/2021/10/fot-omar-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-omar-150x150.png",
+      "bytes": 28097
+    },
+    "/wp-content/uploads/2021/10/fot-omar-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-omar-300x300.png",
+      "bytes": 96446
+    },
+    "/wp-content/uploads/2021/10/fot-omar.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-omar.png",
+      "bytes": 499303
+    },
+    "/wp-content/uploads/2021/10/fot-paula-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-paula-150x150.png",
+      "bytes": 27549
+    },
+    "/wp-content/uploads/2021/10/fot-paula-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-paula-300x300.png",
+      "bytes": 93057
+    },
+    "/wp-content/uploads/2021/10/fot-paula.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-paula.png",
+      "bytes": 461929
+    },
+    "/wp-content/uploads/2021/10/fot-rafael-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rafael-100x100.png",
+      "bytes": 13591
+    },
+    "/wp-content/uploads/2021/10/fot-rafael-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rafael-150x150.png",
+      "bytes": 26537
+    },
+    "/wp-content/uploads/2021/10/fot-rafael-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rafael-300x300.png",
+      "bytes": 95793
+    },
+    "/wp-content/uploads/2021/10/fot-rafael.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rafael.png",
+      "bytes": 545941
+    },
+    "/wp-content/uploads/2021/10/fot-rodgrigo-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rodgrigo-150x150.png",
+      "bytes": 24097
+    },
+    "/wp-content/uploads/2021/10/fot-rodgrigo-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rodgrigo-300x300.png",
+      "bytes": 83689
+    },
+    "/wp-content/uploads/2021/10/fot-rodgrigo.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2021/10/fot-rodgrigo.png",
+      "bytes": 457583
+    },
+    "/wp-content/uploads/2022/03/leoncorbata-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/leoncorbata-100x100.png",
+      "bytes": 13964
+    },
+    "/wp-content/uploads/2022/03/leoncorbata-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/leoncorbata-150x150.png",
+      "bytes": 27570
+    },
+    "/wp-content/uploads/2022/03/leoncorbata-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/leoncorbata-300x300.png",
+      "bytes": 99741
+    },
+    "/wp-content/uploads/2022/03/leoncorbata.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/leoncorbata.png",
+      "bytes": 565874
+    },
+    "/wp-content/uploads/2022/03/luisenriqueguerra-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/luisenriqueguerra-150x150.png",
+      "bytes": 25024
+    },
+    "/wp-content/uploads/2022/03/luisenriqueguerra-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/luisenriqueguerra-300x300.png",
+      "bytes": 84746
+    },
+    "/wp-content/uploads/2022/03/luisenriqueguerra.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/luisenriqueguerra.png",
+      "bytes": 451755
+    },
+    "/wp-content/uploads/2022/03/rodrigopujana-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/rodrigopujana-100x100.png",
+      "bytes": 12581
+    },
+    "/wp-content/uploads/2022/03/rodrigopujana-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/rodrigopujana-150x150.png",
+      "bytes": 24364
+    },
+    "/wp-content/uploads/2022/03/rodrigopujana-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/rodrigopujana-300x300.png",
+      "bytes": 83859
+    },
+    "/wp-content/uploads/2022/03/rodrigopujana.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2022/03/rodrigopujana.png",
+      "bytes": 445988
+    },
+    "/wp-content/uploads/2023/12/baner-scaled.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2023/12/baner-scaled.jpg",
+      "bytes": 211785
+    },
+    "/wp-content/uploads/2023/12/escala-de-justicia.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2023/12/escala-de-justicia.svg",
+      "bytes": 1910
+    },
+    "/wp-content/uploads/2023/12/logos-white.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2023/12/logos-white.svg",
+      "bytes": 20870
+    },
+    "/wp-content/uploads/2024/01/BANER0-DARK.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/BANER0-DARK.jpg",
+      "bytes": 141880
+    },
+    "/wp-content/uploads/2024/01/books-scaled.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/books-scaled.jpg",
+      "bytes": 263869
+    },
+    "/wp-content/uploads/2024/01/escala-de-justicia-1.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/escala-de-justicia-1.svg",
+      "bytes": 3132
+    },
+    "/wp-content/uploads/2024/01/fondo-baner-certificacion.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/fondo-baner-certificacion.jpg",
+      "bytes": 401979
+    },
+    "/wp-content/uploads/2024/01/fondo-banermision.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/fondo-banermision.jpg",
+      "bytes": 224621
+    },
+    "/wp-content/uploads/2024/01/logoblanco-10.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/logoblanco-10.svg",
+      "bytes": 7185
+    },
+    "/wp-content/uploads/2024/01/vector.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/vector.svg",
+      "bytes": 3910
+    },
+    "/wp-content/uploads/2024/01/🦆icon_lawdocument_.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/🦆icon_lawdocument_.svg",
+      "bytes": 5664
+    },
+    "/wp-content/uploads/2024/01/🦆icon_romanlaw_.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/01/🦆icon_romanlaw_.svg",
+      "bytes": 4120
+    },
+    "/wp-content/uploads/2024/03/fot-angela-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-angela-100x100.png",
+      "bytes": 12824
+    },
+    "/wp-content/uploads/2024/03/fot-angela-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-angela-150x150.png",
+      "bytes": 24274
+    },
+    "/wp-content/uploads/2024/03/fot-angela-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-angela-300x300.png",
+      "bytes": 75974
+    },
+    "/wp-content/uploads/2024/03/fot-angela.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-angela.png",
+      "bytes": 295282
+    },
+    "/wp-content/uploads/2024/03/fot-gabriel-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-gabriel-100x100.png",
+      "bytes": 14958
+    },
+    "/wp-content/uploads/2024/03/fot-gabriel-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-gabriel-150x150.png",
+      "bytes": 28909
+    },
+    "/wp-content/uploads/2024/03/fot-gabriel-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-gabriel-300x300.png",
+      "bytes": 89566
+    },
+    "/wp-content/uploads/2024/03/fot-gabriel.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-gabriel.png",
+      "bytes": 279078
+    },
+    "/wp-content/uploads/2024/03/fot-minerva-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-minerva-100x100.png",
+      "bytes": 11792
+    },
+    "/wp-content/uploads/2024/03/fot-minerva-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-minerva-150x150.png",
+      "bytes": 21745
+    },
+    "/wp-content/uploads/2024/03/fot-minerva-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-minerva-300x300.png",
+      "bytes": 62985
+    },
+    "/wp-content/uploads/2024/03/fot-minerva.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-minerva.png",
+      "bytes": 192590
+    },
+    "/wp-content/uploads/2024/03/fot-sandra_paola-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-sandra_paola-100x100.png",
+      "bytes": 13134
+    },
+    "/wp-content/uploads/2024/03/fot-sandra_paola-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-sandra_paola-150x150.png",
+      "bytes": 24861
+    },
+    "/wp-content/uploads/2024/03/fot-sandra_paola-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-sandra_paola-300x300.png",
+      "bytes": 77561
+    },
+    "/wp-content/uploads/2024/03/fot-sandra_paola.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/03/fot-sandra_paola.png",
+      "bytes": 304432
+    },
+    "/wp-content/uploads/2024/04/fot-fernanda-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-fernanda-100x100.png",
+      "bytes": 15371
+    },
+    "/wp-content/uploads/2024/04/fot-fernanda-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-fernanda-150x150.png",
+      "bytes": 30629
+    },
+    "/wp-content/uploads/2024/04/fot-fernanda-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-fernanda-300x300.png",
+      "bytes": 109267
+    },
+    "/wp-content/uploads/2024/04/fot-fernanda.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-fernanda.png",
+      "bytes": 487428
+    },
+    "/wp-content/uploads/2024/04/fot-raul-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-raul-100x100.png",
+      "bytes": 12297
+    },
+    "/wp-content/uploads/2024/04/fot-raul-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-raul-150x150.png",
+      "bytes": 22812
+    },
+    "/wp-content/uploads/2024/04/fot-raul-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-raul-300x300.png",
+      "bytes": 70845
+    },
+    "/wp-content/uploads/2024/04/fot-raul.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-raul.png",
+      "bytes": 296711
+    },
+    "/wp-content/uploads/2024/04/fot-roberto_2-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-roberto_2-100x100.png",
+      "bytes": 13284
+    },
+    "/wp-content/uploads/2024/04/fot-roberto_2-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-roberto_2-150x150.png",
+      "bytes": 25401
+    },
+    "/wp-content/uploads/2024/04/fot-roberto_2-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-roberto_2-300x300.png",
+      "bytes": 85892
+    },
+    "/wp-content/uploads/2024/04/fot-roberto_2.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-roberto_2.png",
+      "bytes": 380876
+    },
+    "/wp-content/uploads/2024/04/fot-stephanie-100x100.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-stephanie-100x100.png",
+      "bytes": 14805
+    },
+    "/wp-content/uploads/2024/04/fot-stephanie-150x150.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-stephanie-150x150.png",
+      "bytes": 28545
+    },
+    "/wp-content/uploads/2024/04/fot-stephanie-300x300.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-stephanie-300x300.png",
+      "bytes": 95810
+    },
+    "/wp-content/uploads/2024/04/fot-stephanie.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2024/04/fot-stephanie.png",
+      "bytes": 459150
+    },
+    "/wp-content/uploads/2026/10/baner-scaled_3.jpeg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/baner-scaled_3.jpeg",
+      "bytes": 425817
+    },
+    "/wp-content/uploads/2026/10/cropped-Fav_icon-180x180.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/cropped-Fav_icon-180x180.jpg",
+      "bytes": 4938
+    },
+    "/wp-content/uploads/2026/10/cropped-Fav_icon-192x192.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/cropped-Fav_icon-192x192.jpg",
+      "bytes": 5454
+    },
+    "/wp-content/uploads/2026/10/cropped-Fav_icon-270x270.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/cropped-Fav_icon-270x270.jpg",
+      "bytes": 7558
+    },
+    "/wp-content/uploads/2026/10/cropped-Fav_icon-32x32.jpg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/cropped-Fav_icon-32x32.jpg",
+      "bytes": 1411
+    },
+    "/wp-content/uploads/2026/10/logoblanco_nvo.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/logoblanco_nvo.svg",
+      "bytes": 5257
+    },
+    "/wp-content/uploads/2026/10/logocolor_nvo.svg": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/logocolor_nvo.svg",
+      "bytes": 5257
+    },
+    "/wp-content/uploads/2026/10/logos-white_3-300x80.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/logos-white_3-300x80.png",
+      "bytes": 9404
+    },
+    "/wp-content/uploads/2026/10/logos-white_3.png": {
+      "url": "http://www.camya.mx/wp-content/uploads/2026/10/logos-white_3.png",
+      "bytes": 16705
+    },
+    "/wp-includes/css/dashicons.min.css": {
+      "url": "http://www.camya.mx/wp-includes/css/dashicons.min.css",
+      "bytes": 59016
+    },
+    "/wp-includes/js/backbone.min.js": {
+      "url": "http://www.camya.mx/wp-includes/js/backbone.min.js",
+      "bytes": 24140
+    },
+    "/wp-includes/js/jquery/jquery-migrate.min.js": {
+      "url": "http://www.camya.mx/wp-includes/js/jquery/jquery-migrate.min.js",
+      "bytes": 13577
+    },
+    "/wp-includes/js/jquery/jquery.min.js": {
+      "url": "http://www.camya.mx/wp-includes/js/jquery/jquery.min.js",
+      "bytes": 87553
+    },
+    "/wp-includes/js/underscore.min.js": {
+      "url": "http://www.camya.mx/wp-includes/js/underscore.min.js",
+      "bytes": 18833
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.eot": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.eot",
+      "bytes": 6024
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.svg": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.svg",
+      "bytes": 13215
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.ttf": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.ttf",
+      "bytes": 5848
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.woff": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.woff",
+      "bytes": 5924
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.eot": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.eot",
+      "bytes": 9820
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.svg": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.svg",
+      "bytes": 32480
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.ttf": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.ttf",
+      "bytes": 9616
+    },
+    "/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.woff": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/fonts/vc_icons_v3/fonts/vcpb-plugin-icons.woff",
+      "bytes": 9692
+    },
+    "/wp-content/plugins/js_composer/assets/images/flickr.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/flickr.png",
+      "bytes": 198
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/address-book.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/address-book.png",
+      "bytes": 712
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png",
+      "bytes": 841
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/anchor.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/anchor.png",
+      "bytes": 694
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/application-image.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/application-image.png",
+      "bytes": 544
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/arrow.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/arrow.png",
+      "bytes": 590
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/asterisk.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/asterisk.png",
+      "bytes": 682
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png",
+      "bytes": 705
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png",
+      "bytes": 717
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png",
+      "bytes": 691
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png",
+      "bytes": 700
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/balloon.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/balloon.png",
+      "bytes": 674
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/battery-full.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/battery-full.png",
+      "bytes": 648
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/binocular.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/binocular.png",
+      "bytes": 621
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png",
+      "bytes": 688
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png",
+      "bytes": 700
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png",
+      "bytes": 647
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png",
+      "bytes": 763
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png",
+      "bytes": 690
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png",
+      "bytes": 709
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png",
+      "bytes": 691
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/bookmark.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/bookmark.png",
+      "bytes": 635
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/camcorder.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/camcorder.png",
+      "bytes": 590
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/camera.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/camera.png",
+      "bytes": 635
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png",
+      "bytes": 1686
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/chart.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/chart.png",
+      "bytes": 659
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/clock.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/clock.png",
+      "bytes": 706
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/control.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/control.png",
+      "bytes": 470
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/fire.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/fire.png",
+      "bytes": 606
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/heart.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/heart.png",
+      "bytes": 792
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/mail.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/mail.png",
+      "bytes": 505
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png",
+      "bytes": 756
+    },
+    "/wp-content/plugins/js_composer/assets/images/icons/video.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/icons/video.png",
+      "bytes": 657
+    },
+    "/wp-content/plugins/js_composer/assets/images/spinner.gif": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/spinner.gif",
+      "bytes": 673
+    },
+    "/wp-content/plugins/js_composer/assets/images/toggle_close.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/toggle_close.png",
+      "bytes": 168
+    },
+    "/wp-content/plugins/js_composer/assets/images/toggle_open.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/images/toggle_open.png",
+      "bytes": 223
+    },
+    "/wp-content/plugins/js_composer/assets/vc/alert.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/alert.png",
+      "bytes": 302
+    },
+    "/wp-content/plugins/js_composer/assets/vc/blur.svg": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/blur.svg",
+      "bytes": 126
+    },
+    "/wp-content/plugins/js_composer/assets/vc/exclamation.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/exclamation.png",
+      "bytes": 495
+    },
+    "/wp-content/plugins/js_composer/assets/vc/info.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/info.png",
+      "bytes": 323
+    },
+    "/wp-content/plugins/js_composer/assets/vc/remove.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/remove.png",
+      "bytes": 265
+    },
+    "/wp-content/plugins/js_composer/assets/vc/tick.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/js_composer/assets/vc/tick.png",
+      "bytes": 244
+    },
+    "/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.eot": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.eot",
+      "bytes": 70807
+    },
+    "/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.svg": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.svg",
+      "bytes": 365616
+    },
+    "/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.ttf": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.ttf",
+      "bytes": 142072
+    },
+    "/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.woff": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.woff",
+      "bytes": 83588
+    },
+    "/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.woff2": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.woff2",
+      "bytes": 66624
+    },
+    "/wp-content/plugins/ninja-forms/assets/img/help-info.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/ninja-forms/assets/img/help-info.png",
+      "bytes": 310
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/coloredbg.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/coloredbg.png",
+      "bytes": 90
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/gridtile.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/gridtile.png",
+      "bytes": 70
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png",
+      "bytes": 70
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png",
+      "bytes": 71
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png",
+      "bytes": 70
+    },
+    "/wp-content/plugins/revslider/public/assets/assets/loader.gif": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/assets/loader.gif",
+      "bytes": 2545
+    },
+    "/wp-content/plugins/revslider/public/assets/css/closedhand.cur": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/css/closedhand.cur",
+      "bytes": 326
+    },
+    "/wp-content/plugins/revslider/public/assets/css/openhand.cur": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/css/openhand.cur",
+      "bytes": 326
+    },
+    "/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot",
+      "bytes": 12136
+    },
+    "/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg",
+      "bytes": 13691
+    },
+    "/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf",
+      "bytes": 11968
+    },
+    "/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff",
+      "bytes": 7536
+    },
+    "/wp-content/plugins/revslider/public/assets/js/+d+": {
+      "url": "http://www.camya.mx/wp-content/plugins/revslider/public/assets/js/+d+",
+      "bytes": 31428
+    },
+    "/wp-content/themes/Total/assets/images/bullets/blue.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/bullets/blue.png",
+      "bytes": 253
+    },
+    "/wp-content/themes/Total/assets/images/bullets/check.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/bullets/check.png",
+      "bytes": 242
+    },
+    "/wp-content/themes/Total/assets/images/bullets/gray.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/bullets/gray.png",
+      "bytes": 168
+    },
+    "/wp-content/themes/Total/assets/images/bullets/purple.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/bullets/purple.png",
+      "bytes": 254
+    },
+    "/wp-content/themes/Total/assets/images/bullets/red.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/bullets/red.png",
+      "bytes": 244
+    },
+    "/wp-content/themes/Total/assets/images/dotted.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/dotted.png",
+      "bytes": 72
+    },
+    "/wp-content/themes/Total/assets/images/quote.png": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/images/quote.png",
+      "bytes": 237
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.eot": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.eot",
+      "bytes": 257738
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.svg": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.svg",
+      "bytes": 671557
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.ttf": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.ttf",
+      "bytes": 201556
+    },
+    "/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.woff": {
+      "url": "http://www.camya.mx/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.woff",
+      "bytes": 201632
+    },
+    "/wp-includes/fonts/dashicons.eot": {
+      "url": "http://www.camya.mx/wp-includes/fonts/dashicons.eot",
+      "bytes": 56564
+    },
+    "/wp-includes/fonts/dashicons.ttf": {
+      "url": "http://www.camya.mx/wp-includes/fonts/dashicons.ttf",
+      "bytes": 56392
+    }
+  }
+}
