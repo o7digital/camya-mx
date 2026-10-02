@@ -2,7 +2,7 @@
   "referenceCommit": "6083841",
   "routes": {
     "/": {
-      "main": "ccfdaa90dc14b5d778155bf665bebc836f60a63047654e05cbe2a08f050e6401",
+      "main": "ed422bb78ac6c574c586ea0515add7709f1675e4fb3238637712e64bf259453a",
       "site-header": "60dbeb2f9987e15d89ec556648bd0f474bec240f441e0952d5590f013d64f53f",
       "footer": "2524d357803f168cd6b5d569f6dfdd105565cc109e810708e083e9e192567640",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
@@ -32,13 +32,13 @@
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/contacto/": {
-      "main": "356132a1f77029d6eb7ffc520ff30f47a6cd4a92ec5e7a7535fd4b850db73ada",
+      "main": "f082eccb729be3243a25635caef4578a0940dcd4a0379cb57a65a3a138198c80",
       "site-header": "4a66e286a3adc73d59b9147c97729e390cdc37a8e6c1ef3f01a0472cc244d48a",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/en/": {
-      "main": "d38cca22fe1cec54cb4ea3d2424feaca12eb02b7311b0da2b1b764c93b3442cf",
+      "main": "7b87e80824072d5287a6a8ec0e852320561d3d32f0a148a13395a9013eac641b",
       "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
       "footer": "6971a38bf0572b3e9c61fdcca95ef4c44f880d1b8a173388d8fc80202546d3d2",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
@@ -50,13 +50,13 @@
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
     "/en/contact/": {
-      "main": "8120bf63f733e2ae66fe507bc60d357d093eede7d8479a5bb1c214305808485b",
+      "main": "50e0f4dcc1d6157b84166d422b76bba07c6eb24e8d28f6ecc75d1bf8fc742451",
       "site-header": "71e0517ba2ba0a6862711edeed22f7d3d1c0b4a4ef1118c53c5305eca8c13fd4",
       "footer": "76b0279bceb454a887788d5a4901d066b603f5cb50c6e16690a90cd21987df32",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
     "/en/home/": {
-      "main": "10bd6dd1507cde5220d588c2693037652eb9b00bb1c208b6a26eef9c43b18c1c",
+      "main": "d5f41d916949c7d2bec16e3bfdf48dfdcf189aa66f443d5226726db7ee3da8bd",
       "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
       "footer": "6971a38bf0572b3e9c61fdcca95ef4c44f880d1b8a173388d8fc80202546d3d2",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
@@ -194,19 +194,19 @@
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
     "/en/uncategorized/anti-corruption-integrity-policies/": {
-      "main": "dc9f250c782504975bc97adace67c54650befd839b71b6a521b229cdff627b59",
+      "main": "d339766350db92c4e32f4a641a9aee7c7f680ad5d749e7b5b2bfe46e9b2d7fe4",
       "site-header": "8c4313509e7c0290687d48ccefaebb7aa5a21ac1cfe761139ade1ad28c14f509",
       "footer": "76b0279bceb454a887788d5a4901d066b603f5cb50c6e16690a90cd21987df32",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
     "/en/uncategorized/coronavirus-covid-19-2/": {
-      "main": "0862a1382d721341660c8557bd1366ec25a9f6e47c771d3e10952e81a3d595a0",
+      "main": "de07b60ba54b6c3c51490fa43decbd21807ee480a2d50ad56ff21fb4ac54fae5",
       "site-header": "3b54dc5caef359a815884d8b1887a8e980bb77d3ab83dacb9dc7584496a483df",
       "footer": "76b0279bceb454a887788d5a4901d066b603f5cb50c6e16690a90cd21987df32",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
     "/en/uncategorized/mexican-social-security-institute-administrative-facilities/": {
-      "main": "f8fc80b21a2cccb819b1b36e6e75e42c943f02f661644c5d68fec4f0f56613c3",
+      "main": "53772e407bfaf0b4a35aa844bf4dd90af45f0f9b20e0fe39e9e88762c93bdb87",
       "site-header": "cb1febb37a426246d0966111f46fadd04561dc232501bb8ec022d217b53e090f",
       "footer": "76b0279bceb454a887788d5a4901d066b603f5cb50c6e16690a90cd21987df32",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
@@ -236,79 +236,79 @@
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/amendment-to-the-credit-institutions-law-and-the-federal-civil-code/": {
-      "main": "1fcae5b81d5db9eaed7b4fb79ad7f5d6f388edae7a35d26468f5b62667874468",
+      "main": "49266dccc0aaaa3707996e36b8a56d52ade6f25fb5971432e6d5eb8c1acde327",
       "site-header": "93b1336fa2712faf1519a7d967fda67a7a930e0029ddc24ad8368b583722bdb2",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/anticorrupcion-politicas-de-integridad/": {
-      "main": "ed31732f99145f302c6336d7dbd36a1d9a4311bd3275cb0ce26985402c8212dd",
+      "main": "cd469ebe0ee2ad4b93466cd0fba74752d17f6449bc660ae3dbf561e19bb0b169",
       "site-header": "a344c2427c516168aeae75fbeaec64d1b9bf155f2d2fe5dfeab8b10f43bd02ab",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/comentarios-a-la-nueva-ley-de-infraestructura-de-la-calidad-que-abroga-a-la-de-metrologia-y-normalizacion/": {
-      "main": "9626efdaab33fa4e447888900a421ce9454a57a140137c997eecef6c5b629a68",
+      "main": "d0332b017ce338d41a510c353bb61fbf2cd3d5ae54d254d91f8a106505c8e3f3",
       "site-header": "fea14f9172553781c260d02e953c0a54d32a32ba0d1e3942f734d64877fc858f",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/coronavirus-covid-19/": {
-      "main": "0e36dafba07d6827fb5c5a3d7252724e193f5b8ba6ef703e11edb4c26ee1d7e5",
+      "main": "e31e60653e9eccde8a42204dd662b265d52ad6e6a4fbcf6493b335e963a227b7",
       "site-header": "3bea3b907924c5a0be084dac20e836f653896e7f6022855f4cbee13c265c5c8f",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/covid-19-situacion-actual-en-la-republica-mexicana/": {
-      "main": "35cdfb667c5560c002705acf2429125da697112a85c376d5ce808de42c0326c6",
+      "main": "41b7f89179dfb5d92af76645aea562884d3ade6004384f9f42be99aaf64588cd",
       "site-header": "10809e900c26870bfbb78a0d7a80e7ceafb53ad77657835008a845c7028e2a8e",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/entrada-en-vigor-de-la-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion/": {
-      "main": "6575cdd9b82b995c1cda95527aa066a9cef56db245f18326d3991eb63f0177ff",
+      "main": "59e58437ba8135eeafb153815ad6e37f79ff22798c7f60677ae18ed4d6fbc1d7",
       "site-header": "8cdf5102901c29007110b34286b11f630897098c193f6a68cd647097917daad2",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/fiscal/": {
-      "main": "3cdb12ac6c607d3bb2b6ae35fbfab1acd787bb014b22d11999830ea98cfdb662",
+      "main": "9e812e82ceb6b2224b9db565df62ba01239bfcafc6f1a48ae74f006293bca973",
       "site-header": "22d9651e27d1200a10113d601b3da210e66af1d1242f81de83df240017501f35",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/lineamientos-tecnicos-especificos-para-la-reapertura-de-las-actividadeseconomicas-publicados-en-la-edicion-vespertina-del-dia-de-hoy-en-el-diario-oficial-de-la-federacion/": {
-      "main": "12a7a64b24352053b433fba8f44236da9a67f09d6580c21da49e38acb9a29548",
+      "main": "5c77cc22d75a9cc13108167f46694ebb6a5a19bc1140efc414e3a54f37a42c3e",
       "site-header": "70056318c1c977f0d5bf2b2ce331073665f06f801d9aa2126fedd887a84c0055",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/memorandum/": {
-      "main": "5933ff770556d8aedd4085785017db7d9e2a5069407b29683e6438203ff98a9d",
+      "main": "93fafb8e5402369d536fd89d2ae9aa9fc664ae45555e5847dade12ecca405e29",
       "site-header": "74d59093fdf471aa3b7f4ae7943db1caeb4b4c92407d50e62475cfb523db3f81",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/notas-relevantes-sobre-la-ley-nacional-de-extincion-de-dominio/": {
-      "main": "5b5e1d65d7f6f1d285a72bc2bd3ed6cbd49b77076fb8f96b100130d3981fd5c5",
+      "main": "f44952f5a08253ac8ff72b5ca63ecc2b55f87da0a74cc89cf3a9128a9db2484e",
       "site-header": "fff7a0d726cb119679844286d6af653f89b81dfd8b591fb933ca434f898f764c",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/reforma-a-la-ley-de-instituciones-de-credito-y-al-codigo-civil-federal/": {
-      "main": "806608513e63f6905e346b420b01db5670bb2e1fa8896f77158d4ac4a0c3b1ce",
+      "main": "fc01573f7c52a2cdfb179f29ba2516364e5c12d47227275f4d04145a8cbd88f9",
       "site-header": "ea2c9513caed3d1a647ac0ac86befd78923667e730a6f251d3712526245578a0",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudos-arbitrales-en-materia-de-comercio/": {
-      "main": "c6d8af24c120c830c528db965db95e860665d88da88b9f59f3114d7325c9c659",
+      "main": "d8ce2cb2706b0bc0d548f8607eacd3f0cae2872ee88dc3b4d6e8f098d5124896",
       "site-header": "ff43074f23c437d168a77ab1b95fb5bc8a2a2ddba7e257aefb5f6d252356681b",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
     "/sin-categoria-es/sintesis-de-la-reforma-a-la-ley-de-la-industria-electrica/": {
-      "main": "9da05d6aaaefd949e6a185cc6059f1ecae946699d0961326126b878a9e7a3bfe",
+      "main": "84e94e72dcd33d4fbbb5efda7f014982bcc973f430ecc94bd1382087f12e09fc",
       "site-header": "936f9f5b9a7b34320250623988db2968729d46d4c1034e959050ce39f281a73a",
       "footer": "82ba1e41046ab55937883da10f42178b7b36174161e80e5144d207fd9d22c7d6",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"

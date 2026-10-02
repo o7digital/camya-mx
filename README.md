@@ -18,12 +18,16 @@ npx playwright test --config=playwright.mobile.config.js
 
 `npm run build` vérifie les 79 routes, les ressources locales et la conservation de la structure approuvée du contenu, des headers et des footers. `archive/astro-baseline.json` est une référence de migration du commit `6083841`, avec les nouvelles adresses des ressources ; mettre à jour cette référence uniquement lors d’un changement intentionnel du contenu ou des assets. Les archives originales servent aux tests de conservation des textes, sans participer au rendu Astro.
 
-Le formulaire `/contacto/` envoie à Formspree. Les anciens formulaires des accueils restent déconnectés et affichent clairement qu’aucun message n’a été envoyé. Les interactions (menus, onglets, accordéons, parallax, en-tête fixe et partage) sont en JavaScript natif, compilé par Astro.
+Les formulaires `/contacto/`, `/en/contact/` et les trois accueils utilisent un composant natif bilingue et envoient à Formspree (`mgavbgza`). Les tests interceptent les requêtes : ils vérifient les champs et les POST sans envoyer de courrier réel. Les interactions (menus, onglets, accordéons, parallax, en-tête fixe et partage) sont en JavaScript natif, compilé par Astro.
 
-`dev2` conserve la sauvegarde avant migration (`ad506b1`). La migration reste sur `dev`, avec prévisualisation Vercel ; `main` conserve la production validée. Les prévisualisations et le site conservent `noindex,nofollow` jusqu’au chantier SEO sur le domaine définitif.
+`dev2` conserve la sauvegarde avant migration (`ad506b1`). La migration reste sur `dev`, avec prévisualisation Vercel ; `main` conserve la production validée. Les prévisualisations et le site conservent `noindex,nofollow` jusqu’à la bascule du domaine.
 
 ```sh
 vercel deploy --yes --scope olivier-steineur
 ```
 
 Les contrôles de migration sont dans `verification/astro-migration/`. Le WordPress et le DNS du client restent indépendants de ce dépôt.
+
+La préparation du domaine utilise `https://www.camya.mx` pour les URLs canoniques, le sitemap `/sitemap.xml`, les liens de langues et le partage. Les anciennes URLs WordPress de partage sont retirées ; les classes de présentation historiques restent uniquement des sélecteurs CSS. Aucun moteur WordPress, PHP, jQuery ni plugin ne tourne.
+
+Pour la mise en ligne sur le domaine : connecter `camya.mx` et `www.camya.mx` à ce projet Vercel, vérifier les DNS et HTTPS, puis configurer `PUBLIC_ALLOW_INDEXING=true` uniquement pour l’environnement Production et redéployer. Les builds Preview restent non indexables même si cette variable vaut `true`. Sans cette variable, les pages restent `noindex,nofollow` et `/robots.txt` contient `Disallow: /`. L’ancien en-tête global `X-Robots-Tag` est supprimé pour que l’activation soit contrôlée par cette seule configuration. Le DNS et le WordPress actuels n’ont pas été modifiés.

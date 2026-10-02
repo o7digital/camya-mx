@@ -1,6 +1,5 @@
 // Interactions owned by CAMYA. No WordPress, jQuery or plugin runtime is needed.
 import './home-menu';
-import './contact-forms';
 
 const body = document.body;
 body.classList.remove('wpex-no-js');

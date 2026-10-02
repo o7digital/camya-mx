@@ -7,7 +7,10 @@ for (const route of Object.keys(pages)) {
   const file = path.join(root, route, 'index.html');
   if (!fs.existsSync(file)) { problems.push(`Missing route: ${route}`); continue; }
   const html = fs.readFileSync(file, 'utf8');
-  if (!/noindex/.test(html)) problems.push(`Missing noindex: ${route}`);
+  const indexing = process.env.PUBLIC_ALLOW_INDEXING === 'true' && process.env.VERCEL_ENV !== 'preview';
+  if (!html.includes(indexing ? 'index,follow' : 'noindex,nofollow')) problems.push(`Wrong indexing policy: ${route}`);
+  if (!html.includes('rel="canonical"')) problems.push(`Missing canonical: ${route}`);
+  if (/wp-content|wp-includes|wp-json|xmlrpc|jquery/i.test(html)) problems.push(`WordPress reference: ${route}`);
   if (/ajaxNonce|wp-admin\/admin-ajax|nfFrontEnd/.test(html)) problems.push(`Server configuration present: ${route}`);
   for (const match of html.matchAll(/(?:src|href)=["'](\/[^"'#?]+)["']/g)) {
     const asset = decodeURIComponent(match[1]);

@@ -15,21 +15,6 @@ test('original team tabs and complete biographies work',async({page})=>{
   await expect(page).toHaveURL(/\/en\/staff-member\/omar-cuellar-gamboa-en\/$/);
 });
 
-test('original form appearance and submit label remain; no message is sent',async({page})=>{
-  const posts=[];
-  await page.goto('/');
-  page.on('request',r=>{if(r.method()==='POST')posts.push(r.url());});
-  const form=page.locator('.local-contact-form');
-  await expect(form.locator('input[type="submit"]')).toHaveValue('Enviar');
-  await expect(form.locator('.local-submit-status')).toHaveCount(0);
-  for(const placeholder of ['Nombre','Empresa','Cargo','Correo electrónico','Mensaje']){
-    await form.getByPlaceholder(placeholder,{exact:true}).fill(placeholder==='Correo electrónico'?'test@example.com':'Prueba');
-  }
-  await form.locator('input[type="submit"]').click();
-  await expect(form.getByRole('status')).toContainText('No se ha enviado ningún mensaje');
-  expect(posts).toEqual([]);
-});
-
 test('one original footer is rendered on every route',async({page})=>{
   const inventory=require('../archive/pages.json');
   for(const route of Object.keys(inventory)){

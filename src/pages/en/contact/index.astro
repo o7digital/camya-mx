@@ -1,6 +1,7 @@
 ---
 import SiteLayout from "../../../layouts/SiteLayout.astro";
 import pages from "../../../data/pages.json";
+import ContactForm from "../../../components/ContactForm.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 const page = pages["/en/contact/"];
 ---
@@ -18,7 +19,10 @@ const page = pages["/en/contact/"];
 <div class="content-area wpex-clr" id="primary">
 <div class="site-content wpex-clr" id="content">
 <article class="single-page-article wpex-clr" id="single-blocks">
-<div class="single-page-content single-content entry wpex-clr"><p>Contact form</p>
+<div class="single-page-content single-content entry wpex-clr"><section class="camya-contact-section" aria-labelledby="contact-form-title">
+<h2 id="contact-form-title">Contact us</h2>
+<ContactForm english />
+</section>
 </div>
 </article>
 </div>

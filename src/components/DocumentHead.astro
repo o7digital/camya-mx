@@ -1,10 +1,27 @@
 ---
+import { siteUrl, allowIndexing } from '../data/site';
 const { entries } = Astro.props;
+const title = entries.find(entry => entry.tag === 'title')?.text ?? 'CAMYA Abogados';
+const english = Astro.url.pathname.startsWith('/en/');
+const description = english
+  ? 'CAMYA Abogados: legal advice for businesses in Mexico. Meet our firm, practice areas and team.'
+  : 'CAMYA Abogados: asesoría legal para empresas en México. Conoce nuestra firma, áreas de práctica y equipo.';
+const canonicalPath = Astro.url.pathname === '/en/' ? '/en/home/' : Astro.url.pathname;
+const filteredEntries = entries.filter(entry => !(entry.tag === 'meta' && ['robots', 'description'].includes(entry.attributes.name)) && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
+
 ---
-{entries.map(entry => <>
+{filteredEntries.map(entry => <>
   {entry.tag === 'meta' && <meta {...entry.attributes} />}
-  {entry.tag === 'link' && <link {...entry.attributes} />}
+  {entry.tag === 'link' && <link {...entry.attributes} href={entry.attributes.rel === "alternate" ? new URL(entry.attributes.href, siteUrl).href : entry.attributes.href} />}
   {entry.tag === 'title' && <title>{entry.text}</title>}
   {entry.tag === 'style' && <style is:inline {...entry.attributes} set:html={entry.text} />}
 </>)}
+<meta name="description" content={description} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={new URL(canonicalPath, siteUrl).href} />
+<meta property="og:image" content={`${siteUrl}/home-assets/hero-montanas.webp`} />
+<meta name="robots" content={allowIndexing ? "index,follow" : "noindex,nofollow"} />
+<link rel="canonical" href={new URL(canonicalPath, siteUrl).href} />
 <link href="/styles/interactions.css" rel="stylesheet" />
