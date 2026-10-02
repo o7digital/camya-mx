@@ -1,0 +1,206 @@
+[
+  {
+    "route": "/",
+    "width": 375,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": -0.0078125,
+        "lines": 2,
+        "font": 34
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 375,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 3,
+        "font": 34
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 2,
+        "font": 35.1
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 390,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 35.1
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 2,
+        "font": 38.7
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 430,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 3,
+        "font": 38.7
+      },
+      {
+        "centerOffset": 0,
+        "lines": 3,
+        "font": 16
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": -0.0078125,
+        "lines": 2,
+        "font": 40
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 2,
+        "font": 18
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 768,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 2,
+        "font": 40
+      },
+      {
+        "centerOffset": 0,
+        "lines": 2,
+        "font": 18
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": -0.0078125,
+        "lines": 1,
+        "font": 43.008
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 1,
+        "font": 14
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 1024,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": -0.0078125,
+        "lines": 1,
+        "font": 35.84
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 1,
+        "font": 14
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 1,
+        "font": 60
+      },
+      {
+        "centerOffset": -0.0078125,
+        "lines": 1,
+        "font": 18
+      }
+    ]
+  },
+  {
+    "route": "/en/home/",
+    "width": 1440,
+    "overflow": false,
+    "copy": [
+      {
+        "centerOffset": 0,
+        "lines": 1,
+        "font": 50
+      },
+      {
+        "centerOffset": 0,
+        "lines": 1,
+        "font": 18
+      }
+    ]
+  }
+]

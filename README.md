@@ -1,6 +1,6 @@
-# CAMYA — accueil en prévisualisation sur dev
+# CAMYA — site bilingue
 
-Le clone et sa correction mobile ont été validés. La branche `dev` adapte uniquement l'accueil espagnol et anglais selon le brief client : header framboise/bleu, image montagne fournie, textes et boutons demandés, reconnaissances avec les logos originaux.
+Le clone et sa correction mobile ont été validés. L'accueil espagnol et anglais est adapté selon les corrections client : header framboise/bleu, image montagne fournie, titre et sous-titre centrés sur une seule ligne sur ordinateur, titre espagnol agrandi de 20 %, boutons du hero retirés, reconnaissances avec les fichiers fournis dans l'ordre Chambers, WWL, Legal 500.
 
 Les 79 URL, les biographies, les contenus et le formulaire du clone sont conservés. Les anciens textes du hero restent sous les reconnaissances. « Sectores » renvoie aux domaines existants dans les áreas de práctica ; aucune page ni texte de secteur n'est ajouté. L'accueil anglais reste lisible sur mobile, sans chevauchement du logo.
 
@@ -18,4 +18,4 @@ Les ressources sont locales et le WordPress/DNS du client reste intact. Les form
 
 Les captures et contrôles de l'accueil sont dans `verification/home-refresh/`. Les comparaisons du clone avant adaptation restent dans `verification/clone-complete/`.
 
-La production https://camya-mx.vercel.app/ conserve le clone validé. Déployer `dev` en preview avec `vercel deploy --yes --scope olivier-steineur`, sans `--prod`. Attendre la validation du client avant toute promotion en production.
+`dev` reste la branche de travail. À la demande du client, la version centrée est fusionnée dans `main`, créée à partir du clone sauvegardé sur `backup` (`3d4412f`). La production Vercel utilise https://camya-mx.vercel.app/. Les previews utilisent `vercel deploy --yes --scope olivier-steineur` ; les versions validées sur `main` utilisent `vercel deploy --prod --yes --scope olivier-steineur`.

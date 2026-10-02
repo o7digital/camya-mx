@@ -12,6 +12,8 @@ Le titre espagnol est ensuite agrandi de **20 % sur ordinateur** : 38,4 à 60 px
 
 Le sous-titre ES/EN est également sur une seule ligne à partir de 1024 px, en utilisant la largeur disponible et une taille de 14 à 18 px. Les tailles et retours à la ligne mobiles sont conservés.
 
+Le titre et le sous-titre sont centrés horizontalement sur ordinateur et mobile, sur les accueils ES/EN. Le titre espagnol conserve son augmentation de 20 % et les deux textes gardent chacun une ligne sur ordinateur. Le client demande ensuite de fusionner `dev` dans `main`.
+
 | Menu espagnol | Destination |
 | --- | --- |
 | Inicio | `/` |
@@ -55,4 +57,4 @@ Après retrait des boutons, **5 tests publics réussis** confirment les cinq lar
 
 La production avait entre-temps été mise à jour vers un déploiement créé à 23 h 09, contenant le commit `7c427db`. Cette correction n'y intervient pas : elle reste en prévisualisation. Le [relevé de cette correction](home-refresh/hero-buttons-removal.json) vérifie les 79 routes publiques et que la production conserve ce contenu précédemment publié.
 
-L'aperçu est noindex. La promotion en production attend la validation du client ; les DNS et le WordPress du client ne sont pas modifiés.
+Le site Vercel conserve sa directive noindex. Le client demande maintenant de centrer les deux lignes du hero puis de fusionner `dev` dans `main`. Cette livraison est déployée en production Vercel après les vérifications. Les DNS et le WordPress du client ne sont pas modifiés.
