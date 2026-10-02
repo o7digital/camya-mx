@@ -1,0 +1,13 @@
+---
+const { english } = Astro.props;
+---
+<p class="camya-footer-brand">
+<a aria-label={english ? 'CAMYA Abogados — Home' : 'CAMYA Abogados — Inicio'} href={english ? '/en/home/' : '/'}>
+<img alt="CAMYA Abogados" decoding="async" height="73" loading="lazy" src="/assets/uploads/2026/10/logoblanco_nvo.svg" width="300" />
+</a>
+</p>
+<style>
+.camya-footer-brand {display: flex; justify-content: center; margin: 0 0 28px}
+.camya-footer-brand a {display: block; width: 300px; max-width: 100%}
+.camya-footer-brand img {display: block; width: 100%; height: auto; margin: 0}
+</style>
