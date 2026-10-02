@@ -3,7 +3,7 @@
   "routes": {
     "/": {
       "main": "aff1fb40b8970b83111fd9cf114cc58cc4d64f6b3ce322381a578e6cc4ac24cc",
-      "site-header": "0463e1d3ea9a1f8c6e669cf2cdcc787a4eae2302b093d8d595a196b45eada23b",
+      "site-header": "60dbeb2f9987e15d89ec556648bd0f474bec240f441e0952d5590f013d64f53f",
       "footer": "b8df17ae8337ad7bca47bfefc4bf1d39294f88c04fd504ea35b7ffc707ecdc50",
       "footer-bottom": "4dd0cee813857ffbf8e5a82a68c7557003e6d760c88b187144697a56e8e7d931"
     },
@@ -39,7 +39,7 @@
     },
     "/en/": {
       "main": "32797417744371b689e0724aaea1d3989aa963870c196328fd043e93db36b116",
-      "site-header": "c2d28ed5284c68233db1f41def31beb42fb0904d33f200934c4888122e52e1a4",
+      "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
       "footer": "990f70d14c3e0f06b51464a2d3980d6c30480e45feb07ba3c4c38b37e7b94089",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
@@ -57,7 +57,7 @@
     },
     "/en/home/": {
       "main": "d25780da4a1a622e5fae9f2d62b3617f6ed3ebd36a71b369c68c19a9e92732b8",
-      "site-header": "c2d28ed5284c68233db1f41def31beb42fb0904d33f200934c4888122e52e1a4",
+      "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
       "footer": "990f70d14c3e0f06b51464a2d3980d6c30480e45feb07ba3c4c38b37e7b94089",
       "footer-bottom": "1be78b062f828aef4ab7b54bb248fdb631fcd431e254bc8e71aec46f04d294ee"
     },
