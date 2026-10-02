@@ -33,7 +33,9 @@ Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests W
 
 ## Publication
 
-Prévisualisation publique actuelle, sans les boutons du hero : [accueil espagnol](https://camya-4nutkw5lt-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-4nutkw5lt-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `fb10cc5` sur `dev`.
+Prévisualisation publique actuelle, avec le header corrigé et sans les boutons du hero : [accueil espagnol](https://camya-l6iyut6ti-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-l6iyut6ti-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `4ba29fa` sur `dev`.
+
+La correction du header passe les 5 tests publics ES/EN aux largeurs demandées. Les captures sont renouvelées depuis cette URL. Les largeurs de transition 1279, 1280 et 1366 px sont aussi contrôlées pour exclure tout chevauchement des liens. La production reste identique à son état avant cette correction : [contrôle du header](home-refresh/header-verification.json).
 
 La branche `dev` est poussée et déployée en **preview**, sans `--prod`. Les empreintes du clone initial sont conservées dans [production-baseline.json](home-refresh/production-baseline.json) comme relevé historique avant adaptation de l'accueil.
 
