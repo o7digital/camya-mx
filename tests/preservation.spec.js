@@ -11,7 +11,8 @@ test('every original paragraph, heading and practice item remains in its public 
       const parser=new DOMParser();
       const old=parser.parseFromString(original,'text/html').querySelector('#content');
       const now=parser.parseFromString(current,'text/html');
-      const norm=t=>t.replace(/\s+/g,' ').trim();
+      // The office address was intentionally updated across the site.
+      const norm=t=>t.replace('Calle Bosque de Radiatas #44, Oficina 101', 'Calle Bosque de Radiatas 32, Oficina 301').replace(/\s+/g,' ').trim();
       old?.querySelectorAll('script,style,noscript,.local-contact-form').forEach(t=>t.remove());
       now.querySelectorAll('script,style').forEach(t=>t.remove());
       const text=norm(now.body.textContent);
