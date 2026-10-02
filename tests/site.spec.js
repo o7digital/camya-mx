@@ -30,9 +30,9 @@ for (const width of [390,768,1440]) {
 test('mobile menu opens, links preserve full routes and language pairs',async({page})=>{
   await page.setViewportSize({width:390,height:900});
   await page.goto('/');
-    await page.locator('.mobile-menu-toggle').first().click();
-    await expect(page.locator('#sidr-main')).toBeVisible();
-    await page.locator('#sidr-main a[href="/la-firma/"]').first().click();
+    await page.locator('.camya-menu-toggle').click();
+    await expect(page.locator('#home-navigation')).toBeVisible();
+    await page.locator('#home-navigation a[href="/la-firma/"]').click();
     await expect(page).toHaveURL(/\/la-firma\/$/);
     await page.waitForLoadState('load');
     await expect(page.locator('body')).toHaveClass(/wpex-docready/);

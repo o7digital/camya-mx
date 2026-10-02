@@ -6,11 +6,11 @@ test('English home hero stays readable and below the logo on phones and tablets'
       await page.setViewportSize({width, height: 900});
       await page.goto(route);
       await page.evaluate(() => document.fonts.ready);
-      const hero = page.locator('.vc_custom_1703879760954');
-      const title = hero.locator('h2');
-      await expect(title).toHaveText('Effective Legal Consulting and Advice');
+      const hero = page.locator('.camya-hero');
+      const title = hero.locator('h1');
+      await expect(title).toHaveText('Legal advice that truly understands your business');
       const geometry = await page.evaluate(() => {
-        const title = document.querySelector('.vc_custom_1703879760954 h2');
+        const title = document.querySelector('.camya-hero h1');
         return {
           titleTop: title.getBoundingClientRect().top,
           titleHeight: title.getBoundingClientRect().height,
@@ -19,15 +19,11 @@ test('English home hero stays readable and below the logo on phones and tablets'
           fits: document.documentElement.scrollWidth <= innerWidth,
         };
       });
-      expect(geometry.fontSize, `${route} at ${width}px`).toBeLessThanOrEqual(40);
+      expect(geometry.fontSize, `${route} at ${width}px`).toBeLessThanOrEqual(width <= 430 ? 40 : 56);
       expect(geometry.titleTop, `${route} at ${width}px`).toBeGreaterThanOrEqual(geometry.headerBottom + 16);
-      expect(geometry.titleHeight, `${route} at ${width}px`).toBeLessThanOrEqual(145);
+      expect(geometry.titleHeight, `${route} at ${width}px`).toBeLessThanOrEqual(180);
       expect(geometry.fits, `${route} at ${width}px`).toBeTruthy();
-      if (width < 960) {
-        await expect(page.locator('.mobile-menu-toggle').first()).toBeVisible();
-      } else {
-        await expect(page.locator('#site-navigation')).toBeVisible();
-      }
+      await expect(page.locator('.camya-menu-toggle')).toBeVisible();
     }
   }
 });
