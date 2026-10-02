@@ -31,6 +31,12 @@ Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests W
 
 ## Publication
 
+Prévisualisation publique : [accueil espagnol](https://camya-hwtb6xuld-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-hwtb6xuld-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `7c427db` sur `dev`.
+
 La branche `dev` est poussée et déployée en **preview**, sans `--prod`. La branche de production Vercel est `main`. Les empreintes des accueils et de la CSS mobile de production sont conservées dans [production-baseline.json](home-refresh/production-baseline.json) pour confirmer que le clone publié reste intact.
+
+Après le déploiement de la prévisualisation, les empreintes des deux accueils et de la CSS mobile de `camya-mx.vercel.app` sont identiques au relevé initial : [contrôle de production](home-refresh/preview-verification.json).
+
+Sur l'URL publique de prévisualisation, **8 tests réussis** confirment les cinq largeurs, les deux langues, les boutons et menus. Les **79 routes répondent en HTTP 200**. Les 10 captures de la galerie proviennent de cette URL déployée, sans image manquante, erreur ni débordement.
 
 L'aperçu est noindex. La promotion en production attend la validation du client ; les DNS et le WordPress du client ne sont pas modifiés.
