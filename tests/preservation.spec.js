@@ -11,8 +11,8 @@ test('every original paragraph, heading and practice item remains in its public 
       const parser=new DOMParser();
       const old=parser.parseFromString(original,'text/html').querySelector('#content');
       const now=parser.parseFromString(current,'text/html');
-      // Account for the requested office address and directory updates.
-      const norm=t=>t.replace('directorios especializados “The Legal 500”', 'directorios especializados “Chambers and Partners”, “The Legal 500”').replace('Calle Bosque de Radiatas #44, Oficina 101', 'Calle Bosque de Radiatas 32, Oficina 301').replace(/\s+/g,' ').trim();
+      // Account for the requested address, directory and social responsibility updates.
+      const norm=t=>t.replace('con el único propósito de contribuir a tener una sociedad justa, guiada por valores morales y siempre haciendo lo correcto tanto para sí mismos como para los demás. De esta manera, reflejamos el tipo de firma que conformamos y el tipo de individuos que somos.', 'CON UNA ALIANZA ESTRATÉGICA Y MUY ESTRECHA CON FUNDACIÓN MIDAS, A.C., A EN LA QUE NUESTRO SOCIO OMAR CUÉLLAR G. ES MIEMBRO ACTIVO DEL COMITÉ TÉCNICO.').replace('directorios especializados “The Legal 500”', 'directorios especializados “Chambers and Partners”, “The Legal 500”').replace('Calle Bosque de Radiatas #44, Oficina 101', 'Calle Bosque de Radiatas 32, Oficina 301').replace(/\s+/g,' ').trim();
       old?.querySelectorAll('script,style,noscript,.local-contact-form').forEach(t=>t.remove());
       now.querySelectorAll('script,style').forEach(t=>t.remove());
       const text=norm(now.body.textContent);
