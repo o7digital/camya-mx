@@ -31,12 +31,14 @@ Résultats locaux : build réussi, **18 tests Chromium réussis** et **7 tests W
 
 ## Publication
 
-Prévisualisation publique : [accueil espagnol](https://camya-hwtb6xuld-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-hwtb6xuld-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `7c427db` sur `dev`.
+Prévisualisation publique actuelle, sans les boutons du hero : [accueil espagnol](https://camya-4nutkw5lt-olivier-steineur.vercel.app/) et [accueil anglais](https://camya-4nutkw5lt-olivier-steineur.vercel.app/en/home/). Le code est enregistré dans le commit `fb10cc5` sur `dev`.
 
-La branche `dev` est poussée et déployée en **preview**, sans `--prod`. La branche de production Vercel est `main`. Les empreintes des accueils et de la CSS mobile de production sont conservées dans [production-baseline.json](home-refresh/production-baseline.json) pour confirmer que le clone publié reste intact.
+La branche `dev` est poussée et déployée en **preview**, sans `--prod`. Les empreintes du clone initial sont conservées dans [production-baseline.json](home-refresh/production-baseline.json) comme relevé historique avant adaptation de l'accueil.
 
-Après le déploiement de la prévisualisation, les empreintes des deux accueils et de la CSS mobile de `camya-mx.vercel.app` sont identiques au relevé initial : [contrôle de production](home-refresh/preview-verification.json).
+Lors de la livraison initiale du nouvel accueil, les empreintes des deux accueils et de la CSS mobile de `camya-mx.vercel.app` étaient identiques au clone : [contrôle initial de production](home-refresh/preview-verification.json).
 
-Sur l'URL publique de prévisualisation, **8 tests réussis** confirment les cinq largeurs, les deux langues, les boutons et menus. Les **79 routes répondent en HTTP 200**. Les 10 captures de la galerie proviennent de cette URL déployée, sans image manquante, erreur ni débordement.
+Après retrait des boutons, **5 tests publics réussis** confirment les cinq largeurs, les deux langues, l'absence de liens dans le hero et les menus. Les 10 captures sont renouvelées depuis cette prévisualisation, sans image manquante, erreur ni débordement. Les tests locaux restent tous réussis (18 Chromium, 7 WebKit).
+
+La production avait entre-temps été mise à jour vers un déploiement créé à 23 h 09, contenant le commit `7c427db`. Cette correction n'y intervient pas : elle reste en prévisualisation. Le [relevé de cette correction](home-refresh/hero-buttons-removal.json) vérifie les 79 routes publiques et que la production conserve ce contenu précédemment publié.
 
 L'aperçu est noindex. La promotion en production attend la validation du client ; les DNS et le WordPress du client ne sont pas modifiés.
