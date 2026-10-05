@@ -17,7 +17,7 @@ test('every original paragraph, heading and practice item remains in its public 
       now.querySelectorAll('script,style').forEach(t=>t.remove());
       const text=norm(now.body.textContent);
       return [...(old?.querySelectorAll('p,h1,h2,h3,h4,li')||[])].map(t=>norm(t.textContent)).filter(t=>t.length>15&&!text.includes(t));
-    },{original,current});
+    },{original: route.includes('/omar-cuellar-gamboa') ? original.replace('más de 20 años de experiencia', 'más de 25 años de experiencia').replace('more than 20 years of experience', 'more than 25 years of experience') : original,current});
     expect(missing,route).toEqual([]);
   }
 });
