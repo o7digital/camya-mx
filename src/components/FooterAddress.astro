@@ -1,0 +1,25 @@
+---
+const { english = false } = Astro.props;
+---
+<address class="camya-footer-address">
+  <div class="camya-offices">
+    <div><span class="camya-office-street">Bosque de Radiatas 32</span><span class="camya-office-suite">{english ? 'Office 301' : 'Oficina 301'}</span></div>
+    <div><span class="camya-office-street">Bosque de Radiatas 44</span><span class="camya-office-suite">{english ? 'Office 101' : 'Oficina 101'}</span></div>
+  </div>
+  <p class="camya-office-location">Bosques de las Lomas<br />México, CDMX · C.P. 05120</p>
+</address>
+<style>
+  .camya-footer-address {margin: 0 auto 24px; text-align: center; font-style: normal; max-width: 560px}
+  .camya-offices {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 18px}
+  .camya-offices > div {padding: 4px 24px}
+  .camya-offices > div + div {border-left: 1px solid rgb(255 255 255 / 22%)}
+  .camya-office-street, .camya-office-suite {display: block}
+  .camya-office-street {font-weight: 600; letter-spacing: .06em}
+  .camya-office-suite {margin-top: 6px; color: #b7c3d5}
+  .camya-office-location {margin: 0; color: #b7c3d5; line-height: 1.7}
+  @media (max-width: 480px) {
+    .camya-offices {grid-template-columns: 1fr; gap: 16px}
+    .camya-offices > div {padding: 0}
+    .camya-offices > div + div {border-left: 0}
+  }
+</style>

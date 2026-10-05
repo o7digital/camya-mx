@@ -1,16 +1,14 @@
 ---
 import ContactDetails from './ContactDetails.astro';
 import FooterLogo from './FooterLogo.astro';
+import FooterAddress from './FooterAddress.astro';
 const { home } = Astro.props;
 ---
 <footer class="site-footer wpex-surface-dark wpex-print-hidden" id="footer">{home && <ContactDetails />}
 <div class="site-footer-inner container wpex-pt-40 wpex-clr" id="footer-inner">
 <div class="wpex-row wpex-clr single-col-footer" id="footer-widgets">
 <div class="footer-box span_1_of_1 col col-1"><div class="footer-widget widget wpex-pb-40 wpex-clr widget_text" id="text-4"> <div class="textwidget"><FooterLogo english />
-<p align="center">Calle Bosque de Radiatas 32, Oficina 301<br />
-Bosques de las Lomas<br />
-México, CDMX<br />
-C.P. 05120</p>
+<FooterAddress english />
 <p align="center">Tel: <a class="camya-contact-link" href="tel:+525567989181">+52 (55) 6798-9181</a></p>
 <p align="center"><strong><a href="/en/notice-of-privacy/">Notice of Privacy</a>       <a href="/en/terms-and-conditions/">Terms and Conditions</a></strong></p>
 <div></div>
