@@ -1,12 +1,15 @@
 ---
 import { siteUrl, allowIndexing } from '../data/site';
 import seoPages from '../data/seo.json';
+import keywordGroups from '../data/keyword-groups.json';
 const { entries } = Astro.props;
 const seo = seoPages[Astro.url.pathname];
 if (!seo) throw new Error(`Missing SEO metadata: ${Astro.url.pathname}`);
 const { title, description } = seo;
+const language = Astro.url.pathname.startsWith('/en/') ? 'en' : 'es';
+const keywords = keywordGroups.map(group => group[language].primary).join(', ');
 const canonicalPath = seo.canonicalPath ?? Astro.url.pathname;
-const controlledMeta = ['robots', 'description', 'og:title', 'og:description', 'og:type', 'og:url', 'og:image'];
+const controlledMeta = ['robots', 'description', 'keywords', 'og:title', 'og:description', 'og:type', 'og:url', 'og:image'];
 const filteredEntries = entries.filter(entry => entry.tag !== 'title'
   && !(entry.tag === 'meta' && controlledMeta.includes(entry.attributes.name ?? entry.attributes.property))
   && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
@@ -25,6 +28,7 @@ const filteredEntries = entries.filter(entry => entry.tag !== 'title'
 </>)}
 <title>{title}</title>
 <meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />

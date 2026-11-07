@@ -17,10 +17,15 @@ test('original team tabs and complete biographies work',async({page})=>{
 
 test('one original footer is rendered on every route',async({page})=>{
   const inventory=require('../archive/pages.json');
+  const keywordGroups=require('../src/data/keyword-groups.json');
   for(const route of Object.keys(inventory)){
     await page.goto(route);
     await expect(page.locator('footer#footer'),route).toHaveCount(1);
     await expect(page.locator('#footer-bottom'),route).toHaveCount(1);
+    const keywords=keywordGroups.map(group=>group[route.startsWith('/en/')?'en':'es'].primary);
+    await expect(page.locator('#footer-bottom .camya-footer-keywords'),route).toBeVisible();
+    await expect(page.locator('#footer-bottom .camya-footer-keyword'),route).toHaveText(keywords);
+    await expect(page.locator('head meta[name="keywords"]'),route).toHaveAttribute('content',keywords.join(', '));
     await expect(page.locator('.original-footer,.footer-top,.footer-bottom,.hero-image')).toHaveCount(0);
   }
 });

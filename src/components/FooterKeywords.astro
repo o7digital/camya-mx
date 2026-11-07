@@ -1,0 +1,36 @@
+---
+import keywordGroups from '../data/keyword-groups.json';
+const { english = false } = Astro.props;
+const language = english ? 'en' : 'es';
+const keywords = keywordGroups.map(group => group[language].primary);
+const lines = [keywords.slice(0, 4), keywords.slice(4, 7), keywords.slice(7)];
+---
+<div class="camya-footer-keywords" aria-label={english ? 'Legal services in Mexico City' : 'Servicios legales en Ciudad de México'}>
+  {lines.map(line => <p class="camya-footer-keywords-line">
+    {line.map((keyword, index) => <>{index > 0 && <span aria-hidden="true"> · </span>}<span class="camya-footer-keyword">{keyword}</span></>)}
+  </p>)}
+</div>
+<style>
+  .camya-footer-keywords {
+    width: calc(100% - 48px);
+    max-width: 1600px;
+    margin: 18px auto 0;
+    padding: 0 0 4px;
+    color: #adb8c9;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.85;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .camya-footer-keywords-line { margin: 0; }
+  .camya-footer-keywords-line + .camya-footer-keywords-line { margin-top: 4px; }
+  @media (max-width: 767px) {
+    .camya-footer-keywords {
+      width: calc(100% - 32px);
+      padding-bottom: 48px;
+      line-height: 1.8;
+    }
+  }
+</style>

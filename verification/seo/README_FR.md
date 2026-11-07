@@ -19,7 +19,11 @@ Il s’agit de pistes de ciblage fondées sur les services effectivement présen
 | 9. Énergie et environnement | abogados derecho energético CDMX | derecho ambiental Ciudad de México ; regulación energética CDMX |
 | 10. Conformité et anticorruption | compliance empresarial CDMX | políticas de integridad Ciudad de México ; asesoría anticorrupción CDMX |
 
-L’accueil cible le cabinet et l’accompagnement des entreprises ; la page des pratiques présente les spécialités ; les profils sont décrits selon leur contenu. Les métadonnées anglaises sont rédigées en anglais avec « Mexico City (CDMX) ». Les autres expressions constituent une réserve éditoriale : elles ne sont pas insérées en bloc, en texte caché ou dans une balise `meta keywords`. Aucun nouveau contenu visible ni nouvelle page de spécialité n’est créé dans cette tâche. Les titres et descriptions d’articles historiques respectent leur sujet et leur époque au lieu de recevoir un suffixe local artificiel.
+L’accueil cible le cabinet et l’accompagnement des entreprises ; la page des pratiques présente les spécialités ; les profils sont décrits selon leur contenu. Les métadonnées anglaises sont rédigées en anglais avec « Mexico City (CDMX) ». Les titres et descriptions d’articles historiques respectent leur sujet et leur époque au lieu de recevoir un suffixe local artificiel.
+
+Les dix groupes sont centralisés dans `src/data/keyword-groups.json`, avec une expression principale et deux variantes par langue. À la demande du client, les dix expressions principales figurent dans une balise `meta keywords` et dans le pied de page des 79 routes. Les variantes restent une réserve éditoriale. Le bloc visible reprend la dernière capture de Jean Louis David : sous le copyright, texte gris discret de 11 px, points médians et trois paragraphes qui peuvent se replier sur mobile. Seul ce bloc est ajouté ; les contenus, en-têtes, images et coordonnées existants sont conservés.
+
+La balise `meta keywords` reproduit le modèle demandé ; [Google précise qu’elle n’a aucun effet sur l’indexation ou le classement](https://developers.google.com/search/docs/crawling-indexing/special-tags#unsupported). Elle ne remplace pas les titres, descriptions et contenus ciblés.
 
 ## Indexation et sitemap
 
@@ -39,10 +43,16 @@ La soumission n’est pas effectuée depuis une prévisualisation : Google doit 
 
 Références : [titres Google](https://developers.google.com/search/docs/appearance/title-link), [descriptions](https://developers.google.com/search/docs/appearance/snippet), [création et soumission du sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [blocage avec noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing).
 
-## Vérifications réalisées
+## Vérifications initiales, avant l’ajout du bloc de mots-clés
 
 - Builds sous Node 24 : local par défaut, `VERCEL_ENV=production`, puis `VERCEL_ENV=preview PUBLIC_ALLOW_INDEXING=true`. Les trois passent avec les directives d’indexation attendues.
 - Vérification des 79 routes, des 76 URL canoniques du sitemap, des titres et descriptions uniques par page canonique, des balises de partage cohérentes et d’un H1 par page.
 - `npm test` : 29 tests réussis ; configuration iPhone Safari : 7 tests réussis.
 - Comparaison du build de `dev` avant changement (`dfae75d`) avec le build après changement : 18 routes à 390 et 1440 pixels, soit 36 comparaisons de captures pleine page strictement identiques au pixel près. Résultats : `visual-report.json`.
 - Aucun style ni asset modifié ; les 207 assets suivis par le contrôle de conservation sont identiques. Seules les références DOM des 12 articles ayant reçu un H1 accessible sont mises à jour, à partir du build vérifié d’avant modification.
+
+## Ajout des mots-clés au pied de page
+
+Les contrôles du build et le test du pied de page vérifient les dix expressions de la bonne langue sur chacune des 79 routes, ainsi que leur présence dans les métadonnées. Les références DOM de `footer-bottom` ont été mises à jour en vérifiant que retirer le seul bloc ajouté redonne exactement la référence précédente. Les régions `main`, `site-header` et `footer`, ainsi que les 207 assets suivis, conservent leurs références précédentes.
+
+Build et 29 tests fonctionnels réussis ; 7 tests iPhone Safari réussis après l’ajustement d’espacement mobile. Le contrôle visuel des accueils ES/EN à 320, 390 et 1440 px confirme dix expressions, trois paragraphes, aucune sortie horizontale et aucun texte recouvert par le bouton de retour en haut. Résultats : `footer-check.json`.

@@ -2,6 +2,7 @@
 import ContactDetails from './ContactDetails.astro';
 import FooterLogo from './FooterLogo.astro';
 import FooterAddress from './FooterAddress.astro';
+import FooterKeywords from './FooterKeywords.astro';
 const { home } = Astro.props;
 ---
 <footer class="site-footer wpex-surface-dark wpex-print-hidden" id="footer">{home && <ContactDetails />}
@@ -22,4 +23,5 @@ const { home } = Astro.props;
 <div class="container" id="footer-bottom-inner"><div class="footer-bottom-flex wpex-clr">
 <div class="wpex-last-mb-0" id="copyright">Copyright © <a href="#">CAMYA ABOGADOS.</a> 2026 - Todos los Derechos Reservados</div>
 </div></div>
+<FooterKeywords />
 </div>

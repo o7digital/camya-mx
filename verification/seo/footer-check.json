@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-06",
+  "results": [
+    {
+      "route": "/",
+      "language": "es",
+      "width": 320,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    },
+    {
+      "route": "/en/home/",
+      "language": "en",
+      "width": 320,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    },
+    {
+      "route": "/",
+      "language": "es",
+      "width": 390,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    },
+    {
+      "route": "/en/home/",
+      "language": "en",
+      "width": 390,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    },
+    {
+      "route": "/",
+      "language": "es",
+      "width": 1440,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    },
+    {
+      "route": "/en/home/",
+      "language": "en",
+      "width": 1440,
+      "keywords": 10,
+      "paragraphs": 3,
+      "fontSize": "11px",
+      "overflow": false,
+      "scrollButtonOverlapsText": false
+    }
+  ]
+}

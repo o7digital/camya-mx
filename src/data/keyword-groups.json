@@ -1,0 +1,52 @@
+[
+  {
+    "id": "firm",
+    "es": { "primary": "despacho de abogados CDMX", "variants": ["firma de abogados Ciudad de México", "CAMYA Abogados CDMX"] },
+    "en": { "primary": "law firm Mexico City (CDMX)", "variants": ["business law firm Mexico City", "CAMYA Lawyers CDMX"] }
+  },
+  {
+    "id": "corporate",
+    "es": { "primary": "abogados corporativos CDMX", "variants": ["asesoría legal para empresas CDMX", "contratos mercantiles Ciudad de México"] },
+    "en": { "primary": "corporate lawyers Mexico City (CDMX)", "variants": ["legal advice for businesses Mexico City", "commercial contracts Mexico City"] }
+  },
+  {
+    "id": "civil-litigation",
+    "es": { "primary": "abogados litigio civil CDMX", "variants": ["litigio civil Ciudad de México", "cumplimiento de contratos CDMX"] },
+    "en": { "primary": "civil litigation lawyers Mexico City (CDMX)", "variants": ["civil litigation Mexico City", "contract enforcement Mexico City"] }
+  },
+  {
+    "id": "commercial-litigation",
+    "es": { "primary": "abogados litigio mercantil CDMX", "variants": ["arbitraje comercial Ciudad de México", "ejecución de laudos arbitrales CDMX"] },
+    "en": { "primary": "commercial litigation lawyers Mexico City (CDMX)", "variants": ["commercial arbitration Mexico City", "arbitral award enforcement Mexico City"] }
+  },
+  {
+    "id": "tax",
+    "es": { "primary": "abogados fiscales CDMX", "variants": ["litigio fiscal Ciudad de México", "impugnación de créditos fiscales CDMX"] },
+    "en": { "primary": "tax lawyers Mexico City (CDMX)", "variants": ["tax litigation Mexico City", "tax assessment challenges Mexico City"] }
+  },
+  {
+    "id": "administrative",
+    "es": { "primary": "abogados derecho administrativo CDMX", "variants": ["juicio de amparo Ciudad de México", "contrataciones públicas CDMX"] },
+    "en": { "primary": "administrative law lawyers Mexico City (CDMX)", "variants": ["amparo proceedings Mexico City", "public procurement lawyers Mexico City"] }
+  },
+  {
+    "id": "insolvency",
+    "es": { "primary": "abogados concursos mercantiles CDMX", "variants": ["reestructuración empresarial Ciudad de México", "litigio concursal CDMX"] },
+    "en": { "primary": "insolvency lawyers Mexico City (CDMX)", "variants": ["business restructuring Mexico City", "insolvency litigation Mexico City"] }
+  },
+  {
+    "id": "real-estate",
+    "es": { "primary": "abogados inmobiliarios CDMX", "variants": ["derecho inmobiliario Ciudad de México", "regularización territorial CDMX"] },
+    "en": { "primary": "real estate lawyers Mexico City (CDMX)", "variants": ["real estate law Mexico City", "land regularization Mexico City"] }
+  },
+  {
+    "id": "energy-environment",
+    "es": { "primary": "abogados derecho energético CDMX", "variants": ["derecho ambiental Ciudad de México", "regulación energética CDMX"] },
+    "en": { "primary": "energy law lawyers Mexico City (CDMX)", "variants": ["environmental law Mexico City", "energy regulation Mexico City"] }
+  },
+  {
+    "id": "compliance",
+    "es": { "primary": "compliance empresarial CDMX", "variants": ["políticas de integridad Ciudad de México", "asesoría anticorrupción CDMX"] },
+    "en": { "primary": "corporate compliance Mexico City (CDMX)", "variants": ["corporate integrity policies Mexico City", "anti-corruption advice Mexico City"] }
+  }
+]

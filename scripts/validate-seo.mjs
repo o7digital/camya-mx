@@ -6,6 +6,13 @@ import { isIndexingAllowed } from '../src/data/indexing-policy.mjs';
 
 const inventory = JSON.parse(fs.readFileSync('src/data/pages.json', 'utf8'));
 const metadata = JSON.parse(fs.readFileSync('src/data/seo.json', 'utf8'));
+const keywordGroups = JSON.parse(fs.readFileSync('src/data/keyword-groups.json', 'utf8'));
+assert.equal(keywordGroups.length, 10, 'Keep the ten agreed keyword groups');
+assert.equal(new Set(keywordGroups.map(group => group.id)).size, 10, 'Keyword group IDs must be unique');
+for (const language of ['es', 'en']) {
+  const terms = keywordGroups.flatMap(group => [group[language].primary, ...group[language].variants]);
+  assert.equal(new Set(terms).size, terms.length, `Keyword expressions must be unique: ${language}`);
+}
 const origin = 'https://www.camya.mx';
 function all(node, predicate) {
   return [ ...(predicate(node) ? [node] : []), ...(node.childNodes ?? []).flatMap(child => all(child, predicate)) ];
@@ -40,6 +47,16 @@ for (const route of Object.keys(inventory)) {
   assert.equal(robotsNodes.length, 1, `One robots directive required: ${route}`);
   assert.equal(canonicalNodes.length, 1, `One canonical required: ${route}`);
   assert.equal(find(node => node.tagName === 'h1').length, 1, `One primary heading required: ${route}`);
+  const language = inventory[route].english ? 'en' : 'es';
+  const keywords = keywordGroups.map(group => group[language].primary);
+  const keywordMeta = find(node => node.tagName === 'meta' && attr(node, 'name') === 'keywords');
+  assert.equal(keywordMeta.length, 1, `One keywords meta tag required: ${route}`);
+  assert.equal(attr(keywordMeta[0], 'content'), keywords.join(', '), `Localized keywords required: ${route}`);
+  const footerBottom = find(node => attr(node, 'id') === 'footer-bottom')[0];
+  const keywordBlocks = all(footerBottom, node => attr(node, 'class')?.split(' ').includes('camya-footer-keywords'));
+  assert.equal(keywordBlocks.length, 1, `One keyword block required below the copyright: ${route}`);
+  const footerTerms = all(keywordBlocks[0], node => attr(node, 'class')?.split(' ').includes('camya-footer-keyword'));
+  assert.deepEqual(footerTerms.map(text), keywords, `Footer must show the ten localized expressions: ${route}`);
   const title = text(titleNodes[0]).trim();
   const description = attr(descriptionNodes[0], 'content');
   assert.ok(title.length > 10 && title.length < 110, `Descriptive title required: ${route}`);
