@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect} = require('./fixtures');
 test('canonical URLs, sitemap and preview indexing protection are consistent', async ({request}) => {
   const inventory = require('../src/data/pages.json');
   const metadata = require('../src/data/seo.json');

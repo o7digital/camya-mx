@@ -12,6 +12,12 @@ const filteredEntries = entries.filter(entry => entry.tag !== 'title'
   && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
 
 ---
+<script is:inline async src="https://www.googletagmanager.com/gtm.js?id=GTM-NLGGSN85"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 {filteredEntries.map(entry => <>
   {entry.tag === 'meta' && <meta {...entry.attributes} />}
   {entry.tag === 'link' && <link {...entry.attributes} href={entry.attributes.rel === "alternate" ? new URL(seoPages[entry.attributes.href]?.canonicalPath ?? entry.attributes.href, siteUrl).href : entry.attributes.href} />}

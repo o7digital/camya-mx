@@ -1,4 +1,4 @@
-const {test,expect}=require('@playwright/test');
+const {test,expect}=require('./fixtures');
 
 test('original team tabs and complete biographies work',async({page})=>{
   await page.goto('/equipo/');

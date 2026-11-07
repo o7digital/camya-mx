@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect, gtmScriptUrl} = require('./fixtures');
 const fs = require('node:fs');
 const pages = JSON.parse(fs.readFileSync('archive/pages.json','utf8'));
 
@@ -24,7 +24,7 @@ for (const width of [390,768,1440]) {
       await expect.poll(()=>page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.getBoundingClientRect().height && i.checkVisibility() && (!i.complete||!i.naturalWidth)).map(i=>i.src)),{message:route,timeout:10000}).toEqual([]);
     }
     expect(errors).toEqual([]);
-    expect(external).toEqual([]);
+    expect([...new Set(external)]).toEqual([gtmScriptUrl]);
   });
 }
 test('mobile menu opens, links preserve full routes and language pairs',async({page})=>{

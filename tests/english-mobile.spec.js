@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect} = require('./fixtures');
 
 test('English home hero stays readable and below the logo on phones and tablets', async ({page}) => {
   for (const route of ['/en/', '/en/home/']) {

@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect} = require('./fixtures');
 const variants = [
   {route: '/contacto/', english: false},
   {route: '/en/contact/', english: true},

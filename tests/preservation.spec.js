@@ -1,4 +1,4 @@
-const {test,expect}=require('@playwright/test');
+const {test,expect}=require('./fixtures');
 const fs=require('node:fs');
 const originals=JSON.parse(fs.readFileSync('archive/clone-html.json','utf8'));
 

@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect, gtmScriptUrl} = require('./fixtures');
 
 test('all pages run with native Astro scripts and no JavaScript errors', async ({page}) => {
   const inventory = require('../archive/pages.json');
@@ -8,13 +8,18 @@ test('all pages run with native Astro scripts and no JavaScript errors', async (
     await page.goto(route);
     await expect(page.locator('body')).toHaveClass(/wpex-docready/);
     const runtime = await page.evaluate(() => ({
-      scripts: [...document.scripts].filter(script => script.src).map(script => new URL(script.src).pathname),
+      scripts: [...document.scripts].filter(script => script.src).map(script => script.getAttribute('src')),
       jquery: typeof window.jQuery,
       plugins: typeof window.wpex_theme_params,
+      gtag: typeof window.gtag,
+      dataLayer: window.dataLayer?.map(event => ({command: event[0], date: event[1] instanceof Date})),
     }));
     expect(runtime.jquery, route).toBe('undefined');
     expect(runtime.plugins, route).toBe('undefined');
-    expect(runtime.scripts.every(src => src.startsWith('/_astro/')), route).toBeTruthy();
+    expect(runtime.scripts.every(src => src.startsWith('/_astro/') || src === gtmScriptUrl), route).toBeTruthy();
+    expect(runtime.scripts.filter(src => src === gtmScriptUrl), route).toHaveLength(1);
+    expect(runtime.gtag, route).toBe('function');
+    expect(runtime.dataLayer, route).toEqual([{command: 'js', date: true}]);
   }
   expect(errors).toEqual([]);
 });

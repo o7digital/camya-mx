@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect} = require('./fixtures');
 
 const languages = [
   {route: '/', title: 'Asesoría Legal que sí entiende tu negocio', subtitle: 'Más de 10 años protegiendo a empresas, acompañando su crecimiento con asesoría estratégica y confiable',
