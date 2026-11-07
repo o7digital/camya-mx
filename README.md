@@ -20,7 +20,7 @@ npx playwright test --config=playwright.mobile.config.js
 
 Les formulaires `/contacto/`, `/en/contact/` et les trois accueils utilisent un composant natif bilingue et envoient à Formspree (`mgavbgza`). Les tests interceptent les requêtes : ils vérifient les champs et les POST sans envoyer de courrier réel. Les interactions (menus, onglets, accordéons, parallax, en-tête fixe et partage) sont en JavaScript natif, compilé par Astro.
 
-`dev2` conserve la sauvegarde avant migration (`ad506b1`). La migration reste sur `dev`, avec prévisualisation Vercel ; `main` conserve la production validée. Les prévisualisations et le site conservent `noindex,nofollow` jusqu’à la bascule du domaine.
+`dev2` conserve la sauvegarde avant migration (`ad506b1`). Le travail reste sur `dev`, avec prévisualisation Vercel ; `main` conserve la production validée. Les prévisualisations restent toujours en `noindex,nofollow`, même si `PUBLIC_ALLOW_INDEXING=true`. Les corrections SEO de `dev` ne changent pas la production tant qu’elles ne sont pas publiées depuis `main`.
 
 ```sh
 vercel deploy --yes --scope olivier-steineur
@@ -30,4 +30,6 @@ Les contrôles de migration sont dans `verification/astro-migration/`. Le WordPr
 
 La préparation du domaine utilise `https://www.camya.mx` pour les URLs canoniques, le sitemap `/sitemap.xml`, les liens de langues et le partage. Les anciennes URLs WordPress de partage sont retirées ; les classes de présentation historiques restent uniquement des sélecteurs CSS. Aucun moteur WordPress, PHP, jQuery ni plugin ne tourne.
 
-Pour la mise en ligne sur le domaine : connecter `camya.mx` et `www.camya.mx` à ce projet Vercel, vérifier les DNS et HTTPS, puis configurer `PUBLIC_ALLOW_INDEXING=true` uniquement pour l’environnement Production et redéployer. Les builds Preview restent non indexables même si cette variable vaut `true`. Sans cette variable, les pages restent `noindex,nofollow` et `/robots.txt` contient `Disallow: /`. L’ancien en-tête global `X-Robots-Tag` est supprimé pour que l’activation soit contrôlée par cette seule configuration. Le DNS et le WordPress actuels n’ont pas été modifiés.
+La version SEO préparée sur `dev` active l’indexation lors d’un futur build Vercel Production (`VERCEL_ENV=production`) : `index,follow` et `Allow: /`. `PUBLIC_ALLOW_INDEXING=false` permet de la désactiver explicitement en production. Aucun paramètre Vercel Production ni DNS n’est modifié par cette préparation. Les builds locaux restent non indexables par défaut ; `PUBLIC_ALLOW_INDEXING=true` permet un contrôle local explicite de la politique d’indexation.
+
+Les titres et descriptions par page sont dans `src/data/seo.json`. Les trois alias (`/en/` et les deux paginations `/page/1/`) pointent vers leurs pages canoniques et sont exclus du sitemap. Les titres d’articles manquants utilisent la classe accessible existante `screen-reader-text`, sans changement du rendu visuel. `npm run build` vérifie aussi les métadonnées, les H1, le sitemap et les politiques d’indexation. Le ciblage local en dix groupes et la procédure Search Console sont documentés dans `verification/seo/README_FR.md`.

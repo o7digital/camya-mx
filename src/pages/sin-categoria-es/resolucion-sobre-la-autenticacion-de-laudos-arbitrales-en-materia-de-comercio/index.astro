@@ -1,4 +1,5 @@
 ---
+import ArticleHeading from "../../../components/ArticleHeading.astro";
 import SiteLayout from "../../../layouts/SiteLayout.astro";
 import pages from "../../../data/pages.json";
 import PageHeader from "../../../components/PageHeader.astro";
@@ -18,6 +19,7 @@ const page = pages["/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudo
 <div class="content-area wpex-clr" id="primary">
 <div class="site-content wpex-clr" id="content">
 <article class="single-blog-article wpex-first-mt-0 wpex-clr" id="single-blocks">
+<ArticleHeading entries={page.head} />
 <div class="single-blog-content single-content entry wpex-mt-20 wpex-mb-40 wpex-clr"><p><strong><em>(PRECEDENTE GENERADO POR CAMYA ABOGADOS)</em></strong></p>
 <p><strong> </strong></p>
 <ol>

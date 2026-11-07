@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-06",
+  "baselineCommit": "dfae75d",
+  "baseline": "Local dev build before SEO changes",
+  "comparison": "Local dev build after SEO changes",
+  "results": [
+    {
+      "route": "/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        6193
+      ],
+      "afterSize": [
+        390,
+        6193
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/home/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        7514
+      ],
+      "afterSize": [
+        390,
+        7514
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/areas-de-practica/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        3673
+      ],
+      "afterSize": [
+        390,
+        3673
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/pratic-areas/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        3907
+      ],
+      "afterSize": [
+        390,
+        3907
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/contacto/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        2669
+      ],
+      "afterSize": [
+        390,
+        2669
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/staff-member/omar-cuellar-gamboa/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        2582
+      ],
+      "afterSize": [
+        390,
+        2582
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/uncategorized/coronavirus-covid-19-2/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        3131
+      ],
+      "afterSize": [
+        390,
+        3131
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/amendment-to-the-credit-institutions-law-and-the-federal-civil-code/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        5620
+      ],
+      "afterSize": [
+        390,
+        5620
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/comentarios-a-la-nueva-ley-de-infraestructura-de-la-calidad-que-abroga-a-la-de-metrologia-y-normalizacion/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        8272
+      ],
+      "afterSize": [
+        390,
+        8272
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/coronavirus-covid-19/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        3252
+      ],
+      "afterSize": [
+        390,
+        3252
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/covid-19-situacion-actual-en-la-republica-mexicana/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        19404
+      ],
+      "afterSize": [
+        390,
+        19404
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/entrada-en-vigor-de-la-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        7805
+      ],
+      "afterSize": [
+        390,
+        7805
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/lineamientos-tecnicos-especificos-para-la-reapertura-de-las-actividadeseconomicas-publicados-en-la-edicion-vespertina-del-dia-de-hoy-en-el-diario-oficial-de-la-federacion/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        5266
+      ],
+      "afterSize": [
+        390,
+        5266
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/memorandum/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        6316
+      ],
+      "afterSize": [
+        390,
+        6316
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/notas-relevantes-sobre-la-ley-nacional-de-extincion-de-dominio/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        9877
+      ],
+      "afterSize": [
+        390,
+        9877
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/reforma-a-la-ley-de-instituciones-de-credito-y-al-codigo-civil-federal/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        6021
+      ],
+      "afterSize": [
+        390,
+        6021
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudos-arbitrales-en-materia-de-comercio/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        9596
+      ],
+      "afterSize": [
+        390,
+        9596
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/sintesis-de-la-reforma-a-la-ley-de-la-industria-electrica/",
+      "width": 390,
+      "beforeSize": [
+        390,
+        6411
+      ],
+      "afterSize": [
+        390,
+        6411
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        4747
+      ],
+      "afterSize": [
+        1440,
+        4747
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/home/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        5835
+      ],
+      "afterSize": [
+        1440,
+        5835
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/areas-de-practica/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        2819
+      ],
+      "afterSize": [
+        1440,
+        2819
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/pratic-areas/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        2948
+      ],
+      "afterSize": [
+        1440,
+        2948
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/contacto/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        2036
+      ],
+      "afterSize": [
+        1440,
+        2036
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/staff-member/omar-cuellar-gamboa/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        1881
+      ],
+      "afterSize": [
+        1440,
+        1881
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/en/uncategorized/coronavirus-covid-19-2/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        2313
+      ],
+      "afterSize": [
+        1440,
+        2313
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/amendment-to-the-credit-institutions-law-and-the-federal-civil-code/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        3589
+      ],
+      "afterSize": [
+        1440,
+        3589
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/comentarios-a-la-nueva-ley-de-infraestructura-de-la-calidad-que-abroga-a-la-de-metrologia-y-normalizacion/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        4889
+      ],
+      "afterSize": [
+        1440,
+        4889
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/coronavirus-covid-19/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        2365
+      ],
+      "afterSize": [
+        1440,
+        2365
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/covid-19-situacion-actual-en-la-republica-mexicana/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        11134
+      ],
+      "afterSize": [
+        1440,
+        11134
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/entrada-en-vigor-de-la-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        4915
+      ],
+      "afterSize": [
+        1440,
+        4915
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/lineamientos-tecnicos-especificos-para-la-reapertura-de-las-actividadeseconomicas-publicados-en-la-edicion-vespertina-del-dia-de-hoy-en-el-diario-oficial-de-la-federacion/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        3001
+      ],
+      "afterSize": [
+        1440,
+        3001
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/memorandum/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        3661
+      ],
+      "afterSize": [
+        1440,
+        3661
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/notas-relevantes-sobre-la-ley-nacional-de-extincion-de-dominio/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        5293
+      ],
+      "afterSize": [
+        1440,
+        5293
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/reforma-a-la-ley-de-instituciones-de-credito-y-al-codigo-civil-federal/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        3911
+      ],
+      "afterSize": [
+        1440,
+        3911
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudos-arbitrales-en-materia-de-comercio/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        5537
+      ],
+      "afterSize": [
+        1440,
+        5537
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    },
+    {
+      "route": "/sin-categoria-es/sintesis-de-la-reforma-a-la-ley-de-la-industria-electrica/",
+      "width": 1440,
+      "beforeSize": [
+        1440,
+        4379
+      ],
+      "afterSize": [
+        1440,
+        4379
+      ],
+      "exactPixelsMatch": true,
+      "differentPixels": 0
+    }
+  ],
+  "passed": true
+}

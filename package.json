@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Bilingual CAMYA website built with native Astro components",
   "scripts": {
-    "build": "astro build && node scripts/validate.mjs && node scripts/validate-astro-parity.mjs",
+    "build": "astro build && node scripts/validate.mjs && node scripts/validate-astro-parity.mjs && node scripts/validate-seo.mjs",
     "test": "playwright test",
     "dev": "astro dev --host 127.0.0.1 --port 8000",
     "audit:visual": "node scripts/audit-clone.mjs",

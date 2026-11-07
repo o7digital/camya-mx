@@ -1,21 +1,23 @@
 ---
 import { siteUrl, allowIndexing } from '../data/site';
+import seoPages from '../data/seo.json';
 const { entries } = Astro.props;
-const title = entries.find(entry => entry.tag === 'title')?.text ?? 'CAMYA Abogados';
-const english = Astro.url.pathname.startsWith('/en/');
-const description = english
-  ? 'CAMYA Abogados: legal advice for businesses in Mexico. Meet our firm, practice areas and team.'
-  : 'CAMYA Abogados: asesoría legal para empresas en México. Conoce nuestra firma, áreas de práctica y equipo.';
-const canonicalPath = Astro.url.pathname === '/en/' ? '/en/home/' : Astro.url.pathname;
-const filteredEntries = entries.filter(entry => !(entry.tag === 'meta' && ['robots', 'description'].includes(entry.attributes.name)) && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
+const seo = seoPages[Astro.url.pathname];
+if (!seo) throw new Error(`Missing SEO metadata: ${Astro.url.pathname}`);
+const { title, description } = seo;
+const canonicalPath = seo.canonicalPath ?? Astro.url.pathname;
+const controlledMeta = ['robots', 'description', 'og:title', 'og:description', 'og:type', 'og:url', 'og:image'];
+const filteredEntries = entries.filter(entry => entry.tag !== 'title'
+  && !(entry.tag === 'meta' && controlledMeta.includes(entry.attributes.name ?? entry.attributes.property))
+  && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
 
 ---
 {filteredEntries.map(entry => <>
   {entry.tag === 'meta' && <meta {...entry.attributes} />}
-  {entry.tag === 'link' && <link {...entry.attributes} href={entry.attributes.rel === "alternate" ? new URL(entry.attributes.href, siteUrl).href : entry.attributes.href} />}
-  {entry.tag === 'title' && <title>{entry.text}</title>}
+  {entry.tag === 'link' && <link {...entry.attributes} href={entry.attributes.rel === "alternate" ? new URL(seoPages[entry.attributes.href]?.canonicalPath ?? entry.attributes.href, siteUrl).href : entry.attributes.href} />}
   {entry.tag === 'style' && <style is:inline {...entry.attributes} set:html={entry.text} />}
 </>)}
+<title>{title}</title>
 <meta name="description" content={description} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

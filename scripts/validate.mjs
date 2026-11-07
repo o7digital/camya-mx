@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { isIndexingAllowed } from '../src/data/indexing-policy.mjs';
 const root = path.resolve('dist');
 const pages = JSON.parse(fs.readFileSync('archive/pages.json', 'utf8'));
 const problems = [];
@@ -7,7 +8,7 @@ for (const route of Object.keys(pages)) {
   const file = path.join(root, route, 'index.html');
   if (!fs.existsSync(file)) { problems.push(`Missing route: ${route}`); continue; }
   const html = fs.readFileSync(file, 'utf8');
-  const indexing = process.env.PUBLIC_ALLOW_INDEXING === 'true' && process.env.VERCEL_ENV !== 'preview';
+  const indexing = isIndexingAllowed(process.env.VERCEL_ENV, process.env.PUBLIC_ALLOW_INDEXING);
   if (!html.includes(indexing ? 'index,follow' : 'noindex,nofollow')) problems.push(`Wrong indexing policy: ${route}`);
   if (!html.includes('rel="canonical"')) problems.push(`Missing canonical: ${route}`);
   if (/wp-content|wp-includes|wp-json|xmlrpc|jquery/i.test(html)) problems.push(`WordPress reference: ${route}`);

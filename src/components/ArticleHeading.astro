@@ -1,0 +1,7 @@
+---
+const { entries } = Astro.props;
+// These legacy articles show "Blog" above the content. Give screen-reader users
+// the actual article heading, using the existing visually hidden utility.
+const title = entries.find(entry => entry.tag === 'title').text.replace(/\s+–\s+CAMYA ABOGADOS$/, '');
+---
+<h1 class="screen-reader-text">{title}</h1>
