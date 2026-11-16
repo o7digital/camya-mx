@@ -3,475 +3,475 @@
   "routes": {
     "/": {
       "main": "ed422bb78ac6c574c586ea0515add7709f1675e4fb3238637712e64bf259453a",
-      "site-header": "60dbeb2f9987e15d89ec556648bd0f474bec240f441e0952d5590f013d64f53f",
+      "site-header": "019fbd11bb8dd8c385d9c0d8b3df41f6ec3ced348150c9fcd8d2d77727c8a999",
       "footer": "603a2651c5714ebf8cf1f5b52a8ce3b39a2d9c16a69ec972c7b8f1a9bffd5f8e",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/abogados/": {
       "main": "9a021a1179e47e81553f38861d69b96d5c88d0462d6d77f88ab0675a2d1d8b5c",
-      "site-header": "d26ed39d5dab220fab74e4fa7a0c68153be90a40c3e231a4095c5b73974e57c6",
+      "site-header": "ea6cd33e690498eb89840c318cd4ac96d670a6020d22446c7b01240f1bf2cbd9",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/areas-de-practica/": {
       "main": "1465717bcec59c3ac83f434ac236d664494e5fc400a1f6778fec762b03370291",
-      "site-header": "47b0559cba2c14a82ad0b763a4205d1852223c06e2503d6f6c938f9918f1a5f9",
+      "site-header": "adeddeaae941abf72e0d5ff8df093e45dacf14212eb21f25da2fbb255ef48d22",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/aviso-de-privacidad/": {
       "main": "ea75b6570c5e2733a797e679ef5af92701d878d65933d4264645169ed88dc5c9",
-      "site-header": "888690c351676fa09d598346a4ded16fafdc659f739290371a93c24b186828c8",
+      "site-header": "911e4943e2290848b262dc044d271d0402d9e455ae72f438d25fd87e83308834",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/category/sin-categoria-es/": {
       "main": "c27c67103b7237d7e8d37df07da3162b6aa3fbdbf53367818e48450657e238cc",
-      "site-header": "cbb9671f481f0915e443b639b405d93839c1934fc2edbc7bc3cbbe4fc333932a",
+      "site-header": "7be75ed1647f480424f626471aedd6ab340e20a74f48b99e4315694078a21e65",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/contacto/": {
       "main": "f082eccb729be3243a25635caef4578a0940dcd4a0379cb57a65a3a138198c80",
-      "site-header": "4a66e286a3adc73d59b9147c97729e390cdc37a8e6c1ef3f01a0472cc244d48a",
+      "site-header": "75888616837cb3bed14c4fce7ab37072dade41fcf53cf0c661c4a419c08a7790",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/en/": {
       "main": "7b87e80824072d5287a6a8ec0e852320561d3d32f0a148a13395a9013eac641b",
-      "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
+      "site-header": "e335ef20459a9f74b913904500c77c96e04445aec98fddde26f7ff5ebb39c682",
       "footer": "eb298c70fe4315f05281e7e91005a50b37ef6105fe0d67e99301227a22ac164a",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/category/uncategorized/": {
       "main": "cf169ea69d7e455f932d1305f54b5a87136930bc0416f1ebb1623385d83afab6",
-      "site-header": "40ca85e10cf2c935eb6942b122a1d04b0563a67b8644da09bbe2137400bb507c",
+      "site-header": "74d4d6ef5a2d73f4679a4eb03c2754ad2507e367ebfadfa3e83d4ba652246e05",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/contact/": {
       "main": "50e0f4dcc1d6157b84166d422b76bba07c6eb24e8d28f6ecc75d1bf8fc742451",
-      "site-header": "71e0517ba2ba0a6862711edeed22f7d3d1c0b4a4ef1118c53c5305eca8c13fd4",
+      "site-header": "9ac3b67da1c794b4c712144640934d4e047ae2fb89e97f4f311eca25cc6cf690",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/home/": {
       "main": "d5f41d916949c7d2bec16e3bfdf48dfdcf189aa66f443d5226726db7ee3da8bd",
-      "site-header": "f6a4a2c6828375d257d370b191c8620dec2a6bebe21a0c935ff1d9b30b15d711",
+      "site-header": "e335ef20459a9f74b913904500c77c96e04445aec98fddde26f7ff5ebb39c682",
       "footer": "eb298c70fe4315f05281e7e91005a50b37ef6105fe0d67e99301227a22ac164a",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/lawyers/": {
       "main": "3a76286e41b3af924f8642a72108413fc291e80b9acf43943a34ffd097651ef3",
-      "site-header": "4f2ff67dd9c967ad6a84df6b6a682d9b6cdbf4f8428c5a40b04671ed36ce0330",
+      "site-header": "df71d84bf0e724c63cd1c0c2d255f2aea9146e6052dfa8ab32bf8cc5f60740d2",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/news/": {
       "main": "77a32bf400583c6a8f34eef6d866ede8d79739a5ff731c6cc5d01dcff95e35aa",
-      "site-header": "06c50d720bf7cd45ab9c01597b7a0d541f4d6264250613e6c714232442ed35c4",
+      "site-header": "52e43bd72b11d0b929e0eb140782e7169bc11830efbb838523ca3f652c0c3c92",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/notice-of-privacy/": {
       "main": "c47388b17a953b8487ae77b0f5334246cb9d50a009b268362bacc335ea5e6b28",
-      "site-header": "d5debe2e9bf267b919e7fd128efc2038446a126041474c30d368e2920a5bbc4b",
+      "site-header": "ea2ceba24f045c6f81e5fa0fc37b0d5158e6cbc81a8870027c409f6548920f0e",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/pratic-areas/": {
       "main": "ce89ae326c432c9bf2edf5b7e372bf4d26bcb07e2fe907025df5db01efb918ad",
-      "site-header": "bc257a16c93dcee3f9b9afbeb6f48b2684206cdaf5a16f24b543ed9a9ebeef28",
+      "site-header": "17be9a2796d6cf56b258a48ed97caaad2be6063254d1f84e46ba4bb956ca77b6",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-category/associates/": {
       "main": "cc2bebad35c908e585bcaf6098f87e9272a0160e2573d74861a7db89966182ca",
-      "site-header": "e038f00ffe3ad934269c98b74c7e84aeaaf0b6d269a12d7b3027a8aa6e1bf6fa",
+      "site-header": "8d63f91b4fd0a1643f81ca1549c2f6c4e712d52c43bc09ea597936272a8db8f9",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-category/of-counsel/": {
       "main": "92670b2d06caff81036a4bf7af1aa89238c369c4bedbbcaf519fd451dc13d9ae",
-      "site-header": "f838e6da6b81abe3365a8c9ea098b70d4ee7d558e305c85ce1bd2bb88523e944",
+      "site-header": "35c1462f4a288ef0a16b3fa34a1b297583145605fb32ecc0d279fbccd5ed5a93",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-category/partners/": {
       "main": "45173955489406f00a8cfe72ee57b36587d008b4c1d9444290a9b9aba770b0b9",
-      "site-header": "2e34787bd7bedfd745a7ff26060202f5c88343f5a10ca1d3ff30da4ed605f1f1",
+      "site-header": "ab31dbea0f4be3ba027195c79ba04a14c52c23eb11b295c1af50fdd9c128ac4f",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/barbara-de-la-garza-becerril-en/": {
       "main": "ca928fe939e712cd12491988681a676370e5a9a0dbd404173d798eb7b9f342ef",
-      "site-header": "6c29e10eee2afe0a8451f104f7b29ac6ae7c7f20990e3fb83d96b3fd02549bf9",
+      "site-header": "d36a4070cec293046fd44edcd51f87fadf1d78e3ff7823f70812a1ab4fd64025",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/david-abraham-delgado-aguinaga-en/": {
       "main": "dc7680b1f78c3ce8b5e66e584b4bfbf7090a3dc1682d06c010a6bacb23a90def",
-      "site-header": "b20358986609d717346c742d06115b590416e963b97a8c7b67a05e8b21635cc3",
+      "site-header": "97d3fa6ddcae2fd2676d4b9dbb53dda5bfc1e82c6f80b8c2a9417ab276a26e6f",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/ilian-munguia-garcia-en/": {
       "main": "4ad3e168e4acf12c4313e1dea0cf1b89802f652f9ac11f7c55b8dc4af3cc771d",
-      "site-header": "9b938c7b409e2dcf1dfb6c9db1163dc6db560f960253690c828f265f6fda5fd3",
+      "site-header": "8e4fc0aa3589f556ad03113e7fdbc6619d7005b7efb02bcdd4c4f2bdca8aa00d",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/jose-luis-roldan-ortega-en/": {
       "main": "b00d056a0743558bf0f6cfed5d4f1cda4274e7873d914c1e75bdfbe38e74419c",
-      "site-header": "a6becea52cf823141e5ad65f15f3e450b41eb30672e5379b9b42380e2cf2fbd4",
+      "site-header": "12a2aeae4a89444bc9bf54a6a0fdbb0f7d9fdde2a7ea8efd7ba098e6c3eb2dba",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/leon-felipe-aguilar-jimenez-en/": {
       "main": "cdf88f69d28f55bee0eb10d906ab470124ee38dd434e2d77dff583ce3f0bada5",
-      "site-header": "278ba87ffb4a99ae3ccb3d7776f5e491c2ed713866c0db94ed1a312e7a2dd2af",
+      "site-header": "a22c31d1c77f59ac9dd0ef337f3df91ea7962e38ba96edc1f631206fedde0aeb",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/luis-enrique-guerra-brenes-en/": {
       "main": "91fe64a0f8bf883c618259713059ef3fd3c3a4dd2e6a7d579262ff025e1c72e0",
-      "site-header": "9ae53a66a230ded00f0ef375dd268dfe1277147491661fca09123be94f3b9699",
+      "site-header": "96b3fd2760411a6b38e1f952437d32d14bcb1fef6a821b08aca5418fd9b24da4",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/maria-elisa-urban-garcia-en/": {
       "main": "130fe3a9a1c9136837e19672d881175bf09a7a8ede141c9d18ace34c6a956247",
-      "site-header": "f347b36e41b342714d5f638e79214d6765048fccc5ccca5649bca790e65ce4cf",
+      "site-header": "c13c0e4b51cd25f508149646750f14d583e0909254876a58644430714afde985",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/omar-cuellar-gamboa-en/": {
       "main": "52fea06e0485be2b071ed350f5d48ab45dc8ed9e54f9c96ea722f37ee2c459c2",
-      "site-header": "08b55e8d5e1338b6bc1d40f41820d37c4067dc66c85ea6e9690e99e97fd052e6",
+      "site-header": "ff2af43b65fc0f2f961188a8f038abac87d03c8e8830d21174bc9c8a5c5ba2e2",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/paula-marina-waller-moreno-en/": {
       "main": "5213148fdbc5a0160079bef12860a6eaa80dae4bd2a4cceaf731ed7101415ac7",
-      "site-header": "0d5573e400d1af5a24c66416c7d8e125b96046041d3c731393feda2807d06c9b",
+      "site-header": "0f17c0d52f2a5508f929e49e3c5357465a98a8ddb72bb5c748560e854f5d1c39",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/rafael-benitez-fabregas-en/": {
       "main": "25f95219e2ca5a02bdd86674ad9bc02aa40e21cf082f3b5f7daaeb08924306e5",
-      "site-header": "f4073dcb78715910a449c0b9b747a6754b2620af2281f6fd87224a9d3ef832da",
+      "site-header": "97afb13d2f1e17729a7b1bf876cd2f60c832ba90a0d6a3820257e57c15c26042",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/roberto-p-serra-montes-de-oca-en/": {
       "main": "e91e255e68c2c2d328f45a9c7247efa359883020b1dc72c14f4382353326a5aa",
-      "site-header": "07367fd44b2e192eb7e566934cb33b1cc3314663af8644d55a4b453a44be29bb",
+      "site-header": "3b2e4d2ec6501c15a10ae604bc96ce00e48f68c026cb270a76564f77d00367ee",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/staff-member/rodrigo-pujana-sierra-en/": {
       "main": "a13d07543d8033aa04efa067a1bdbd5461fc92acdedd802ab9e8fe611e265d70",
-      "site-header": "0c7361e0f01c170dc23cdb18ab958e08adb6537e784e7714b1da8491ea86fc53",
+      "site-header": "927c6d5179ec34d62c5533b13f1e48727cd4a2a57c8f071e362aba8a00e0f427",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/team/": {
       "main": "dcff859b810ee03d9b4aa5698537d19e98fa2274af7138a134a91ee01f2c15d0",
-      "site-header": "ab7f6618f995b5706b3214b9a20ed85103fbdc774488f1f89e932db80bfc2c26",
+      "site-header": "40b2afd3d5014937139c295333ca73e0a6b0631794ca84385ffb6a45bf287b9f",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/terms-and-conditions/": {
       "main": "25622c0a004c827cbdb5d82f727c24d797952f8c512bb2f7b8f52a047c458bb4",
-      "site-header": "25a42a890ad6ccb572f01b8964e43d629c83ba10f8a02b57176b37f35f2f6eb2",
+      "site-header": "cc0fca87413378aa4758b66003083d412060b333a7e56228276a51a97ed056dd",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/the-firm/": {
       "main": "242d01acc01164efc2760f874f1ca0c465e898bfa1dc67ee45e9c9e5d3d254e8",
-      "site-header": "93c138111e10e2fec12a9e442a2c87c591cb9c1b8775f3b69cd3f14e453f1548",
+      "site-header": "38f9571bf4b039b27247b77b55b81a902a14f766a1520ca08d6a5d5c336a5e1b",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/uncategorized/anti-corruption-integrity-policies/": {
       "main": "d339766350db92c4e32f4a641a9aee7c7f680ad5d749e7b5b2bfe46e9b2d7fe4",
-      "site-header": "8c4313509e7c0290687d48ccefaebb7aa5a21ac1cfe761139ade1ad28c14f509",
+      "site-header": "b8613906d63d74031dabaa81d430988dbce5108b8dc3e75715d91602d2278aef",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/uncategorized/coronavirus-covid-19-2/": {
       "main": "5f4944b6605ec661a24d9400bb0a457021edd04eb749d5a62cf7175df4012317",
-      "site-header": "3b54dc5caef359a815884d8b1887a8e980bb77d3ab83dacb9dc7584496a483df",
+      "site-header": "883bc1ea20141e2b4e6ef8f6845a15b3410c0729a8abdbb358ffc9c90b88a142",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/en/uncategorized/mexican-social-security-institute-administrative-facilities/": {
       "main": "53772e407bfaf0b4a35aa844bf4dd90af45f0f9b20e0fe39e9e88762c93bdb87",
-      "site-header": "cb1febb37a426246d0966111f46fadd04561dc232501bb8ec022d217b53e090f",
+      "site-header": "8e261e29841212b823d669dfdff85f9fc62f17e4ed08d433b1146eb521b49323",
       "footer": "bfff7d30b3b9d7cf7abc6f7f6c85c07780a3285f2e0263a7e9103e7b6fea74ff",
       "footer-bottom": "bd7c46e679b9fff9edc931e9397a5f24b8e43cade7f77a1c726fcc64218bd4e1"
     },
     "/equipo-2/": {
       "main": "5f8f6c778cc7e0f3c237478b64e440c6c6339c664ab002b202b3a7677f343e71",
-      "site-header": "70af28b456f1c30f09ebbed679e24576595651d17d0d1a8aa9684fe6826ff1aa",
+      "site-header": "b939af56c67c900292b731b6a312da2930a69fecf3fc55362cb23ea8d0a8a747",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/equipo/": {
       "main": "dd2fe582c11acbf76ecae667e9a68cd62637dc2e6f7e7b192a2bd1f0a839004a",
-      "site-header": "1e6d85f0fe42d1f7ec68435897ef27d692b783a877fa1b7d111757b867899972",
+      "site-header": "2c14a839a7f07ee70132b28a5550521e801857a29da45a6dea52eaeb71fe1ccd",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/la-firma/": {
       "main": "2a30f8a7600a4df2ab63ecf2a73319f8561fa4919b7001b37d9700942875755f",
-      "site-header": "b0f52ea39054487f5ae669134848ccfe3dae8b026cda4ab6709ea7bd61137230",
+      "site-header": "0d210e6d9c23a6830cb54c1c6208d4c168289ee4923075495816e43b9fcb6e53",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/noticias/": {
       "main": "81151712eba94f95eb93589df483b79423919d2f6c2f6b741c93b92f60475f3f",
-      "site-header": "047e6fe8cba590edb7610ea18fd4d786cebbfe86434b11eaabbcf5d3df513ae3",
+      "site-header": "7ecb475d071710ff08fe1d453ee17d2796c1beaef2a0f12ee7a042d144db2f4e",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/amendment-to-the-credit-institutions-law-and-the-federal-civil-code/": {
       "main": "bfdfdb7a99e5a67f9b828e7b1e23e649e5dcc3c15ee654f7fbc1c392a5cb1c71",
-      "site-header": "93b1336fa2712faf1519a7d967fda67a7a930e0029ddc24ad8368b583722bdb2",
+      "site-header": "2b93fa6da5ee983a92f05586f91dd1f07ea05eb2346d49a2723a3a8448f20363",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/anticorrupcion-politicas-de-integridad/": {
       "main": "cd469ebe0ee2ad4b93466cd0fba74752d17f6449bc660ae3dbf561e19bb0b169",
-      "site-header": "a344c2427c516168aeae75fbeaec64d1b9bf155f2d2fe5dfeab8b10f43bd02ab",
+      "site-header": "cab39abcd373f2ad4b4b689068379270e2a1bed02a683b1c3d4a8e5bdc385839",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/comentarios-a-la-nueva-ley-de-infraestructura-de-la-calidad-que-abroga-a-la-de-metrologia-y-normalizacion/": {
       "main": "633bceb280e70eaa1b587a93d3a3e95bb5612672e54b65118edf28fb8f36500a",
-      "site-header": "fea14f9172553781c260d02e953c0a54d32a32ba0d1e3942f734d64877fc858f",
+      "site-header": "1a36abc0c55002dac88edb1d3265d6b656a965b190523c99605d50328a2aa8bd",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/coronavirus-covid-19/": {
       "main": "c22392f979babd6eb8898c2fb5d48a9136f3fe738021df5fddeb8658b7bb2390",
-      "site-header": "3bea3b907924c5a0be084dac20e836f653896e7f6022855f4cbee13c265c5c8f",
+      "site-header": "ccf347d40e9e9d8322123a07734644a3c7a2f7426ee661a8e3676438827d47f9",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/covid-19-situacion-actual-en-la-republica-mexicana/": {
       "main": "d73907fe11bedd9c61f7a6f6a65c3b9ed049e887ffa5d536afe1ef0906be7827",
-      "site-header": "10809e900c26870bfbb78a0d7a80e7ceafb53ad77657835008a845c7028e2a8e",
+      "site-header": "40873041f9f19409defa863b9090f2fd3d80a90078cfe55b9ef80477427ec5a9",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/entrada-en-vigor-de-la-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion/": {
       "main": "c1f49084d894fa6e27b14a3382168495160f702cc78ea2fc7ad62f94bce5401a",
-      "site-header": "8cdf5102901c29007110b34286b11f630897098c193f6a68cd647097917daad2",
+      "site-header": "00ee4812475bbab4556a10d4bf6c4a7d74ef756060bb437e332c4665c8816a3e",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/fiscal/": {
       "main": "9e812e82ceb6b2224b9db565df62ba01239bfcafc6f1a48ae74f006293bca973",
-      "site-header": "22d9651e27d1200a10113d601b3da210e66af1d1242f81de83df240017501f35",
+      "site-header": "5980b823172664fa2bcdaa59c6af53374fcc2a2a886c7a72d351524f25f2b76f",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/lineamientos-tecnicos-especificos-para-la-reapertura-de-las-actividadeseconomicas-publicados-en-la-edicion-vespertina-del-dia-de-hoy-en-el-diario-oficial-de-la-federacion/": {
       "main": "d8c77713a01f18f2dd3c227ea374e14095f22ac3d6a7e7de91b79bd6f5eea111",
-      "site-header": "70056318c1c977f0d5bf2b2ce331073665f06f801d9aa2126fedd887a84c0055",
+      "site-header": "13e2def8109eecff941fe9da4577efa6bf4aa36d7d5d160c145017f919b956b2",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/memorandum/": {
       "main": "0cb8d95396ce9bd8123f44de442484410d312c0afc4e8df4f193aa8a938818e9",
-      "site-header": "74d59093fdf471aa3b7f4ae7943db1caeb4b4c92407d50e62475cfb523db3f81",
+      "site-header": "383bccec386f48a6ff399fd44af9b05f2491c4ef74df8704972b0f051311b087",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/notas-relevantes-sobre-la-ley-nacional-de-extincion-de-dominio/": {
       "main": "f99d4de647d648114d20a5fd9d730011f7f9389d9102bfc8724582e7bc05f2c5",
-      "site-header": "fff7a0d726cb119679844286d6af653f89b81dfd8b591fb933ca434f898f764c",
+      "site-header": "2c996e08fe8bc146d27ccd3a04b8064d86e551133e9d90998e98ed46586ffd96",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/reforma-a-la-ley-de-instituciones-de-credito-y-al-codigo-civil-federal/": {
       "main": "51825671c12785ed07898d31b8e63525793010d897182d42f2ef63ed2b11b358",
-      "site-header": "ea2c9513caed3d1a647ac0ac86befd78923667e730a6f251d3712526245578a0",
+      "site-header": "6988d389c39374b5184b3d3cfc103364a7a5e1a25d15f7f4c24874b34d4015ce",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudos-arbitrales-en-materia-de-comercio/": {
       "main": "d197399d9b8900308f8ad78adc8ff0cfbb96a149a77eef349a0a4c79ad509869",
-      "site-header": "ff43074f23c437d168a77ab1b95fb5bc8a2a2ddba7e257aefb5f6d252356681b",
+      "site-header": "f1f80eeef53eef567d1ffedf18e26fc6519ebec4e292922b64aee11002985424",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/sin-categoria-es/sintesis-de-la-reforma-a-la-ley-de-la-industria-electrica/": {
       "main": "21ffb8c5df802cd47c3aca7b92367dfea7b4db9064e67273874b2274f4eac590",
-      "site-header": "936f9f5b9a7b34320250623988db2968729d46d4c1034e959050ce39f281a73a",
+      "site-header": "1a5ee702068fea87899de3ae88389645e576f7250f32cec3072eb3a99bc4e260",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-category/asociados/": {
       "main": "6e1a3cebe3438b5a60060138c9660fb89ae71deaf2956f22b3891031230a3854",
-      "site-header": "a3ea8d70eacaa37fe6c2ca2dd7515578fe527d08f6da3a3a12df9f7ac7193c64",
+      "site-header": "16c06cec56d9644000f2938d1de6d62645497c8902c360af69cd9b2e9f8177c3",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-category/of-counsel-es/": {
       "main": "ff54772fd3ef0249d51fc7c189e23d75a6dc7fcbfe82244bf33af5bcb2887337",
-      "site-header": "7deb78a58f39df9b0c93c3af759a4b424a8e0fc92f070dcb27bf9d6b7be5db0e",
+      "site-header": "50e13c77ff524d36594ab468b1c907fffd84f79e613a705ae50bf1930109ab5c",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-category/socios/": {
       "main": "20df34bc58aba2f047746eff2e7a2c0926bf8ffd8cf259df7b3c242570499038",
-      "site-header": "6333f063f2b1d966a151458075778696d9775bd7fe27b88ac9936f6952071b4e",
+      "site-header": "54871b12d1a6015f66b6674013b5cd0f5af62a66a5b52641c14cc4717269f113",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/angela-gutierrez-rivera/": {
       "main": "bb4a6f814a7de2d32a3f4e3306bc72ef277271a0e34f789c13beb9c230d5793d",
-      "site-header": "5030a389738e6f1a1b7161828c2f4fbfdd149b537f8b823ef117b195818fefc4",
+      "site-header": "4fef772f78a51e77542d4f12e9bc83cd7f9c9c1878eb423dee84ba56d50abce2",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/barbara-de-la-garza-becerril/": {
       "main": "ab2635e0a088150a1d667265efd34d9925cae71b7e17f175565feb3b222fd89a",
-      "site-header": "aa0b833391b984a2cb3bc4e56b5f0ff92980697c670d97489b5a457855387c5c",
+      "site-header": "33e8e5a5da7d15c77b60e5c06d7ae8c7b0372aa1e62059e77489a5dd09a04304",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/david-abraham-delgado-aguinaga/": {
       "main": "0de1edc9bc7be90d8f423270899a3f6186638e72c0bdc00a05cb346476c92ddd",
-      "site-header": "6e678e71134dba3824316e49dc2967fb07ff6d2958cb3b67e499d3b8b5ccb522",
+      "site-header": "1012a39827360834aad6bc7d60c2cb9cd11f13ca74db2ac40e3cb9e993a83449",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/fernanda-garciatorres/": {
       "main": "cfc236ec578f7d0482e3b061a99c4ba801cabe2b49d033111e1aee0985d40b4d",
-      "site-header": "0e9f9926608f17b6f89b08dfb96d65a54bcdcbe7e715cc97257a98c25fe9821b",
+      "site-header": "051ea59c06ea33675103700b257dfd449feebda42bf557a8960102e1d711766f",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/gabriel-garcia-martinez/": {
       "main": "91e3028bf63a033cb8bb92bcb19bb2edf3255386a6a901c3dd72a76142d371cd",
-      "site-header": "e0ebca77095f73ac9935f06f479654c89c2958b3668b28dade928c5614711048",
+      "site-header": "4d3133dbe9c881243e4462fbc0303a4428575e75416dc723d6a095ea3405e97f",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/ilian-munguia-garcia/": {
       "main": "098920e1451c779a83b0117271bcf35a60fd96f28a7b35951aea60ccac6dfbc3",
-      "site-header": "5916d51a74a647a61ecd14edfea8ff6a7be7022fbfae0dcaafa00a8289730460",
+      "site-header": "c1b8c034b4989ede09bab8c033691351e05e2556c9a75520f05f4d697a14c9eb",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/jose-luis-roldan-ortega/": {
       "main": "a9f66ed9311855f07209d0c0badb718354ccb31a06b3d95bb019599b1604a3d2",
-      "site-header": "1329d8e5e7e036eac3989d5dc2f1600f4e394749ecbf2619102b1e6f9f1396ff",
+      "site-header": "014698abb8267a4f0f167942590686645873d09543ba3a36524e0835a889b26b",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/leon-felipe-aguilar-jimenez/": {
       "main": "cc79496fdddee1411546c1d34065159b6c8269a5a270e15199bfd221eb730b6e",
-      "site-header": "a59a1abd57800b4915ad4aa4e3f9c48cf8ad75ecda9cf4bda374f9f3e7abf369",
+      "site-header": "4e59ded62ac168df1a6a439f1aebf053f2082a316e727ad195755c769e179cc3",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/luis-enrique-guerra-brenes/": {
       "main": "43790ee89cd34fc7ad4ea887188836f06b8845360b0425ee34881c329a10913b",
-      "site-header": "b1b6ae79729cf5b25c93de8b0c125ebec2507d2e0cd13763f6b0a37e91b9e64d",
+      "site-header": "3f4eb704f9d84c5975ab9b17aa533c59a88f6ba5a7425b4d2afb2ff13edeab93",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/maria-elisa-urban-garcia/": {
       "main": "794bb8329a1e78fcab0959ed6452d88fc7d5cca5b24ff0ea0bb64bde88c5af4a",
-      "site-header": "8c17f1dd69b50b91eb62fb92dbc7ad4c643adfa3b27df36ac94b7eeeff4de5c9",
+      "site-header": "cbf2fb08a705d63a9a314301e83eb90023f84ca5606d2f096bc9ac85c03c0129",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/minerva-ramos-olvera/": {
       "main": "4637ebb06a46efaafe11fcef178b97bbfb8f68716eb589c025f69e1dd917233d",
-      "site-header": "1466dda96bc543e73df77bff20dccc45f426a9eed3d6554b9ce38966a6136eaa",
+      "site-header": "694550d8435b9c7097b787d2acfb4a3c587c1f063ce71713fedbfff2edc114a1",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/omar-cuellar-gamboa/": {
       "main": "bce264d2ae36178530feaf11695503bffb8c4a5052a9342edd6b3bc208a04381",
-      "site-header": "c3927c0ecf5f804c1ad847fb5bbc51f3750051f2749aadbbb322d2d3f0ac7857",
+      "site-header": "31676d774c8b1a6058ff833ce6ee7e557cefb8250b5888cb9e37bc1ec07cd03a",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/paula-marina-waller-moreno/": {
       "main": "05e447902cea7046be4c982b3737fbda41feae62401f0ff5d6f9ac1723c65b82",
-      "site-header": "aa7059ed66ade3f8052fb071c8baef5bad5437d40cfbc2b54844805ddfb2d5b9",
+      "site-header": "78d8997713db081e87f0a76d95921cdf448de76145b35cfb3141e8d651d2ed0f",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/rafael-benitez-fabregas/": {
       "main": "f8798585bb4ee1e0b42923e0e4ea64a077816b48e51e69570f9a1b7a0477a564",
-      "site-header": "15fca0d293acbd696603afa4d7dfe9f5a3472e3195909283cb606a1b02cd0881",
+      "site-header": "ec879366e4652ff0028bac77e1b659c38d6eb34cf7507f4e1dcbb10deee22499",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/raul-alfredo-sanchez-velazquez/": {
       "main": "e2f570c301a2edf84163fa036f9469f132a8dae295d26c259140712437749ebe",
-      "site-header": "04c6834eb9480d847823a662b948e0185e5291689145f16f67dd9b358bd61e69",
+      "site-header": "3797d43dbe7e25543e427d92818a075fd6cc0b565036a009e35f8a16a07c8eac",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/roberto-p-serra-montes-de-oca/": {
       "main": "02b01522428dc15ee851daca90f73b1929f7ae694ad421ce8d00a1bf7cdd6085",
-      "site-header": "d783607bfcf8b51883134cc31caca151443ae5467de050bfae148bc2c5ee12d9",
+      "site-header": "6521cada387a44e0ca908cc5af1c42ef7392e461c7f2bf84db41c1c1516519fa",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/rodrigo-pujana-sierra/": {
       "main": "a23e1e6e846622b743c034c1bc9dee8091e2ca61c8075bc5a8f5181210754cae",
-      "site-header": "59335bcbbd75258863115bf3444eace40107fd35b9ef0442b69455c861d91fd6",
+      "site-header": "35826983b90730b5db22c6d531a2fb79d896e946b06fefec1209be99894cb58b",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/sandra-paola-moreno-zamudio/": {
       "main": "4731d1beadb419fe4170d690e09125666941f8c553b4c3d7bf96ae0651ba6f7a",
-      "site-header": "6e021837524e32e124ddcac67d6e8e0ee8cf1c60c1032bd8de604124b24452e2",
+      "site-header": "65ec6c0d72903a9353f99f61e1367786d0895c5699ac3069237858873c99eca9",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-member/stephanie-daniela-sanchez-godinez/": {
       "main": "b75453ebc57b36577d33d21a2ada336c8f9998b5b8650b7d15585b8b4e9fd106",
-      "site-header": "232333e8c42108cc7ba10948c9a45c930dd5bc69ce233757c29bd3a96ea20e8b",
+      "site-header": "223b507b1535a64ec821be6ecc153a499601202cb7a315d8baad0c53a76e920e",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/terminos-y-condiciones/": {
       "main": "e4188a1c06e4f39c3210dc309ce51e79fb0ce0c3b897ee0286bc14e912e45630",
-      "site-header": "7bf8c18433b899cfafe4b9d98bf3f990e4a04e92893099c93b0b8384da796662",
+      "site-header": "2fafc0569f50e773d59c08be04e33931ab162ceecbb07e984fd3de45b5d95b61",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/category/sin-categoria-es/page/2/": {
       "main": "790a08e47c64552caae6ceb5a21b995658cbf98b6344f76e1a393640212a5d4d",
-      "site-header": "cbb9671f481f0915e443b639b405d93839c1934fc2edbc7bc3cbbe4fc333932a",
+      "site-header": "6b02437dc3be33ad61925c6154104850f2f93027a6260a323676214f9cf66f18",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-category/asociados/page/2/": {
       "main": "11b30a76acf0fb455d179a00e72da911846680bdc8980151204e42db9fa4f987",
-      "site-header": "a3ea8d70eacaa37fe6c2ca2dd7515578fe527d08f6da3a3a12df9f7ac7193c64",
+      "site-header": "4f9fc0c0703ff36e5cef085073dc89e51df32c192647ee983ded42225e6380d1",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/category/sin-categoria-es/page/1/": {
       "main": "c27c67103b7237d7e8d37df07da3162b6aa3fbdbf53367818e48450657e238cc",
-      "site-header": "cbb9671f481f0915e443b639b405d93839c1934fc2edbc7bc3cbbe4fc333932a",
+      "site-header": "7be75ed1647f480424f626471aedd6ab340e20a74f48b99e4315694078a21e65",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     },
     "/staff-category/asociados/page/1/": {
       "main": "6e1a3cebe3438b5a60060138c9660fb89ae71deaf2956f22b3891031230a3854",
-      "site-header": "a3ea8d70eacaa37fe6c2ca2dd7515578fe527d08f6da3a3a12df9f7ac7193c64",
+      "site-header": "16c06cec56d9644000f2938d1de6d62645497c8902c360af69cd9b2e9f8177c3",
       "footer": "c20716f89e67721d4465e0ded2764dbf41c826fef182eeab8168e79b761fe6ff",
       "footer-bottom": "abebd87fae1d77600197717e1f79dbd7ce7f0831871c1e0906c76f2607517bd2"
     }

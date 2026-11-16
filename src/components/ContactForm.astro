@@ -1,6 +1,8 @@
 ---
-const { english = false, home = false } = Astro.props;
-const copy = english
+const { english = false, french = false, home = false } = Astro.props;
+const copy = french
+  ? {name: 'Nom', email: 'Adresse e-mail', phone: 'Téléphone', company: 'Entreprise', role: 'Fonction', message: 'Message', submit: 'Envoyer le message'}
+  : english
   ? {name: 'Name', email: 'Email address', phone: 'Phone', company: 'Company', role: 'Position', message: 'Message', submit: 'Send message'}
   : {name: 'Nombre', email: 'Correo electrónico', phone: 'Teléfono', company: 'Empresa', role: 'Cargo', message: 'Mensaje', submit: 'Enviar mensaje'};
 ---

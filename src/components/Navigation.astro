@@ -1,8 +1,23 @@
 ---
+import { alternatesForPath, languageTags, languageLabels } from '../data/languages';
 const { attributes, items } = Astro.props;
+const alternates = alternatesForPath(Astro.url.pathname);
+const french = Astro.url.pathname.startsWith('/fr/');
+const frenchItem = {
+  attributes: { class: 'lang-item lang-item-fr menu-item menu-item-type-custom menu-item-object-custom', id: 'menu-item-fr' },
+  anchor: { href: alternates.find(item => item.language === 'fr')?.path, hreflang: languageTags.fr, lang: languageTags.fr },
+  label: languageLabels.fr,
+};
+const menuItems = french
+  ? [...items.filter(item => !item.anchor.hreflang && !item.search), ...alternates.map(item => ({
+    attributes: { class: `lang-item lang-item-${item.language} menu-item${item.language === 'fr' ? ' current-lang' : ''}` },
+    anchor: { href: item.path, hreflang: languageTags[item.language], lang: languageTags[item.language], ...(item.language === 'fr' ? { 'aria-current': 'page' } : {}) },
+    label: languageLabels[item.language],
+  })), ...items.filter(item => item.search)]
+  : items.flatMap(item => item.search ? [frenchItem, item] : [item]);
 ---
 <ul {...attributes}>
-  {items.map(item => <li {...item.attributes}><a {...item.anchor}>
-    <span class="link-inner">{item.search ? <><span class="wpex-menu-search-text wpex-hidden">Search</span><span aria-hidden="true" class="wpex-menu-search-icon ticon ticon-search"></span></> : item.label}</span>
+  {menuItems.map(item => <li {...item.attributes}><a {...item.anchor}>
+    <span class="link-inner">{item.search ? <><span class="wpex-menu-search-text wpex-hidden">{french ? 'Rechercher' : 'Search'}</span><span aria-hidden="true" class="wpex-menu-search-icon ticon ticon-search"></span></> : item.label}</span>
   </a></li>)}
 </ul>

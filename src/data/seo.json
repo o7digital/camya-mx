@@ -317,5 +317,207 @@
     "title": "Abogados asociados | CAMYA | Ciudad de México, CDMX",
     "description": "Conoce a los abogados asociados de CAMYA. Consulta sus perfiles, formación, experiencia y áreas de práctica jurídica en Ciudad de México (CDMX).",
     "canonicalPath": "/staff-category/asociados/"
+  },
+  "/fr/": {
+    "title": "Avocats pour entreprises | CAMYA | Mexico, CDMX",
+    "description": "CAMYA accompagne les entreprises à Mexico : droit des sociétés, contentieux, fiscalité et conformité. Découvrez notre cabinet et notre équipe d’avocats."
+  },
+  "/fr/avocats/": {
+    "title": "Julio César Osornio Barrientos | CAMYA Avocats | CDMX",
+    "description": "Découvrez le parcours de Julio César Osornio Barrientos et les domaines de pratique des avocats de CAMYA à Mexico : conseil et contentieux pour entreprises."
+  },
+  "/fr/domaines-de-pratique/": {
+    "title": "Domaines de pratique juridique | CAMYA Avocats | CDMX",
+    "description": "Découvrez les expertises de CAMYA à Mexico : contentieux civil et commercial, droit des sociétés, fiscalité, immobilier, énergie et conformité des entreprises."
+  },
+  "/fr/confidentialite/": {
+    "title": "Politique de confidentialité | CAMYA Avocats",
+    "description": "Consultez la politique de confidentialité de CAMYA : traitement des données personnelles, finalités, sécurité et exercice de vos droits au Mexique."
+  },
+  "/fr/contact/": {
+    "title": "Contact et bureaux à Bosques de las Lomas | CAMYA | CDMX",
+    "description": "Contactez CAMYA à Mexico pour vos besoins juridiques. Retrouvez notre formulaire, notre téléphone et nos bureaux à Bosques de las Lomas."
+  },
+  "/fr/equipe/": {
+    "title": "Notre équipe d’avocats | CAMYA | Mexico, CDMX",
+    "description": "Rencontrez les associés, les collaborateurs et le Of Counsel de CAMYA à Mexico. Découvrez leurs parcours, leurs formations et leurs domaines de pratique."
+  },
+  "/fr/annuaire/": {
+    "title": "Annuaire de l’équipe | CAMYA Avocats | CDMX",
+    "description": "Retrouvez l’annuaire de l’équipe CAMYA à Mexico, ses avocats et les liens vers leurs profils professionnels et leurs domaines de pratique juridique."
+  },
+  "/fr/le-cabinet/": {
+    "title": "Cabinet d’avocats au Mexique | CAMYA | Mexico, CDMX",
+    "description": "Découvrez CAMYA, cabinet d’avocats à Mexico : notre expérience, nos engagements, nos reconnaissances professionnelles et notre responsabilité sociale."
+  },
+  "/fr/actualites/": {
+    "title": "Actualités et analyses juridiques | CAMYA Avocats | Mexique",
+    "description": "Retrouvez les publications de CAMYA sur l’actualité juridique au Mexique : réformes, réglementation, droit des affaires et analyses de nos avocats."
+  },
+  "/fr/conditions-generales/": {
+    "title": "Conditions générales d’utilisation | CAMYA Avocats",
+    "description": "Consultez les conditions d’utilisation du site de CAMYA : informations juridiques, propriété intellectuelle, responsabilités et modalités applicables."
+  },
+  "/fr/categorie/publications/": {
+    "title": "Archives des publications juridiques | CAMYA Avocats",
+    "description": "Parcourez les archives des publications de CAMYA consacrées au droit mexicain : réformes, réglementation et analyses juridiques pour les entreprises."
+  },
+  "/fr/categorie/collaborateurs/": {
+    "title": "Avocats collaborateurs | CAMYA | Mexico, CDMX",
+    "description": "Découvrez les collaborateurs de CAMYA à Mexico et leurs profils : formation, expérience professionnelle et domaines de pratique au service de nos clients."
+  },
+  "/fr/categorie/associes/": {
+    "title": "Les associés du cabinet | CAMYA Avocats | CDMX",
+    "description": "Rencontrez les associés de CAMYA à Mexico : leurs parcours professionnels, leurs formations et leurs expertises en conseil et contentieux des affaires."
+  },
+  "/fr/categorie/of-counsel/": {
+    "title": "Of Counsel : León Felipe Aguilar Jiménez | CAMYA | CDMX",
+    "description": "Découvrez le profil de León Felipe Aguilar Jiménez, Of Counsel chez CAMYA à Mexico, et son expérience en contentieux et dans les différentes branches du droit."
+  },
+  "/fr/actualites/reforme-credit-code-civil/": {
+    "title": "Réforme du crédit et du Code civil fédéral, 2020 | CAMYA",
+    "description": "Analyse de la réforme de 2020 relative à la loi sur les établissements de crédit et au Code civil fédéral mexicain, traduite de la publication anglaise de CAMYA."
+  },
+  "/fr/actualites/anticorruption-politiques-integrite/": {
+    "title": "Anticorruption et politiques d’intégrité | CAMYA",
+    "description": "Publication de CAMYA sur les politiques d’intégrité et la prévention de la corruption au Mexique : enjeux de conformité et responsabilité des entreprises."
+  },
+  "/fr/actualites/loi-infrastructure-qualite/": {
+    "title": "Loi sur l’infrastructure de la qualité : analyse de 2020 | CAMYA",
+    "description": "Analyse historique de CAMYA sur la loi mexicaine de 2020 relative à l’infrastructure de la qualité et ses effets sur la métrologie et la normalisation."
+  },
+  "/fr/actualites/coronavirus-covid-19/": {
+    "title": "COVID-19 : suspension des activités judiciaires en 2020 | CAMYA",
+    "description": "Publication historique de CAMYA sur les suspensions d’activités des juridictions mexicaines en mars 2020 et leurs conséquences dans le contexte de la COVID-19."
+  },
+  "/fr/actualites/covid-19-situation-juridique-mexique/": {
+    "title": "COVID-19 : contexte juridique au Mexique en 2020 | CAMYA",
+    "description": "Analyse historique de CAMYA sur les mesures juridiques prises au Mexique en 2020 face à la COVID-19 et leurs conséquences pour les personnes et les entreprises."
+  },
+  "/fr/actualites/nom-035-risques-psychosociaux/": {
+    "title": "NOM-035 : risques psychosociaux et entrée en vigueur | CAMYA",
+    "description": "Publication de CAMYA sur l’entrée en vigueur de la NOM-035-STPS-2018 au Mexique : identification, analyse et prévention des risques psychosociaux au travail."
+  },
+  "/fr/actualites/imss-facilites-administratives/": {
+    "title": "IMSS : facilités administratives et sous-traitance | CAMYA",
+    "description": "Analyse de CAMYA sur les facilités administratives de l’Institut mexicain de sécurité sociale, les obligations des entreprises et la sous-traitance au Mexique."
+  },
+  "/fr/actualites/reprise-activites-economiques/": {
+    "title": "Reprise des activités économiques au Mexique, 2020 | CAMYA",
+    "description": "Analyse historique de CAMYA sur les directives techniques de mai 2020 encadrant la reprise des activités économiques au Mexique pendant la pandémie."
+  },
+  "/fr/actualites/politique-fiabilite-systeme-electrique/": {
+    "title": "Fiabilité du système électrique : analyse de 2020 | CAMYA",
+    "description": "Mémorandum historique de CAMYA sur la politique de fiabilité du système électrique national mexicain publiée en mai 2020 et ses conséquences juridiques."
+  },
+  "/fr/actualites/loi-nationale-confiscation-biens/": {
+    "title": "Loi nationale sur la confiscation de biens : notes de 2019 | CAMYA",
+    "description": "Notes historiques de CAMYA sur la loi nationale mexicaine de 2019 relative à l’extinction de domaine : procédure, biens concernés et conséquences juridiques."
+  },
+  "/fr/actualites/reforme-institutions-credit/": {
+    "title": "Réforme de la loi sur les établissements de crédit, 2020 | CAMYA",
+    "description": "Publication historique de CAMYA sur la réforme mexicaine de 2020 relative aux établissements de crédit et au Code civil fédéral : contenu et conséquences."
+  },
+  "/fr/actualites/authentification-sentences-arbitrales/": {
+    "title": "Authentification des sentences arbitrales commerciales | CAMYA",
+    "description": "Analyse de CAMYA sur l’authentification des sentences arbitrales en matière commerciale au Mexique et les critères applicables à leur reconnaissance."
+  },
+  "/fr/actualites/reforme-industrie-electrique/": {
+    "title": "Réforme de la loi sur l’industrie électrique : synthèse | CAMYA",
+    "description": "Synthèse historique de CAMYA sur la réforme de la loi mexicaine relative à l’industrie électrique : principales dispositions et conséquences pour le secteur."
+  },
+  "/fr/equipe/angela-gutierrez-rivera/": {
+    "title": "Angela Gutiérrez Rivera | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Angela Gutiérrez Rivera chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/barbara-de-la-garza-becerril/": {
+    "title": "Bárbara de la Garza Becerril | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Bárbara de la Garza Becerril chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/david-abraham-delgado-aguinaga/": {
+    "title": "David Abraham Delgado Aguiñaga | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de David Abraham Delgado Aguiñaga chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/fernanda-garciatorres/": {
+    "title": "Fernanda Garciatorres | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Fernanda Garciatorres chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/gabriel-garcia-martinez/": {
+    "title": "Gabriel García Martínez | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Gabriel García Martínez chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/ilian-munguia-garcia/": {
+    "title": "Ilian Munguía García | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Ilian Munguía García chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/jose-luis-roldan-ortega/": {
+    "title": "José Luis Roldán Ortega | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de José Luis Roldán Ortega chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/leon-felipe-aguilar-jimenez/": {
+    "title": "León Felipe Aguilar Jiménez | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de León Felipe Aguilar Jiménez chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/luis-enrique-guerra-brenes/": {
+    "title": "Luis Enrique Guerra Brenes | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Luis Enrique Guerra Brenes chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/maria-elisa-urban-garcia/": {
+    "title": "Maria Elisa Urban Garcia | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Maria Elisa Urban Garcia chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/minerva-ramos-olvera/": {
+    "title": "Minerva Ramos Olvera | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Minerva Ramos Olvera chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/omar-cuellar-gamboa/": {
+    "title": "Omar Cuéllar Gamboa | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Omar Cuéllar Gamboa chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/paula-marina-waller-moreno/": {
+    "title": "Paula Marina Waller Moreno | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Paula Marina Waller Moreno chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/rafael-benitez-fabregas/": {
+    "title": "Rafael Benítez Fábregas | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Rafael Benítez Fábregas chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/raul-alfredo-sanchez-velazquez/": {
+    "title": "Raúl Alfredo Sánchez Velázquez | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Raúl Alfredo Sánchez Velázquez chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/roberto-p-serra-montes-de-oca/": {
+    "title": "Roberto P. Serra Montes de Oca | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Roberto P. Serra Montes de Oca chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/rodrigo-pujana-sierra/": {
+    "title": "Rodrigo Pujana Sierra | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Rodrigo Pujana Sierra chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/sandra-paola-moreno-zamudio/": {
+    "title": "Sandra Paola Moreno Zamudio | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Sandra Paola Moreno Zamudio chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/equipe/stephanie-daniela-sanchez-godinez/": {
+    "title": "Stephanie Daniela Sánchez Godínez | CAMYA Avocats | CDMX",
+    "description": "Découvrez le profil de Stephanie Daniela Sánchez Godínez chez CAMYA à Mexico : formation, parcours professionnel et domaines de pratique juridique au service des clients."
+  },
+  "/fr/categorie/publications/page/2/": {
+    "title": "Archives juridiques : page 2 | CAMYA Avocats",
+    "description": "Consultez la deuxième page des archives juridiques de CAMYA : publications et analyses historiques sur les réformes et la réglementation au Mexique."
+  },
+  "/fr/categorie/collaborateurs/page/2/": {
+    "title": "Avocats collaborateurs : page 2 | CAMYA | CDMX",
+    "description": "Retrouvez la deuxième page de l’annuaire des collaborateurs de CAMYA à Mexico et accédez à leurs parcours et à leurs domaines de pratique juridique."
+  },
+  "/fr/categorie/publications/page/1/": {
+    "title": "Archives des publications juridiques | CAMYA Avocats",
+    "description": "Parcourez les archives des publications de CAMYA consacrées au droit mexicain : réformes, réglementation et analyses juridiques pour les entreprises.",
+    "canonicalPath": "/fr/categorie/publications/"
+  },
+  "/fr/categorie/collaborateurs/page/1/": {
+    "title": "Avocats collaborateurs | CAMYA | Mexico, CDMX",
+    "description": "Découvrez les collaborateurs de CAMYA à Mexico et leurs profils : formation, expérience professionnelle et domaines de pratique au service de nos clients.",
+    "canonicalPath": "/fr/categorie/collaborateurs/"
   }
 }

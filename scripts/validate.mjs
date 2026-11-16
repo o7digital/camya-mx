@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { isIndexingAllowed } from '../src/data/indexing-policy.mjs';
 const root = path.resolve('dist');
-const pages = JSON.parse(fs.readFileSync('archive/pages.json', 'utf8'));
+const pages = JSON.parse(fs.readFileSync('src/data/pages.json', 'utf8'));
 const problems = [];
 for (const route of Object.keys(pages)) {
   const file = path.join(root, route, 'index.html');
@@ -20,4 +20,4 @@ for (const route of Object.keys(pages)) {
   }
 }
 if (problems.length) { console.error([...new Set(problems)].join('\n')); process.exit(1); }
-console.log(`Validated ${Object.keys(pages).length} preserved routes and local assets.`);
+console.log(`Validated ${Object.keys(pages).length} public routes and local assets.`);

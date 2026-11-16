@@ -9,7 +9,7 @@ const metadata = JSON.parse(fs.readFileSync('src/data/seo.json', 'utf8'));
 const keywordGroups = JSON.parse(fs.readFileSync('src/data/keyword-groups.json', 'utf8'));
 assert.equal(keywordGroups.length, 10, 'Keep the ten agreed keyword groups');
 assert.equal(new Set(keywordGroups.map(group => group.id)).size, 10, 'Keyword group IDs must be unique');
-for (const language of ['es', 'en']) {
+for (const language of ['es', 'en', 'fr']) {
   const terms = keywordGroups.flatMap(group => [group[language].primary, ...group[language].variants]);
   assert.equal(new Set(terms).size, terms.length, `Keyword expressions must be unique: ${language}`);
 }
@@ -47,7 +47,7 @@ for (const route of Object.keys(inventory)) {
   assert.equal(robotsNodes.length, 1, `One robots directive required: ${route}`);
   assert.equal(canonicalNodes.length, 1, `One canonical required: ${route}`);
   assert.equal(find(node => node.tagName === 'h1').length, 1, `One primary heading required: ${route}`);
-  const language = inventory[route].english ? 'en' : 'es';
+  const language = inventory[route].language ?? (inventory[route].english ? 'en' : 'es');
   const keywords = keywordGroups.map(group => group[language].primary);
   const keywordMeta = find(node => node.tagName === 'meta' && attr(node, 'name') === 'keywords');
   assert.equal(keywordMeta.length, 1, `One keywords meta tag required: ${route}`);

@@ -1,8 +1,8 @@
 ---
-const { english } = Astro.props;
+const { english, french = false } = Astro.props;
 ---
 <p class="camya-footer-brand">
-<a aria-label={english ? 'CAMYA Abogados — Home' : 'CAMYA Abogados — Inicio'} href={english ? '/en/home/' : '/'}>
+<a aria-label={french ? 'CAMYA Abogados — Accueil' : english ? 'CAMYA Abogados — Home' : 'CAMYA Abogados — Inicio'} href={french ? '/fr/' : english ? '/en/home/' : '/'}>
 <img alt="CAMYA Abogados" decoding="async" height="73" loading="lazy" src="/assets/uploads/2026/10/logoblanco_nvo.svg" width="300" />
 </a>
 </p>

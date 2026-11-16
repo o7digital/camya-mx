@@ -1,0 +1,233 @@
+[
+  {
+    "es": "/",
+    "fr": "/fr/",
+    "en": "/en/home/",
+    "aliases": [
+      "/en/"
+    ]
+  },
+  {
+    "es": "/abogados/",
+    "fr": "/fr/avocats/",
+    "en": "/en/lawyers/"
+  },
+  {
+    "es": "/areas-de-practica/",
+    "fr": "/fr/domaines-de-pratique/",
+    "en": "/en/pratic-areas/"
+  },
+  {
+    "es": "/aviso-de-privacidad/",
+    "fr": "/fr/confidentialite/",
+    "en": "/en/notice-of-privacy/"
+  },
+  {
+    "es": "/contacto/",
+    "fr": "/fr/contact/",
+    "en": "/en/contact/"
+  },
+  {
+    "es": "/equipo/",
+    "fr": "/fr/equipe/",
+    "en": "/en/team/"
+  },
+  {
+    "es": "/equipo-2/",
+    "fr": "/fr/annuaire/"
+  },
+  {
+    "es": "/la-firma/",
+    "fr": "/fr/le-cabinet/",
+    "en": "/en/the-firm/"
+  },
+  {
+    "es": "/noticias/",
+    "fr": "/fr/actualites/",
+    "en": "/en/news/"
+  },
+  {
+    "es": "/terminos-y-condiciones/",
+    "fr": "/fr/conditions-generales/",
+    "en": "/en/terms-and-conditions/"
+  },
+  {
+    "es": "/category/sin-categoria-es/",
+    "fr": "/fr/categorie/publications/",
+    "en": "/en/category/uncategorized/",
+    "aliases": [
+      "/category/sin-categoria-es/page/1/",
+      "/fr/categorie/publications/page/1/"
+    ]
+  },
+  {
+    "es": "/staff-category/asociados/",
+    "fr": "/fr/categorie/collaborateurs/",
+    "en": "/en/staff-category/associates/",
+    "aliases": [
+      "/staff-category/asociados/page/1/",
+      "/fr/categorie/collaborateurs/page/1/"
+    ]
+  },
+  {
+    "es": "/staff-category/socios/",
+    "fr": "/fr/categorie/associes/",
+    "en": "/en/staff-category/partners/"
+  },
+  {
+    "es": "/staff-category/of-counsel-es/",
+    "fr": "/fr/categorie/of-counsel/",
+    "en": "/en/staff-category/of-counsel/"
+  },
+  {
+    "es": "/sin-categoria-es/amendment-to-the-credit-institutions-law-and-the-federal-civil-code/",
+    "fr": "/fr/actualites/reforme-credit-code-civil/"
+  },
+  {
+    "es": "/sin-categoria-es/anticorrupcion-politicas-de-integridad/",
+    "fr": "/fr/actualites/anticorruption-politiques-integrite/",
+    "en": "/en/uncategorized/anti-corruption-integrity-policies/"
+  },
+  {
+    "es": "/sin-categoria-es/comentarios-a-la-nueva-ley-de-infraestructura-de-la-calidad-que-abroga-a-la-de-metrologia-y-normalizacion/",
+    "fr": "/fr/actualites/loi-infrastructure-qualite/"
+  },
+  {
+    "es": "/sin-categoria-es/coronavirus-covid-19/",
+    "fr": "/fr/actualites/coronavirus-covid-19/",
+    "en": "/en/uncategorized/coronavirus-covid-19-2/"
+  },
+  {
+    "es": "/sin-categoria-es/covid-19-situacion-actual-en-la-republica-mexicana/",
+    "fr": "/fr/actualites/covid-19-situation-juridique-mexique/"
+  },
+  {
+    "es": "/sin-categoria-es/entrada-en-vigor-de-la-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion/",
+    "fr": "/fr/actualites/nom-035-risques-psychosociaux/"
+  },
+  {
+    "es": "/sin-categoria-es/fiscal/",
+    "fr": "/fr/actualites/imss-facilites-administratives/",
+    "en": "/en/uncategorized/mexican-social-security-institute-administrative-facilities/"
+  },
+  {
+    "es": "/sin-categoria-es/lineamientos-tecnicos-especificos-para-la-reapertura-de-las-actividadeseconomicas-publicados-en-la-edicion-vespertina-del-dia-de-hoy-en-el-diario-oficial-de-la-federacion/",
+    "fr": "/fr/actualites/reprise-activites-economiques/"
+  },
+  {
+    "es": "/sin-categoria-es/memorandum/",
+    "fr": "/fr/actualites/politique-fiabilite-systeme-electrique/"
+  },
+  {
+    "es": "/sin-categoria-es/notas-relevantes-sobre-la-ley-nacional-de-extincion-de-dominio/",
+    "fr": "/fr/actualites/loi-nationale-confiscation-biens/"
+  },
+  {
+    "es": "/sin-categoria-es/reforma-a-la-ley-de-instituciones-de-credito-y-al-codigo-civil-federal/",
+    "fr": "/fr/actualites/reforme-institutions-credit/"
+  },
+  {
+    "es": "/sin-categoria-es/resolucion-sobre-la-autenticacion-de-laudos-arbitrales-en-materia-de-comercio/",
+    "fr": "/fr/actualites/authentification-sentences-arbitrales/"
+  },
+  {
+    "es": "/sin-categoria-es/sintesis-de-la-reforma-a-la-ley-de-la-industria-electrica/",
+    "fr": "/fr/actualites/reforme-industrie-electrique/"
+  },
+  {
+    "es": "/staff-member/angela-gutierrez-rivera/",
+    "fr": "/fr/equipe/angela-gutierrez-rivera/"
+  },
+  {
+    "es": "/staff-member/barbara-de-la-garza-becerril/",
+    "fr": "/fr/equipe/barbara-de-la-garza-becerril/",
+    "en": "/en/staff-member/barbara-de-la-garza-becerril-en/"
+  },
+  {
+    "es": "/staff-member/david-abraham-delgado-aguinaga/",
+    "fr": "/fr/equipe/david-abraham-delgado-aguinaga/",
+    "en": "/en/staff-member/david-abraham-delgado-aguinaga-en/"
+  },
+  {
+    "es": "/staff-member/fernanda-garciatorres/",
+    "fr": "/fr/equipe/fernanda-garciatorres/"
+  },
+  {
+    "es": "/staff-member/gabriel-garcia-martinez/",
+    "fr": "/fr/equipe/gabriel-garcia-martinez/"
+  },
+  {
+    "es": "/staff-member/ilian-munguia-garcia/",
+    "fr": "/fr/equipe/ilian-munguia-garcia/",
+    "en": "/en/staff-member/ilian-munguia-garcia-en/"
+  },
+  {
+    "es": "/staff-member/jose-luis-roldan-ortega/",
+    "fr": "/fr/equipe/jose-luis-roldan-ortega/",
+    "en": "/en/staff-member/jose-luis-roldan-ortega-en/"
+  },
+  {
+    "es": "/staff-member/leon-felipe-aguilar-jimenez/",
+    "fr": "/fr/equipe/leon-felipe-aguilar-jimenez/",
+    "en": "/en/staff-member/leon-felipe-aguilar-jimenez-en/"
+  },
+  {
+    "es": "/staff-member/luis-enrique-guerra-brenes/",
+    "fr": "/fr/equipe/luis-enrique-guerra-brenes/",
+    "en": "/en/staff-member/luis-enrique-guerra-brenes-en/"
+  },
+  {
+    "es": "/staff-member/maria-elisa-urban-garcia/",
+    "fr": "/fr/equipe/maria-elisa-urban-garcia/",
+    "en": "/en/staff-member/maria-elisa-urban-garcia-en/"
+  },
+  {
+    "es": "/staff-member/minerva-ramos-olvera/",
+    "fr": "/fr/equipe/minerva-ramos-olvera/"
+  },
+  {
+    "es": "/staff-member/omar-cuellar-gamboa/",
+    "fr": "/fr/equipe/omar-cuellar-gamboa/",
+    "en": "/en/staff-member/omar-cuellar-gamboa-en/"
+  },
+  {
+    "es": "/staff-member/paula-marina-waller-moreno/",
+    "fr": "/fr/equipe/paula-marina-waller-moreno/",
+    "en": "/en/staff-member/paula-marina-waller-moreno-en/"
+  },
+  {
+    "es": "/staff-member/rafael-benitez-fabregas/",
+    "fr": "/fr/equipe/rafael-benitez-fabregas/",
+    "en": "/en/staff-member/rafael-benitez-fabregas-en/"
+  },
+  {
+    "es": "/staff-member/raul-alfredo-sanchez-velazquez/",
+    "fr": "/fr/equipe/raul-alfredo-sanchez-velazquez/"
+  },
+  {
+    "es": "/staff-member/roberto-p-serra-montes-de-oca/",
+    "fr": "/fr/equipe/roberto-p-serra-montes-de-oca/",
+    "en": "/en/staff-member/roberto-p-serra-montes-de-oca-en/"
+  },
+  {
+    "es": "/staff-member/rodrigo-pujana-sierra/",
+    "fr": "/fr/equipe/rodrigo-pujana-sierra/",
+    "en": "/en/staff-member/rodrigo-pujana-sierra-en/"
+  },
+  {
+    "es": "/staff-member/sandra-paola-moreno-zamudio/",
+    "fr": "/fr/equipe/sandra-paola-moreno-zamudio/"
+  },
+  {
+    "es": "/staff-member/stephanie-daniela-sanchez-godinez/",
+    "fr": "/fr/equipe/stephanie-daniela-sanchez-godinez/"
+  },
+  {
+    "es": "/category/sin-categoria-es/page/2/",
+    "fr": "/fr/categorie/publications/page/2/"
+  },
+  {
+    "es": "/staff-category/asociados/page/2/",
+    "fr": "/fr/categorie/collaborateurs/page/2/"
+  }
+]

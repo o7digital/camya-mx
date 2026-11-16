@@ -1,7 +1,7 @@
 const {test, expect, gtmScriptUrl} = require('./fixtures');
 
 test('all pages run with native Astro scripts and no JavaScript errors', async ({page}) => {
-  const inventory = require('../archive/pages.json');
+  const inventory = require('../src/data/pages.json');
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   for (const route of Object.keys(inventory)) {

@@ -2,6 +2,7 @@
 import './home-menu';
 
 const body = document.body;
+const french = document.documentElement.lang.startsWith('fr');
 body.classList.remove('wpex-no-js');
 body.classList.add('wpex-js', 'wpex-docready', 'wpex-window-loaded');
 
@@ -22,7 +23,7 @@ if (navigation && toggles.length) {
   const drawer = document.createElement('div');
   drawer.id = 'sidr-main';
   drawer.className = 'sidr sidr-right wpex-surface-dark wpex-mobile-menu';
-  drawer.setAttribute('aria-label', 'Mobile menu');
+  drawer.setAttribute('aria-label', french ? 'Menu mobile' : 'Mobile menu');
   drawer.setAttribute('aria-modal', 'true');
   drawer.setAttribute('role', 'dialog');
   drawer.tabIndex = -1;
@@ -32,14 +33,14 @@ if (navigation && toggles.length) {
   const closeButton = document.createElement('a');
   closeButton.href = '#';
   closeButton.setAttribute('role', 'button');
-  closeButton.setAttribute('aria-label', 'Close mobile menu');
+  closeButton.setAttribute('aria-label', french ? 'Fermer le menu mobile' : 'Close mobile menu');
   const closeIcon = document.createElement('span');
   closeIcon.className = 'sidr-class-wpex-close__icon';
   closeIcon.setAttribute('aria-hidden', 'true');
   closeIcon.textContent = '×';
   const closeLabel = document.createElement('span');
   closeLabel.className = 'screen-reader-text';
-  closeLabel.textContent = 'Close mobile menu';
+  closeLabel.textContent = french ? 'Fermer le menu mobile' : 'Close mobile menu';
   closeButton.append(closeIcon, closeLabel);
   closer.append(closeButton);
   const inner = document.createElement('div');

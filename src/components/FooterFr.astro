@@ -1,0 +1,27 @@
+---
+import ContactDetails from './ContactDetails.astro';
+import FooterLogo from './FooterLogo.astro';
+import FooterAddress from './FooterAddress.astro';
+import FooterKeywords from './FooterKeywords.astro';
+const { home } = Astro.props;
+---
+<footer class="site-footer wpex-surface-dark wpex-print-hidden" id="footer">{home && <ContactDetails />}
+<div class="site-footer-inner container wpex-pt-40 wpex-clr" id="footer-inner">
+<div class="wpex-row wpex-clr single-col-footer" id="footer-widgets">
+<div class="footer-box span_1_of_1 col col-1"><div class="footer-widget widget wpex-pb-40 wpex-clr widget_text" id="text-4"> <div class="textwidget"><FooterLogo french />
+<FooterAddress french />
+<p align="center">Tel: <a class="camya-contact-link" href="tel:+525567989181">+52 (55) 6798-9181</a></p>
+<p align="center"><strong><a href="/fr/confidentialite/">Politique de confidentialité</a>       <a href="/fr/conditions-generales/">Conditions générales</a></strong></p>
+<div></div>
+</div>
+</div><div class="footer-widget widget wpex-pb-40 wpex-clr widget_text" id="text-5"> <div class="textwidget"><div align="justify">Les informations présentées ne constituent ni une consultation ni un conseil juridique et ne peuvent être considérées comme applicables à une personne ou à une situation particulière. Elles ne constituent pas davantage un avis contraignant ; des tiers peuvent exprimer une opinion différente ou contraire. Ces informations ne créent aucune obligation contractuelle et leur consultation ou leur réception n’établit aucune relation entre un avocat et un client.</div>
+</div>
+</div></div>
+</div>
+</div>
+</footer><div class="wpex-py-20 wpex-text-sm wpex-surface-dark wpex-bg-gray-900 wpex-text-center wpex-print-hidden" id="footer-bottom">
+<div class="container" id="footer-bottom-inner"><div class="footer-bottom-flex wpex-clr">
+<div class="wpex-last-mb-0" id="copyright">Copyright © <a href="#">CAMYA ABOGADOS.</a> 2026 - Tous droits réservés</div>
+</div></div>
+<FooterKeywords french />
+</div>

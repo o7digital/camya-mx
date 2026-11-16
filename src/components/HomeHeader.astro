@@ -1,6 +1,7 @@
 ---
 import Es from './HomeHeaderEs.astro';
 import En from './HomeHeaderEn.astro';
+import Fr from './HomeHeaderFr.astro';
 const { english } = Astro.props;
 ---
-{english ? <En /> : <Es />}
+{Astro.url.pathname.startsWith('/fr/') ? <Fr /> : english ? <En /> : <Es />}

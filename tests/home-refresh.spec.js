@@ -34,7 +34,8 @@ for (const width of [375, 390, 430, 768, 1440]) {
         expect(lines).toBe(1);
       }
       await expect(page.locator('#home-navigation a')).toHaveText(copy.labels);
-      await expect(page.locator('.camya-language')).toHaveAttribute('href', copy.language);
+      await expect(page.locator('.camya-language').first()).toHaveAttribute('href', copy.language);
+      await expect(page.locator('.camya-language[hreflang="fr-FR"]')).toHaveAttribute('href', '/fr/');
       await expect(page.locator('.camya-consult')).toHaveAttribute('href', copy.contact);
       await expect(page.locator('.camya-hero a')).toHaveCount(0);
       for (const [index, target] of [copy.route, copy.firm, copy.practice, copy.team, copy.news, copy.contact].entries()) {
@@ -91,7 +92,7 @@ for (const width of [375, 390, 430, 768, 1440]) {
       await expect(page.locator('h1')).toContainText(copy.labels.at(-1));
 
       await page.goto(copy.route);
-      await page.locator('.camya-language').click();
+      await page.locator('.camya-language').first().click();
       await expect(page).toHaveURL(new URL(copy.language, baseURL).href);
     }
     expect(errors).toEqual([]);

@@ -2,17 +2,18 @@
 import { siteUrl, allowIndexing } from '../data/site';
 import seoPages from '../data/seo.json';
 import keywordGroups from '../data/keyword-groups.json';
+import { languageForPath, alternatesForPath, languageTags } from '../data/languages';
 const { entries } = Astro.props;
 const seo = seoPages[Astro.url.pathname];
 if (!seo) throw new Error(`Missing SEO metadata: ${Astro.url.pathname}`);
 const { title, description } = seo;
-const language = Astro.url.pathname.startsWith('/en/') ? 'en' : 'es';
+const language = languageForPath(Astro.url.pathname);
 const keywords = keywordGroups.map(group => group[language].primary).join(', ');
 const canonicalPath = seo.canonicalPath ?? Astro.url.pathname;
 const controlledMeta = ['robots', 'description', 'keywords', 'og:title', 'og:description', 'og:type', 'og:url', 'og:image'];
 const filteredEntries = entries.filter(entry => entry.tag !== 'title'
   && !(entry.tag === 'meta' && controlledMeta.includes(entry.attributes.name ?? entry.attributes.property))
-  && !(entry.tag === 'link' && entry.attributes.rel === 'canonical'));
+  && !(entry.tag === 'link' && ['canonical', 'alternate'].includes(entry.attributes.rel)));
 
 ---
 <script is:inline async src="https://www.googletagmanager.com/gtm.js?id=GTM-NLGGSN85"></script>
@@ -23,7 +24,7 @@ const filteredEntries = entries.filter(entry => entry.tag !== 'title'
 </script>
 {filteredEntries.map(entry => <>
   {entry.tag === 'meta' && <meta {...entry.attributes} />}
-  {entry.tag === 'link' && <link {...entry.attributes} href={entry.attributes.rel === "alternate" ? new URL(seoPages[entry.attributes.href]?.canonicalPath ?? entry.attributes.href, siteUrl).href : entry.attributes.href} />}
+  {entry.tag === 'link' && <link {...entry.attributes} />}
   {entry.tag === 'style' && <style is:inline {...entry.attributes} set:html={entry.text} />}
 </>)}
 <title>{title}</title>
@@ -36,4 +37,5 @@ const filteredEntries = entries.filter(entry => entry.tag !== 'title'
 <meta property="og:image" content={`${siteUrl}/home-assets/hero-montanas.webp`} />
 <meta name="robots" content={allowIndexing ? "index,follow" : "noindex,nofollow"} />
 <link rel="canonical" href={new URL(canonicalPath, siteUrl).href} />
+{alternatesForPath(Astro.url.pathname).map(alternate => <link rel="alternate" hreflang={languageTags[alternate.language]} href={new URL(alternate.path, siteUrl).href} />)}
 <link href="/styles/interactions.css" rel="stylesheet" />

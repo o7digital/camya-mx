@@ -6,12 +6,13 @@ import HomeHeader from '../components/HomeHeader.astro';
 import Footer from '../components/Footer.astro';
 import BodyExtras from '../components/BodyExtras.astro';
 const { page } = Astro.props;
+const french = page.language === 'fr';
 ---
 <!doctype html>
 <html {...page.htmlAttributes}>
   <head><DocumentHead entries={page.head} /></head>
   <body {...page.bodyAttributes}>
-    <a class="skip-to-content wpex-absolute wpex-opacity-0 wpex-no-underline" href="#content">Skip to content</a>
+    <a class="skip-to-content wpex-absolute wpex-opacity-0 wpex-no-underline" href="#content">{french ? 'Aller au contenu' : 'Skip to content'}</a>
     <span data-ls_id="#site_top" tabindex="-1"></span>
     <div class="wpex-overflow-clip" id="outer-wrap">
       <div class="wpex-clr" id="wrap">
@@ -20,10 +21,10 @@ const { page } = Astro.props;
           {page.home ? <HomeHeader english={page.english} /> : <Header navigation={page.navigation} english={page.english} />}
           <slot />
         </div>
-        <Footer english={page.english} home={page.home} />
+        <Footer english={page.english} french={french} home={page.home} />
       </div>
     </div>
-    <BodyExtras english={page.english} />
+    <BodyExtras english={page.english} french={french} />
     {page.bodyLinks.map(link => <link {...link} />)}
     <script>
       import '../scripts/site';

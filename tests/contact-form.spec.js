@@ -5,6 +5,8 @@ const variants = [
   {route: '/', english: false, home: true},
   {route: '/en/home/', english: true, home: true},
   {route: '/en/', english: true, home: true},
+  {route: '/fr/contact/', french: true},
+  {route: '/fr/', french: true, home: true},
 ];
 for (const copy of variants) {
   test(`${copy.route} validates and posts contact data to Formspree`, async ({page}) => {
@@ -15,7 +17,7 @@ for (const copy of variants) {
     });
     await page.goto(copy.route);
     const form = page.locator('.camya-contact-form');
-    const button = form.getByRole('button', {name: copy.english ? 'Send message' : 'Enviar mensaje'});
+    const button = form.getByRole('button', {name: copy.french ? 'Envoyer le message' : copy.english ? 'Send message' : 'Enviar mensaje'});
     await button.click();
     expect(submission).toBeUndefined();
     await form.locator('[name=name]').fill('Prueba CAMYA');
@@ -41,7 +43,7 @@ for (const copy of variants) {
   });
 }
 for (const width of [390, 1440]) {
-  test(`Spanish and English contact forms fit at ${width}px`, async ({page}) => {
+  test(`Spanish, English and French contact forms fit at ${width}px`, async ({page}) => {
     await page.setViewportSize({width, height: 900});
     for (const copy of variants) {
       await page.goto(copy.route);

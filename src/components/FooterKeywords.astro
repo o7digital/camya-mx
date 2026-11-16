@@ -1,11 +1,11 @@
 ---
 import keywordGroups from '../data/keyword-groups.json';
-const { english = false } = Astro.props;
-const language = english ? 'en' : 'es';
+const { english = false, french = false } = Astro.props;
+const language = french ? 'fr' : english ? 'en' : 'es';
 const keywords = keywordGroups.map(group => group[language].primary);
 const lines = [keywords.slice(0, 4), keywords.slice(4, 7), keywords.slice(7)];
 ---
-<div class="camya-footer-keywords" aria-label={english ? 'Legal services in Mexico City' : 'Servicios legales en Ciudad de México'}>
+<div class="camya-footer-keywords" aria-label={french ? 'Services juridiques à Mexico' : english ? 'Legal services in Mexico City' : 'Servicios legales en Ciudad de México'}>
   {lines.map(line => <p class="camya-footer-keywords-line">
     {line.map((keyword, index) => <>{index > 0 && <span aria-hidden="true"> · </span>}<span class="camya-footer-keyword">{keyword}</span></>)}
   </p>)}

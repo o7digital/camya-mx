@@ -1,9 +1,10 @@
 ---
 import Es from './FooterEs.astro';
 import En from './FooterEn.astro';
-const { english, home } = Astro.props;
+import Fr from './FooterFr.astro';
+const { english, french = false, home } = Astro.props;
 ---
-{english ? <En home={home} /> : <Es home={home} />}
+{french ? <Fr home={home} /> : english ? <En home={home} /> : <Es home={home} />}
 <style is:global>
 #footer.site-footer {
   background: #12284C;
